@@ -1,0 +1,3 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.sim/sim_1/impl/timing/xsim/TB_SPI_MS_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPI_ADC_MS
+INFO: [VRFC 10-311] analyzing module glbl

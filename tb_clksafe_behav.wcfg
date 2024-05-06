@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_clksafe_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="instruction_buffer_type" />
+            <top_module name="tb_clksafe" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="6000001fs"></ZoomEndTime>
+      <Cursor1Time time="6000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="307"></NameColumnWidth>
+      <ValueColumnWidth column_width="281"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/tb_clksafe/clk1" type="logic">
+      <obj_property name="ElementShortName">clk1</obj_property>
+      <obj_property name="ObjectShortName">clk1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clksafe/clk2" type="logic">
+      <obj_property name="ElementShortName">clk2</obj_property>
+      <obj_property name="ObjectShortName">clk2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clksafe/xclks" type="logic">
+      <obj_property name="ElementShortName">xclks</obj_property>
+      <obj_property name="ObjectShortName">xclks</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clksafe/fclk" type="logic">
+      <obj_property name="ElementShortName">fclk</obj_property>
+      <obj_property name="ObjectShortName">fclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clksafe/resets" type="logic">
+      <obj_property name="ElementShortName">resets</obj_property>
+      <obj_property name="ObjectShortName">resets</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clksafe/uut/Conta25M_PS" type="array">
+      <obj_property name="ElementShortName">Conta25M_PS[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Conta25M_PS[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clksafe/uut/EN_Conta" type="logic">
+      <obj_property name="ElementShortName">EN_Conta</obj_property>
+      <obj_property name="ObjectShortName">EN_Conta</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clksafe/uut/Res_Conta" type="logic">
+      <obj_property name="ElementShortName">Res_Conta</obj_property>
+      <obj_property name="ObjectShortName">Res_Conta</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clksafe/clk_ext_ints" type="logic">
+      <obj_property name="ElementShortName">clk_ext_ints</obj_property>
+      <obj_property name="ObjectShortName">clk_ext_ints</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clksafe/clk_aut_mans" type="logic">
+      <obj_property name="ElementShortName">clk_aut_mans</obj_property>
+      <obj_property name="ObjectShortName">clk_aut_mans</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clksafe/clk_aut_man_refs" type="logic">
+      <obj_property name="ElementShortName">clk_aut_man_refs</obj_property>
+      <obj_property name="ObjectShortName">clk_aut_man_refs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clksafe/clk_cable_1_2s" type="logic">
+      <obj_property name="ElementShortName">clk_cable_1_2s</obj_property>
+      <obj_property name="ObjectShortName">clk_cable_1_2s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clksafe/rst_clk_regs" type="logic">
+      <obj_property name="ElementShortName">rst_clk_regs</obj_property>
+      <obj_property name="ObjectShortName">rst_clk_regs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clksafe/clk_ok" type="logic">
+      <obj_property name="ElementShortName">clk_ok</obj_property>
+      <obj_property name="ObjectShortName">clk_ok</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clksafe/uut/Sel_MUX_master" type="logic">
+      <obj_property name="ElementShortName">Sel_MUX_master</obj_property>
+      <obj_property name="ObjectShortName">Sel_MUX_master</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clksafe/uut/Sel_MUX" type="logic">
+      <obj_property name="ElementShortName">Sel_MUX</obj_property>
+      <obj_property name="ObjectShortName">Sel_MUX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group45" type="group">
+      <obj_property name="label">CLK 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_clksafe/uut/EN_Sync" type="logic">
+         <obj_property name="ElementShortName">EN_Sync</obj_property>
+         <obj_property name="ObjectShortName">EN_Sync</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_clksafe/uut/ContaRef25M_1" type="array">
+         <obj_property name="ElementShortName">ContaRef25M_1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ContaRef25M_1[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_clksafe/uut/ContTimeOK_1" type="array">
+         <obj_property name="ElementShortName">ContTimeOK_1[13:0]</obj_property>
+         <obj_property name="ObjectShortName">ContTimeOK_1[13:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_clksafe/ok1" type="logic">
+         <obj_property name="ElementShortName">ok1</obj_property>
+         <obj_property name="ObjectShortName">ok1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_clksafe/lost1" type="logic">
+         <obj_property name="ElementShortName">lost1</obj_property>
+         <obj_property name="ObjectShortName">lost1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_clksafe/found1" type="logic">
+         <obj_property name="ElementShortName">found1</obj_property>
+         <obj_property name="ObjectShortName">found1</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group46" type="group">
+      <obj_property name="label">CLK 2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/tb_clksafe/uut/EN_Sync2" type="logic">
+         <obj_property name="ElementShortName">EN_Sync2</obj_property>
+         <obj_property name="ObjectShortName">EN_Sync2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_clksafe/uut/ContaRef25M_2" type="array">
+         <obj_property name="ElementShortName">ContaRef25M_2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ContaRef25M_2[4:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_clksafe/uut/ContTimeOK_2" type="array">
+         <obj_property name="ElementShortName">ContTimeOK_2[13:0]</obj_property>
+         <obj_property name="ObjectShortName">ContTimeOK_2[13:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_clksafe/ok2" type="logic">
+         <obj_property name="ElementShortName">ok2</obj_property>
+         <obj_property name="ObjectShortName">ok2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_clksafe/lost2" type="logic">
+         <obj_property name="ElementShortName">lost2</obj_property>
+         <obj_property name="ObjectShortName">lost2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_clksafe/found2" type="logic">
+         <obj_property name="ElementShortName">found2</obj_property>
+         <obj_property name="ObjectShortName">found2</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_clksafe/uut/AND_SelMux_ref_CLK" type="logic">
+      <obj_property name="ElementShortName">AND_SelMux_ref_CLK</obj_property>
+      <obj_property name="ObjectShortName">AND_SelMux_ref_CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clksafe/uut/RefCLK_Mux" type="logic">
+      <obj_property name="ElementShortName">RefCLK_Mux</obj_property>
+      <obj_property name="ObjectShortName">RefCLK_Mux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clksafe/uut/AND_SelMux" type="logic">
+      <obj_property name="ElementShortName">AND_SelMux</obj_property>
+      <obj_property name="ObjectShortName">AND_SelMux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_clksafe/outclk" type="logic">
+      <obj_property name="ElementShortName">outclk</obj_property>
+      <obj_property name="ObjectShortName">outclk</obj_property>
+   </wvobject>
+</wave_config>

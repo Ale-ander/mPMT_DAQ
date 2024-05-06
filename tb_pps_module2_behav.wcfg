@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_pps_module2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_pps_module2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2745500fs"></ZoomStartTime>
+      <ZoomEndTime time="2872801fs"></ZoomEndTime>
+      <Cursor1Time time="2805000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="498"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/tb_pps_module2/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pps_module2/CLK25" type="logic">
+      <obj_property name="ElementShortName">CLK25</obj_property>
+      <obj_property name="ObjectShortName">CLK25</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pps_module2/uut/CLK_25R_0" type="logic">
+      <obj_property name="ElementShortName">CLK_25R_0</obj_property>
+      <obj_property name="ObjectShortName">CLK_25R_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pps_module2/uut/CLK_25R" type="logic">
+      <obj_property name="ElementShortName">CLK_25R</obj_property>
+      <obj_property name="ObjectShortName">CLK_25R</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pps_module2/uut/Width_H_R0" type="array">
+      <obj_property name="ElementShortName">Width_H_R0[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Width_H_R0[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pps_module2/uut/Width_H_R1" type="array">
+      <obj_property name="ElementShortName">Width_H_R1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Width_H_R1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pps_module2/CLK200" type="logic">
+      <obj_property name="ElementShortName">CLK200</obj_property>
+      <obj_property name="ObjectShortName">CLK200</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pps_module2/CLK200_1" type="logic">
+      <obj_property name="ElementShortName">CLK200_1</obj_property>
+      <obj_property name="ObjectShortName">CLK200_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pps_module2/uut/int_Conta" type="array">
+      <obj_property name="ElementShortName">int_Conta[27:0]</obj_property>
+      <obj_property name="ObjectShortName">int_Conta[27:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pps_module2/uut/int_Conta_r" type="array">
+      <obj_property name="ElementShortName">int_Conta_r[27:0]</obj_property>
+      <obj_property name="ObjectShortName">int_Conta_r[27:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pps_module2/uut/buio" type="array">
+      <obj_property name="ElementShortName">buio[4:0]</obj_property>
+      <obj_property name="ObjectShortName">buio[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pps_module2/uut/Conta_Delay" type="array">
+      <obj_property name="ElementShortName">Conta_Delay[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Conta_Delay[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pps_module2/RunC_reset_reg" type="logic">
+      <obj_property name="ElementShortName">RunC_reset_reg</obj_property>
+      <obj_property name="ObjectShortName">RunC_reset_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pps_module2/RunC_reset_unix" type="logic">
+      <obj_property name="ElementShortName">RunC_reset_unix</obj_property>
+      <obj_property name="ObjectShortName">RunC_reset_unix</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pps_module2/uut/intFLG_TAG0_OK" type="logic">
+      <obj_property name="ElementShortName">intFLG_TAG0_OK</obj_property>
+      <obj_property name="ObjectShortName">intFLG_TAG0_OK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pps_module2/PPS" type="logic">
+      <obj_property name="ElementShortName">PPS</obj_property>
+      <obj_property name="ObjectShortName">PPS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pps_module2/Unix_time_na" type="logic">
+      <obj_property name="ElementShortName">Unix_time_na</obj_property>
+      <obj_property name="ObjectShortName">Unix_time_na</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pps_module2/PPS_na" type="logic">
+      <obj_property name="ElementShortName">PPS_na</obj_property>
+      <obj_property name="ObjectShortName">PPS_na</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pps_module2/PPS_nr" type="logic">
+      <obj_property name="ElementShortName">PPS_nr</obj_property>
+      <obj_property name="ObjectShortName">PPS_nr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pps_module2/Unixtime" type="array">
+      <obj_property name="ElementShortName">Unixtime[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Unixtime[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pps_module2/uut/UnixTime_ARM_r" type="array">
+      <obj_property name="ElementShortName">UnixTime_ARM_r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">UnixTime_ARM_r[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_pps_module2/Runc_tag0" type="array">
+      <obj_property name="ElementShortName">Runc_tag0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Runc_tag0[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

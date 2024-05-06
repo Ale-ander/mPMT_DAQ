@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_singleChannel_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="instruction_buffer_type" />
+            <top_module name="tb_singleChannel" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1865505fs"></ZoomEndTime>
+      <Cursor1Time time="4000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="168"></NameColumnWidth>
+      <ValueColumnWidth column_width="100"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="33" />
+   <wvobject fp_name="/tb_singleChannel/Multiclk" type="array">
+      <obj_property name="ElementShortName">Multiclk[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Multiclk[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/calibration" type="logic">
+      <obj_property name="ElementShortName">calibration</obj_property>
+      <obj_property name="ObjectShortName">calibration</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/read_done" type="logic">
+      <obj_property name="ElementShortName">read_done</obj_property>
+      <obj_property name="ObjectShortName">read_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/UUT/Trigger" type="logic">
+      <obj_property name="ElementShortName">Trigger</obj_property>
+      <obj_property name="ObjectShortName">Trigger</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/PPS" type="logic">
+      <obj_property name="ElementShortName">PPS</obj_property>
+      <obj_property name="ObjectShortName">PPS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/wr_ack" type="logic">
+      <obj_property name="ElementShortName">wr_ack</obj_property>
+      <obj_property name="ObjectShortName">wr_ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/UUT/ADC/enable_SPI" type="logic">
+      <obj_property name="ElementShortName">enable_SPI</obj_property>
+      <obj_property name="ObjectShortName">enable_SPI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/sclk" type="logic">
+      <obj_property name="ElementShortName">sclk</obj_property>
+      <obj_property name="ObjectShortName">sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/chip_select" type="logic">
+      <obj_property name="ElementShortName">chip_select</obj_property>
+      <obj_property name="ObjectShortName">chip_select</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/UUT/ADC/D_Valid_SPI" type="logic">
+      <obj_property name="ElementShortName">D_Valid_SPI</obj_property>
+      <obj_property name="ObjectShortName">D_Valid_SPI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/UUT/delay_count" type="array">
+      <obj_property name="ElementShortName">delay_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">delay_count[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/UUT/ADC/SPI/count" type="array">
+      <obj_property name="ElementShortName">count[5:0]</obj_property>
+      <obj_property name="ObjectShortName">count[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/UUT/ADC/SPI/Busy" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Busy</obj_property>
+      <obj_property name="ObjectShortName">Busy</obj_property>
+      <obj_property name="label">Busy_SPI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/DAC_VAL_INT" type="array">
+      <obj_property name="ElementShortName">DAC_VAL_INT[13:0]</obj_property>
+      <obj_property name="ObjectShortName">DAC_VAL_INT[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/UUT/ADC/SPI/DATA_out" type="array">
+      <obj_property name="ElementShortName">DATA_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_out[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/UUT/ADC_busy" type="logic">
+      <obj_property name="ElementShortName">ADC_busy</obj_property>
+      <obj_property name="ObjectShortName">ADC_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/UUT/ADC_ok" type="logic">
+      <obj_property name="ElementShortName">ADC_ok</obj_property>
+      <obj_property name="ObjectShortName">ADC_ok</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/write_done" type="logic">
+      <obj_property name="ElementShortName">write_done</obj_property>
+      <obj_property name="ObjectShortName">write_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/UUT/ADC/SPI/present_state" type="other">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">present_state</obj_property>
+      <obj_property name="ObjectShortName">present_state</obj_property>
+      <obj_property name="label">present_state_SPI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/UUT/ADC/present_state" type="other">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">present_state</obj_property>
+      <obj_property name="ObjectShortName">present_state</obj_property>
+      <obj_property name="label">present_state_handler</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/UUT/ADC/Pulse_count" type="array">
+      <obj_property name="ElementShortName">Pulse_count[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Pulse_count[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/UUT/present_state" type="other">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">present_state</obj_property>
+      <obj_property name="ObjectShortName">present_state</obj_property>
+      <obj_property name="label">present_state_channel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/word_to_FIFO" type="array">
+      <obj_property name="ElementShortName">word_to_FIFO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">word_to_FIFO[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="VirtualBus" type="vbus">
+      <obj_property name="label">ADC value to fifo</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="Reversed">true</obj_property>
+      <obj_property name="ElementShortName">VirtualBus[]</obj_property>
+      <obj_property name="ObjectShortName">VirtualBus[]</obj_property>
+      <wvobject fp_name="/tb_singleChannel/word_to_FIFO[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_singleChannel/word_to_FIFO[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_singleChannel/word_to_FIFO[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_singleChannel/word_to_FIFO[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_singleChannel/word_to_FIFO[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_singleChannel/word_to_FIFO[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_singleChannel/word_to_FIFO[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_singleChannel/word_to_FIFO[7]" type="logic">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_singleChannel/word_to_FIFO[8]" type="logic">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_singleChannel/word_to_FIFO[9]" type="logic">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_singleChannel/word_to_FIFO[10]" type="logic">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/tb_singleChannel/word_to_FIFO[11]" type="logic">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/UUT/energy_data" type="array">
+      <obj_property name="ElementShortName">energy_data[11:0]</obj_property>
+      <obj_property name="ObjectShortName">energy_data[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/Indice" type="other">
+      <obj_property name="ElementShortName">Indice</obj_property>
+      <obj_property name="ObjectShortName">Indice</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/Vettore" type="array">
+      <obj_property name="ElementShortName">Vettore[0:15]</obj_property>
+      <obj_property name="ObjectShortName">Vettore[0:15]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/UUT/Time_block/valid_measure" type="logic">
+      <obj_property name="ElementShortName">valid_measure</obj_property>
+      <obj_property name="ObjectShortName">valid_measure</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/UUT/Time_block/rst_done" type="logic">
+      <obj_property name="ElementShortName">rst_done</obj_property>
+      <obj_property name="ObjectShortName">rst_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_singleChannel/UUT/Time_block/reset_TDC" type="logic">
+      <obj_property name="ElementShortName">reset_TDC</obj_property>
+      <obj_property name="ObjectShortName">reset_TDC</obj_property>
+   </wvobject>
+</wave_config>

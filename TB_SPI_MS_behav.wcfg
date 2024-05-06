@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TB_SPI_MS_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TB_SPI_MS" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="11000001fs"></ZoomEndTime>
+      <Cursor1Time time="8785000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="116"></NameColumnWidth>
+      <ValueColumnWidth column_width="86"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/TB_SPI_MS/CLK200" type="logic">
+      <obj_property name="ElementShortName">CLK200</obj_property>
+      <obj_property name="ObjectShortName">CLK200</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_SPI_MS/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_SPI_MS/START" type="logic">
+      <obj_property name="ElementShortName">START</obj_property>
+      <obj_property name="ObjectShortName">START</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_SPI_MS/uut/Start_r" type="logic">
+      <obj_property name="ElementShortName">Start_r</obj_property>
+      <obj_property name="ObjectShortName">Start_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_SPI_MS/uut/Start_rr" type="logic">
+      <obj_property name="ElementShortName">Start_rr</obj_property>
+      <obj_property name="ObjectShortName">Start_rr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_SPI_MS/uut/present_state" type="other">
+      <obj_property name="ElementShortName">present_state</obj_property>
+      <obj_property name="ObjectShortName">present_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_SPI_MS/uut/next_state" type="other">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_SPI_MS/SDI_LG" type="logic">
+      <obj_property name="ElementShortName">SDI_LG</obj_property>
+      <obj_property name="ObjectShortName">SDI_LG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_SPI_MS/uut/SCLKen" type="logic">
+      <obj_property name="ElementShortName">SCLKen</obj_property>
+      <obj_property name="ObjectShortName">SCLKen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_SPI_MS/uut/countfast" type="array">
+      <obj_property name="ElementShortName">countfast[3:0]</obj_property>
+      <obj_property name="ObjectShortName">countfast[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_SPI_MS/SCLK" type="logic">
+      <obj_property name="ElementShortName">SCLK</obj_property>
+      <obj_property name="ObjectShortName">SCLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_SPI_MS/D_Valid" type="logic">
+      <obj_property name="ElementShortName">D_Valid</obj_property>
+      <obj_property name="ObjectShortName">D_Valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_SPI_MS/uut/end_SPI" type="logic">
+      <obj_property name="ElementShortName">end_SPI</obj_property>
+      <obj_property name="ObjectShortName">end_SPI</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_SPI_MS/uut/Rescount_int" type="logic">
+      <obj_property name="ElementShortName">Rescount_int</obj_property>
+      <obj_property name="ObjectShortName">Rescount_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_SPI_MS/reset_spi" type="logic">
+      <obj_property name="ElementShortName">reset_spi</obj_property>
+      <obj_property name="ObjectShortName">reset_spi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_SPI_MS/CS" type="logic">
+      <obj_property name="ElementShortName">CS</obj_property>
+      <obj_property name="ObjectShortName">CS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_SPI_MS/DATA_LG" type="array">
+      <obj_property name="ElementShortName">DATA_LG[11:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_LG[11:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_SPI_MS/BUSY" type="logic">
+      <obj_property name="ElementShortName">BUSY</obj_property>
+      <obj_property name="ObjectShortName">BUSY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_SPI_MS/Indice" type="other">
+      <obj_property name="ElementShortName">Indice</obj_property>
+      <obj_property name="ObjectShortName">Indice</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_SPI_MS/DAC_VAL_INT" type="array">
+      <obj_property name="ElementShortName">DAC_VAL_INT[13:0]</obj_property>
+      <obj_property name="ObjectShortName">DAC_VAL_INT[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_SPI_MS/uut/count" type="array">
+      <obj_property name="ElementShortName">count[5:0]</obj_property>
+      <obj_property name="ObjectShortName">count[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="Reversed">false</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_SPI_MS/Vettore" type="array">
+      <obj_property name="ElementShortName">Vettore[0:15]</obj_property>
+      <obj_property name="ObjectShortName">Vettore[0:15]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TB_SPI_MS/uut/Pulse_count" type="array">
+      <obj_property name="ElementShortName">Pulse_count[5:0]</obj_property>
+      <obj_property name="ObjectShortName">Pulse_count[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

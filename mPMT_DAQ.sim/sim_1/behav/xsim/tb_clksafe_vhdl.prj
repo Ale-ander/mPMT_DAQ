@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../mPMT_DAQ.srcs/sources_1/new/bufferPackage.vhd" \
+"../../../../mPMT_DAQ.srcs/sources_1/imports/Main_V0_Fir_V_2_2/CLK_SAFE.vhd" \
+"../../../../mPMT_DAQ.srcs/sim_1/new/tb_clksafe.vhd" \
+
+# Do not sort compile order
+nosort
