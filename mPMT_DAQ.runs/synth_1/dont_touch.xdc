@@ -3,9 +3,6 @@
 
 # XDC: new/TOP.xdc
 
-# IP: ip/FIFO_single_channel/FIFO_single_channel.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==FIFO_single_channel || ORIG_REF_NAME==FIFO_single_channel} -quiet] -quiet
-
 # Block Designs: bd/TOP_block/TOP_block.bd
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==TOP_block || ORIG_REF_NAME==TOP_block} -quiet] -quiet
 

@@ -193,9 +193,6 @@ proc create_root_design { parentCell } {
 
   # Create ports
   set CLK_200_main [ create_bd_port -dir I -type clk -freq_hz 200000000 CLK_200_main ]
-  set_property -dict [ list \
-   CONFIG.ASSOCIATED_BUSIF {AXI_STR_RXD_0:S_AXI_0:M00_AXI_0} \
- ] $CLK_200_main
   set FCLK_25 [ create_bd_port -dir O -type clk FCLK_25 ]
   set_property -dict [ list \
    CONFIG.FREQ_HZ {25000000} \
@@ -253,7 +250,7 @@ proc create_root_design { parentCell } {
   # Create instance: axis_data_fifo_0, and set properties
   set axis_data_fifo_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:axis_data_fifo:2.0 axis_data_fifo_0 ]
   set_property -dict [ list \
-   CONFIG.FIFO_DEPTH {32768} \
+   CONFIG.FIFO_DEPTH {16384} \
    CONFIG.FIFO_MODE {2} \
    CONFIG.IS_ACLK_ASYNC {0} \
  ] $axis_data_fifo_0

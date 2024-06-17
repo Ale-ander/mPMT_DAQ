@@ -112,7 +112,7 @@ begin
 end process;
 
 
-fsm : process(valid_rise, valid_fall, state, reset_TDC, conta_alto, measureType)
+fsm : process(valid_rise, valid_fall, state, reset_TDC, conta_alto, measureType, coarse_hit, corse_subhit, tdc_al_rise, tdc_al_fall)
 begin
 
     next_state <= state;

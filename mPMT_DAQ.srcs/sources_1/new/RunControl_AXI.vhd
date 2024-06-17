@@ -71,7 +71,6 @@ generic (
         -- To outside
         CH_ENABLE           : out std_logic_vector(18 downto 0);  -- Single channel enable (also STM32 boot mode)
         PWR_EN              : out std_logic_vector(18 downto 0);  -- Single channel power enable (turn on)
-        CALIBRAZIONE	    : out std_logic;                      -- Start ADC automatic calibrations procedure        
         -- To FIFO
         RST_FIFO            : out std_logic;  -- Reset data FIFO
             
@@ -219,9 +218,6 @@ architecture Behavioral of RunControl_AXI is
 		
 	signal count: integer;
 	signal count_to_200: integer;
-	
-    signal Flag_WR_UnixTime : std_logic;
-
 
 begin
 	-- I/O Connections assignments
@@ -324,12 +320,12 @@ begin
 	    if S_AXI_ARESETN = '0' then
 	      slv_reg0               <= (others => '0');   -- Enable acquisition
 	      slv_reg1               <= (others => '0');   -- Power enable
-	      slv_reg2               <= (others => '1');   -- Overcurrent
+--	      slv_reg2               <= (others => '1');   -- Overcurrent
 	      slv_reg3(31 downto 20) <= x"640";            -- see regAddress
 	      slv_reg3(13 downto 9)  <= "00110";           -- CLK_safe muxes (all automatic)
 	      slv_reg3(1)            <= '0';	           -- RST_FIFO
 	      slv_reg6               <= X"0000000" & "0001";   -- Runc_Val_Tag0
-	      slv_reg7               <= X"0" & FIFO_DATA_COUNT & "00" & X"000";   -- FIFO data counter and Pulser period
+--	      slv_reg7               <= X"0" & FIFO_DATA_COUNT & "00" & X"000";   -- FIFO data counter and Pulser period
 	      slv_reg28              <= X"00013013";       -- Time to peak ch 0 and 1
 	      slv_reg29              <= X"00013013";       -- Time to peak ch 2 and 3
 	      slv_reg30              <= X"00013013";       -- Time to peak ch 4 and 5
@@ -360,7 +356,6 @@ begin
 	              slv_reg3(1)            <= S_AXI_WDATA(1);    
 	          when b"000101" =>
 	              slv_reg5 <= S_AXI_WDATA;  
-	              Flag_WR_UnixTime <= '1';  
 	          when b"000110" =>
 	              slv_reg6 <= S_AXI_WDATA;    
 	          when b"000111" =>
@@ -597,27 +592,23 @@ begin
 	      Res_TagFlg        <= '0';
 	      Res_Unixtime_flag <= '0';
 	      Rst_CLKSafe       <= '0';
-	    else	    
-	       
+	    else
 	      if (slv_reg_rden = '1') then
 	        -- When there is a valid read address (S_AXI_ARVALID) with 
 	        -- acceptance of read address by the slave (axi_arready), 
 	        -- output the read dada 
 	        -- Read address mux
 	          axi_rdata <= reg_data_out;     -- register read data
-	      end if;  
-	     
-	      if  (slv_reg_rden = '1' and loc_addr = b"000011" ) then
-              Res_TagFlg        <= '1';
-              Res_Unixtime_flag <= '1';
-              Rst_CLKSafe       <= '1';
-              
-              slv_reg3(22)      <= '0';
-          else
-              Res_TagFlg        <= '0';
-              Res_Unixtime_flag <= '0';
-              Rst_CLKSafe       <= '0';              
 	      end if;
+--	      if slv_reg_rden = '1' and loc_addr = b"000011" then   VA MESSO SOPRA
+--              Res_TagFlg        <= '1';
+--              Res_Unixtime_flag <= '1';
+--              Rst_CLKSafe       <= '1';
+--          else
+--              Res_TagFlg        <= '0';
+--              Res_Unixtime_flag <= '0';
+--              Rst_CLKSafe       <= '0';              
+--	      end if;
 	    end if;
 	  end if;
 	end process;
@@ -626,28 +617,30 @@ begin
     safe_poweron:process(S_AXI_ACLK, RESET_IN, count, count_to_200) is
 	begin
 	   if rising_edge(S_AXI_ACLK) then
-        if RESET_IN = '1' then
-            count  <= 0;
-            PWR_EN <= (others => '0');
-        elsif count = 19 then
-            count         <= 0;
-            PWR_EN(count) <= slv_reg1(count); 
-        elsif count_to_200 = 200 then               
-            count         <= count + 1;       
-            count_to_200  <= 0; 
-            PWR_EN(count) <= slv_reg1(count); 
-        else
-            PWR_EN(count) <= slv_reg1(count); 
-            count_to_200  <= count_to_200 + 1;
-        end if;
+           if RESET_IN = '1' then
+               count        <= 0;
+               PWR_EN       <= (others => '0');
+               count_to_200 <= 0;
+           else 
+               count_to_200  <= count_to_200 + 1;
+               PWR_EN(count) <= slv_reg1(count);
+               if count_to_200 = 200 then               
+                   count         <= count + 1;       
+                   count_to_200  <= 0; 
+               end if;
+               
+               if count = 19 then  
+                   count <= 0;
+               end if;
+           end if;
 	   end if;
 	end process safe_poweron;
 	
     -- Assign slv_reg output 
     CH_ENABLE         <= slv_reg0(18 downto 0);
-    PWR_EN            <= slv_reg1(18 downto 0);
+--    PWR_EN            <= slv_reg1(18 downto 0);
     Timeout           <= slv_reg3(31 downto 23);
-    CALIBRAZIONE      <= slv_reg3(22);
+    Calibrate_ADC     <= slv_reg3(22);
     Rst_multichannel  <= slv_reg3(21);
     Enable_PPS        <= slv_reg3(20);
     Enable_PPS        <= slv_reg3(20);

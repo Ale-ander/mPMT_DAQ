@@ -1,7 +1,7 @@
 --Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
---Date        : Wed Mar 27 15:43:10 2024
+--Date        : Wed Jun 12 22:55:47 2024
 --Host        : PC_Alessandro running 64-bit major release  (build 9200)
 --Command     : generate_target TOP_block.bd
 --Design      : TOP_block
@@ -3965,7 +3965,7 @@ architecture STRUCTURE of TOP_block is
   attribute X_INTERFACE_INFO of AXI_STR_RXD_0_tvalid : signal is "xilinx.com:interface:axis:1.0 AXI_STR_RXD_0 TVALID";
   attribute X_INTERFACE_INFO of CLK_200_main : signal is "xilinx.com:signal:clock:1.0 CLK.CLK_200_MAIN CLK";
   attribute X_INTERFACE_PARAMETER : string;
-  attribute X_INTERFACE_PARAMETER of CLK_200_main : signal is "XIL_INTERFACENAME CLK.CLK_200_MAIN, ASSOCIATED_BUSIF AXI_STR_RXD_0:S_AXI_0:M00_AXI_0, CLK_DOMAIN TOP_block_CLK_200_main, FREQ_HZ 200000000, INSERT_VIP 0, PHASE 0.0";
+  attribute X_INTERFACE_PARAMETER of CLK_200_main : signal is "XIL_INTERFACENAME CLK.CLK_200_MAIN, ASSOCIATED_BUSIF AXI_STR_RXD_0:M00_AXI_0, CLK_DOMAIN TOP_block_CLK_200_main, FREQ_HZ 200000000, INSERT_VIP 0, PHASE 0.000";
   attribute X_INTERFACE_INFO of DDR_cas_n : signal is "xilinx.com:interface:ddrx:1.0 DDR CAS_N";
   attribute X_INTERFACE_INFO of DDR_ck_n : signal is "xilinx.com:interface:ddrx:1.0 DDR CK_N";
   attribute X_INTERFACE_INFO of DDR_ck_p : signal is "xilinx.com:interface:ddrx:1.0 DDR CK_P";
@@ -3996,7 +3996,7 @@ architecture STRUCTURE of TOP_block is
   attribute X_INTERFACE_INFO of uart_Sama_boot_rxd : signal is "xilinx.com:interface:uart:1.0 uart_Sama_boot RxD";
   attribute X_INTERFACE_INFO of uart_Sama_boot_txd : signal is "xilinx.com:interface:uart:1.0 uart_Sama_boot TxD";
   attribute X_INTERFACE_INFO of AXI_STR_RXD_0_tdata : signal is "xilinx.com:interface:axis:1.0 AXI_STR_RXD_0 TDATA";
-  attribute X_INTERFACE_PARAMETER of AXI_STR_RXD_0_tdata : signal is "XIL_INTERFACENAME AXI_STR_RXD_0, CLK_DOMAIN TOP_block_CLK_200_main, FREQ_HZ 200000000, HAS_TKEEP 0, HAS_TLAST 1, HAS_TREADY 1, HAS_TSTRB 0, INSERT_VIP 0, LAYERED_METADATA undef, PHASE 0.0, TDATA_NUM_BYTES 4, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0";
+  attribute X_INTERFACE_PARAMETER of AXI_STR_RXD_0_tdata : signal is "XIL_INTERFACENAME AXI_STR_RXD_0, CLK_DOMAIN TOP_block_CLK_200_main, FREQ_HZ 200000000, HAS_TKEEP 0, HAS_TLAST 1, HAS_TREADY 1, HAS_TSTRB 0, INSERT_VIP 0, LAYERED_METADATA undef, PHASE 0.000, TDATA_NUM_BYTES 4, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0";
   attribute X_INTERFACE_INFO of DDR_addr : signal is "xilinx.com:interface:ddrx:1.0 DDR ADDR";
   attribute X_INTERFACE_PARAMETER of DDR_addr : signal is "XIL_INTERFACENAME DDR, AXI_ARBITRATION_SCHEME TDM, BURST_LENGTH 8, CAN_DEBUG false, CAS_LATENCY 11, CAS_WRITE_LATENCY 11, CS_ENABLED true, DATA_MASK_ENABLED true, DATA_WIDTH 8, MEMORY_TYPE COMPONENTS, MEM_ADDR_MAP ROW_COLUMN_BANK, SLOT Single, TIMEPERIOD_PS 1250";
   attribute X_INTERFACE_INFO of DDR_ba : signal is "xilinx.com:interface:ddrx:1.0 DDR BA";
@@ -4006,7 +4006,7 @@ architecture STRUCTURE of TOP_block is
   attribute X_INTERFACE_INFO of DDR_dqs_p : signal is "xilinx.com:interface:ddrx:1.0 DDR DQS_P";
   attribute X_INTERFACE_INFO of FIXED_IO_mio : signal is "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO MIO";
   attribute X_INTERFACE_INFO of M00_AXI_0_araddr : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 ARADDR";
-  attribute X_INTERFACE_PARAMETER of M00_AXI_0_araddr : signal is "XIL_INTERFACENAME M00_AXI_0, ADDR_WIDTH 32, ARUSER_WIDTH 0, AWUSER_WIDTH 0, BUSER_WIDTH 0, CLK_DOMAIN TOP_block_CLK_200_main, DATA_WIDTH 32, FREQ_HZ 200000000, HAS_BRESP 1, HAS_BURST 0, HAS_CACHE 0, HAS_LOCK 0, HAS_PROT 1, HAS_QOS 0, HAS_REGION 0, HAS_RRESP 1, HAS_WSTRB 1, ID_WIDTH 0, INSERT_VIP 0, MAX_BURST_LENGTH 1, NUM_READ_OUTSTANDING 2, NUM_READ_THREADS 1, NUM_WRITE_OUTSTANDING 2, NUM_WRITE_THREADS 1, PHASE 0.0, PROTOCOL AXI4LITE, READ_WRITE_MODE READ_WRITE, RUSER_BITS_PER_BYTE 0, RUSER_WIDTH 0, SUPPORTS_NARROW_BURST 0, WUSER_BITS_PER_BYTE 0, WUSER_WIDTH 0";
+  attribute X_INTERFACE_PARAMETER of M00_AXI_0_araddr : signal is "XIL_INTERFACENAME M00_AXI_0, ADDR_WIDTH 32, ARUSER_WIDTH 0, AWUSER_WIDTH 0, BUSER_WIDTH 0, CLK_DOMAIN TOP_block_CLK_200_main, DATA_WIDTH 32, FREQ_HZ 200000000, HAS_BRESP 1, HAS_BURST 0, HAS_CACHE 0, HAS_LOCK 0, HAS_PROT 1, HAS_QOS 0, HAS_REGION 0, HAS_RRESP 1, HAS_WSTRB 1, ID_WIDTH 0, INSERT_VIP 0, MAX_BURST_LENGTH 1, NUM_READ_OUTSTANDING 2, NUM_READ_THREADS 1, NUM_WRITE_OUTSTANDING 2, NUM_WRITE_THREADS 1, PHASE 0.000, PROTOCOL AXI4LITE, READ_WRITE_MODE READ_WRITE, RUSER_BITS_PER_BYTE 0, RUSER_WIDTH 0, SUPPORTS_NARROW_BURST 0, WUSER_BITS_PER_BYTE 0, WUSER_WIDTH 0";
   attribute X_INTERFACE_INFO of M00_AXI_0_arprot : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 ARPROT";
   attribute X_INTERFACE_INFO of M00_AXI_0_awaddr : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 AWADDR";
   attribute X_INTERFACE_INFO of M00_AXI_0_awprot : signal is "xilinx.com:interface:aximm:1.0 M00_AXI_0 AWPROT";

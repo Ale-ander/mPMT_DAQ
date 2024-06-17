@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-// Date        : Wed Mar 27 15:45:23 2024
+// Date        : Wed Mar 27 15:45:22 2024
 // Host        : PC_Alessandro running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim
-//               C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/ip/TOP_block_auto_us_0/TOP_block_auto_us_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top TOP_block_auto_us_0 -prefix
+//               TOP_block_auto_us_0_ TOP_block_auto_us_0_sim_netlist.v
 // Design      : TOP_block_auto_us_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -257,7 +257,6 @@ module TOP_block_auto_us_0
         .s_axi_wvalid(s_axi_wvalid));
 endmodule
 
-(* ORIG_REF_NAME = "axi_dwidth_converter_v2_1_20_a_upsizer" *) 
 module TOP_block_auto_us_0_axi_dwidth_converter_v2_1_20_a_upsizer
    (\USE_WRITE.wr_cmd_valid ,
     s_axi_wlast_0,
@@ -460,7 +459,6 @@ module TOP_block_auto_us_0_axi_dwidth_converter_v2_1_20_a_upsizer
         .R(SR));
 endmodule
 
-(* ORIG_REF_NAME = "axi_dwidth_converter_v2_1_20_axi_upsizer" *) 
 module TOP_block_auto_us_0_axi_dwidth_converter_v2_1_20_axi_upsizer
    (\USE_REGISTER.M_AXI_WVALID_q_reg ,
     m_axi_awburst,
@@ -701,8 +699,8 @@ endmodule
 (* C_RATIO = "0" *) (* C_RATIO_LOG = "0" *) (* C_SUPPORTS_ID = "0" *) 
 (* C_SYNCHRONIZER_STAGE = "3" *) (* C_S_AXI_ACLK_RATIO = "1" *) (* C_S_AXI_BYTES_LOG = "2" *) 
 (* C_S_AXI_DATA_WIDTH = "32" *) (* C_S_AXI_ID_WIDTH = "1" *) (* DowngradeIPIdentifiedWarnings = "yes" *) 
-(* ORIG_REF_NAME = "axi_dwidth_converter_v2_1_20_top" *) (* P_AXI3 = "1" *) (* P_AXI4 = "0" *) 
-(* P_AXILITE = "2" *) (* P_CONVERSION = "2" *) (* P_MAX_SPLIT_BEATS = "16" *) 
+(* P_AXI3 = "1" *) (* P_AXI4 = "0" *) (* P_AXILITE = "2" *) 
+(* P_CONVERSION = "2" *) (* P_MAX_SPLIT_BEATS = "16" *) 
 module TOP_block_auto_us_0_axi_dwidth_converter_v2_1_20_top
    (s_axi_aclk,
     s_axi_aresetn,
@@ -1033,7 +1031,6 @@ module TOP_block_auto_us_0_axi_dwidth_converter_v2_1_20_top
         .s_axi_wvalid(s_axi_wvalid));
 endmodule
 
-(* ORIG_REF_NAME = "axi_dwidth_converter_v2_1_20_w_upsizer" *) 
 module TOP_block_auto_us_0_axi_dwidth_converter_v2_1_20_w_upsizer
    (\USE_RTL_CURR_WORD.first_word_q ,
     s_axi_aresetn,
@@ -3312,7 +3309,6 @@ module TOP_block_auto_us_0_axi_dwidth_converter_v2_1_20_w_upsizer
         .R(s_axi_aresetn));
 endmodule
 
-(* ORIG_REF_NAME = "axi_register_slice_v2_1_20_axi_register_slice" *) 
 module TOP_block_auto_us_0_axi_register_slice_v2_1_20_axi_register_slice
    (sr_awvalid,
     s_axi_awready,
@@ -3379,7 +3375,6 @@ module TOP_block_auto_us_0_axi_register_slice_v2_1_20_axi_register_slice
         .sr_awvalid(sr_awvalid));
 endmodule
 
-(* ORIG_REF_NAME = "axi_register_slice_v2_1_20_axic_register_slice" *) 
 module TOP_block_auto_us_0_axi_register_slice_v2_1_20_axic_register_slice
    (sr_awvalid,
     s_axi_awready,
@@ -4442,7 +4437,6 @@ module TOP_block_auto_us_0_axi_register_slice_v2_1_20_axic_register_slice
         .R(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "generic_baseblocks_v2_1_0_command_fifo" *) 
 module TOP_block_auto_us_0_generic_baseblocks_v2_1_0_command_fifo
    (\USE_FF_OUT.USE_RTL_OUTPUT_PIPELINE.M_VALID_Q_reg_0 ,
     s_axi_wlast_0,

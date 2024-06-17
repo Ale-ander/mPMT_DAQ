@@ -137,7 +137,7 @@ void TOP_block_processing_system7_0_0::before_end_of_elaboration()
     M_AXI_GP0_transactor_param_props.addLong("NUM_WRITE_THREADS", "4");
     M_AXI_GP0_transactor_param_props.addLong("RUSER_BITS_PER_BYTE", "0");
     M_AXI_GP0_transactor_param_props.addLong("WUSER_BITS_PER_BYTE", "0");
-    M_AXI_GP0_transactor_param_props.addFloat("PHASE", "0.0");
+    M_AXI_GP0_transactor_param_props.addFloat("PHASE", "0.000");
     M_AXI_GP0_transactor_param_props.addString("NUM_WRITE_OUTSTANDING", "8");
     M_AXI_GP0_transactor_param_props.addString("NUM_READ_OUTSTANDING", "8");
     M_AXI_GP0_transactor_param_props.addString("PROTOCOL", "AXI3");
@@ -228,7 +228,7 @@ void TOP_block_processing_system7_0_0::before_end_of_elaboration()
     S_AXI_ACP_transactor_param_props.addLong("NUM_WRITE_THREADS", "1");
     S_AXI_ACP_transactor_param_props.addLong("RUSER_BITS_PER_BYTE", "0");
     S_AXI_ACP_transactor_param_props.addLong("WUSER_BITS_PER_BYTE", "0");
-    S_AXI_ACP_transactor_param_props.addFloat("PHASE", "0.0");
+    S_AXI_ACP_transactor_param_props.addFloat("PHASE", "0.000");
     S_AXI_ACP_transactor_param_props.addString("NUM_WRITE_OUTSTANDING", "8");
     S_AXI_ACP_transactor_param_props.addString("NUM_READ_OUTSTANDING", "8");
     S_AXI_ACP_transactor_param_props.addString("PROTOCOL", "AXI3");

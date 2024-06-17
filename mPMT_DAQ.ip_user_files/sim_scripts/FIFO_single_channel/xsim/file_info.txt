@@ -1,0 +1,2 @@
+FIFO_single_channel_sim_netlist.vhdl,vhdl,xil_defaultlib,../../../../mPMT_DAQ.srcs/sources_1/ip/FIFO_single_channel/FIFO_single_channel_sim_netlist.vhdl,
+glbl.v,Verilog,xil_defaultlib,glbl.v

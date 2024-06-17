@@ -538,7 +538,38 @@ set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets Inst_Pulser/in0]
 set_switching_activity -toggle_rate 5.000 -type {register} -static_probability 0.050 -all 
 set_switching_activity -toggle_rate 5.000 -type {io_output} -static_probability 0.050 -all 
 
+set_switching_activity -toggle_rate 5.000 -type {lut} -static_probability 0.050 -all 
+set_switching_activity -toggle_rate 5.000 -type {register} -static_probability 0.050 -all 
+set_switching_activity -toggle_rate 5.000 -type {shift_register} -static_probability 0.050 -all 
+set_switching_activity -toggle_rate 5.000 -type {io_output} -static_probability 0.050 -all 
+set_switching_activity -toggle_rate 0.000 -static_probability 0.000 [get_nets {TOP_block_i/TOP_block_i/ps7_0_axi_periph/xbar/inst/gen_sasd.crossbar_sasd_0/addr_arbiter_inst/SR[0]}]
+set_switching_activity -toggle_rate 0.000 -static_probability 0.000 [get_nets TOP_block_i/TOP_block_i/rst_ps7_0_200M/U0/SEQ/SEQ_COUNTER/clear]
+set_switching_activity -toggle_rate 0.000 -static_probability 0.000 [get_nets TOP_block_i/TOP_block_i/rst_ps7_0_200M/U0/EXT_LPF/lpf_int]
 
+set_switching_activity -toggle_rate 5.000 -type {lut} -static_probability 0.050 -all 
+set_switching_activity -toggle_rate 5.000 -type {register} -static_probability 0.050 -all 
+set_switching_activity -toggle_rate 5.000 -type {shift_register} -static_probability 0.050 -all 
+set_switching_activity -toggle_rate 5.000 -type {io_output} -static_probability 0.050 -all 
+
+set_property PULLUP true [get_ports {RX_IN[0]}]
+set_property PULLUP true [get_ports {RX_IN[1]}]
+set_property PULLUP true [get_ports {RX_IN[2]}]
+set_property PULLUP true [get_ports {RX_IN[3]}]
+set_property PULLUP true [get_ports {RX_IN[4]}]
+set_property PULLUP true [get_ports {RX_IN[5]}]
+set_property PULLUP true [get_ports {RX_IN[6]}]
+set_property PULLUP true [get_ports {RX_IN[7]}]
+set_property PULLUP true [get_ports {RX_IN[8]}]
+set_property PULLUP true [get_ports {RX_IN[9]}]
+set_property PULLUP true [get_ports {RX_IN[10]}]
+set_property PULLUP true [get_ports {RX_IN[11]}]
+set_property PULLUP true [get_ports {RX_IN[12]}]
+set_property PULLUP true [get_ports {RX_IN[13]}]
+set_property PULLUP true [get_ports {RX_IN[14]}]
+set_property PULLUP true [get_ports {RX_IN[15]}]
+set_property PULLUP true [get_ports {RX_IN[16]}]
+set_property PULLUP true [get_ports {RX_IN[17]}]
+set_property PULLUP true [get_ports {RX_IN[18]}]
 
 set_property LOAD 100 [get_ports {ADC_CS[0]}]
 set_property LOAD 100 [get_ports {ADC_CS[10]}]
@@ -731,40 +762,14 @@ set_property LOAD 100 [get_ports {PWR_EN[8]}]
 set_property LOAD 100 [get_ports {PWR_EN[9]}]
 set_property LOAD 100 [get_ports SAMA_TX]
 set_property LOAD 100 [get_ports TX_OUT]
-set_switching_activity -toggle_rate 5.000 -type {lut} -static_probability 0.050 -all 
-set_switching_activity -toggle_rate 5.000 -type {register} -static_probability 0.050 -all 
-set_switching_activity -toggle_rate 5.000 -type {shift_register} -static_probability 0.050 -all 
-set_switching_activity -toggle_rate 5.000 -type {io_output} -static_probability 0.050 -all 
-set_switching_activity -toggle_rate 0.000 -static_probability 0.000 [get_nets {TOP_block_i/TOP_block_i/ps7_0_axi_periph/xbar/inst/gen_sasd.crossbar_sasd_0/addr_arbiter_inst/SR[0]}]
-set_switching_activity -toggle_rate 0.000 -static_probability 0.000 [get_nets TOP_block_i/TOP_block_i/rst_ps7_0_200M/U0/SEQ/SEQ_COUNTER/clear]
-set_switching_activity -toggle_rate 0.000 -static_probability 0.000 [get_nets TOP_block_i/TOP_block_i/rst_ps7_0_200M/U0/EXT_LPF/lpf_int]
-
-set_switching_activity -toggle_rate 5.000 -type {lut} -static_probability 0.050 -all 
-set_switching_activity -toggle_rate 5.000 -type {register} -static_probability 0.050 -all 
-set_switching_activity -toggle_rate 5.000 -type {shift_register} -static_probability 0.050 -all 
-set_switching_activity -toggle_rate 5.000 -type {io_output} -static_probability 0.050 -all 
 
 
 
-set_property PULLUP true [get_ports {RX_IN[0]}]
-set_property PULLUP true [get_ports {RX_IN[1]}]
-set_property PULLUP true [get_ports {RX_IN[2]}]
-set_property PULLUP true [get_ports {RX_IN[3]}]
-set_property PULLUP true [get_ports {RX_IN[4]}]
-set_property PULLUP true [get_ports {RX_IN[5]}]
-set_property PULLUP true [get_ports {RX_IN[6]}]
-set_property PULLUP true [get_ports {RX_IN[7]}]
-set_property PULLUP true [get_ports {RX_IN[8]}]
-set_property PULLUP true [get_ports {RX_IN[9]}]
-set_property PULLUP true [get_ports {RX_IN[10]}]
-set_property PULLUP true [get_ports {RX_IN[11]}]
-set_property PULLUP true [get_ports {RX_IN[12]}]
-set_property PULLUP true [get_ports {RX_IN[13]}]
-set_property PULLUP true [get_ports {RX_IN[14]}]
-set_property PULLUP true [get_ports {RX_IN[15]}]
-set_property PULLUP true [get_ports {RX_IN[16]}]
-set_property PULLUP true [get_ports {RX_IN[17]}]
-set_property PULLUP true [get_ports {RX_IN[18]}]
+
+
+
+
+
 
 set_clock_groups -name CLK_ASYNC -asynchronous -group [get_clocks [list clk_fpga_0 CLK_25MHZ REF_CLK2_P REF_CLK_P [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT0]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT1]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT2]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT3]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT4]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT5]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT6]]]] -group [get_clocks [list clk_fpga_0 CLK_25MHZ REF_CLK2_P REF_CLK_P [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT0]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT1]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT2]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT3]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT4]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT5]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT6]]]]
 set_false_path -from [get_clocks clk_fpga_2] -to [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT0]]
@@ -810,44 +815,21 @@ set_multicycle_path -setup -from [get_clocks -of_objects [get_pins multiphase_cl
 set_multicycle_path -hold -from [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks RING_OSC] 1
 
 
-
-
-
-
-set_clock_groups -logically_exclusive -group [get_clocks -include_generated_clocks REF_CLK_P] -group [get_clocks -include_generated_clocks REF_CLK2_P]
-create_generated_clock -name REF_CLK2_P_Gen -source [get_pins Inst_CLK_SAFE/BUFGMUX_inst/I0] -divide_by 1 -add -master_clock REF_CLK2_P [get_pins Inst_CLK_SAFE/BUFGMUX_inst/O]
-create_generated_clock -name REF_CLK_P_Gen -source [get_pins Inst_CLK_SAFE/BUFGMUX_inst/I0] -divide_by 1 -add -master_clock REF_CLK_P [get_pins Inst_CLK_SAFE/BUFGMUX_inst/O]
-create_generated_clock -name CLK_25MHZ_Gen -source [get_pins Inst_CLK_SAFE/BUFGMUX_inst/I1] -divide_by 1 -add -master_clock CLK_25MHZ [get_pins Inst_CLK_SAFE/BUFGMUX_inst/O]
+create_generated_clock -name REF_CLK_P_Gen -source [get_ports REF_CLK_P] -divide_by 1 [get_pins Inst_CLK_SAFE/BUFGMUX_inst/O]
+create_generated_clock -name REF_CLK2_P_Gen -source [get_ports REF_CLK2_P] -divide_by 1 [get_pins Inst_CLK_SAFE/BUFGMUX_inst/O]
+create_generated_clock -name CLK_25MHZ_Gen -source [get_ports Quartz25] -divide_by 1 [get_pins Inst_CLK_SAFE/BUFGMUX_inst/O]
 set_clock_groups -logically_exclusive -group [get_clocks -include_generated_clocks {REF_CLK2_P_Gen REF_CLK_P_Gen}] -group [get_clocks -include_generated_clocks CLK_25MHZ_Gen]
-set_clock_groups -asynchronous -group [get_clocks REF_CLK2_P] -group [get_clocks CLK_25MHZ]
-set_clock_groups -asynchronous -group [get_clocks REF_CLK_P] -group [get_clocks CLK_25MHZ]
-set_clock_groups -asynchronous -group [get_clocks clk_out1_clk_wiz_0] -group [get_clocks CLK_25MHZ]
+set_clock_groups -asynchronous -group [get_clocks REF_CLK2_P] -group [get_clocks Quartz25]
+set_clock_groups -asynchronous -group [get_clocks REF_CLK_P] -group [get_clocks Quartz25]
+set_clock_groups -asynchronous -group [get_clocks clk_out1_clk_wiz_0] -group [get_clocks Quartz25]
 set_clock_groups -asynchronous -group [get_clocks clk_out1_clk_wiz_0] -group [get_clocks CLK_25MHZ_Gen]
-set_clock_groups -asynchronous -group [get_clocks CLK_25MHZ] -group [get_clocks REF_CLK2_P]
-set_clock_groups -asynchronous -group [get_clocks clk_out1_clk_wiz_0] -group [get_clocks REF_CLK2_P]
+set_clock_groups -asynchronous -group [get_clocks Quartz25] -group [get_clocks REF_CLK2_P]
 set_clock_groups -asynchronous -group [get_clocks REF_CLK_P_Gen] -group [get_clocks REF_CLK2_P_Gen]
 set_clock_groups -asynchronous -group [get_clocks clk_out1_clk_wiz_0] -group [get_clocks REF_CLK2_P_Gen]
-set_clock_groups -asynchronous -group [get_clocks CLK_25MHZ] -group [get_clocks REF_CLK_P]
-set_clock_groups -asynchronous -group [get_clocks clk_out1_clk_wiz_0] -group [get_clocks REF_CLK_P]
+set_clock_groups -asynchronous -group [get_clocks Quartz25] -group [get_clocks REF_CLK_P]
 set_clock_groups -asynchronous -group [get_clocks REF_CLK2_P_Gen] -group [get_clocks REF_CLK_P_Gen]
 set_clock_groups -asynchronous -group [get_clocks clk_out1_clk_wiz_0] -group [get_clocks REF_CLK_P_Gen]
-set_clock_groups -asynchronous -group [get_clocks clk_out1_clk_wiz_0] -group [get_clocks RING_OSC]
-set_clock_groups -asynchronous -group [get_clocks CLK_25MHZ] -group [get_clocks clk_out1_clk_wiz_0]
-set_clock_groups -asynchronous -group [get_clocks RING_OSC] -group [get_clocks clk_out1_clk_wiz_0]
+set_clock_groups -asynchronous -group [get_clocks Quartz25] -group [get_clocks clk_out1_clk_wiz_0]
 set_clock_groups -asynchronous -group [get_clocks CLK_25MHZ_Gen] -group [get_clocks clk_out7_clk_wiz_0]
 set_clock_groups -asynchronous -group [get_clocks REF_CLK2_P_Gen] -group [get_clocks clk_out7_clk_wiz_0]
 set_clock_groups -asynchronous -group [get_clocks REF_CLK_P_Gen] -group [get_clocks clk_out7_clk_wiz_0]
-
-
-
-
-
-
-
-
-
-connect_debug_port u_ila_0/probe4 [get_nets [list FLAG_WR_Unix_Time]]
-connect_debug_port u_ila_0/probe5 [get_nets [list Inst_pps_module2/FLAG_WR_Unix_Time_r]]
-
-
-

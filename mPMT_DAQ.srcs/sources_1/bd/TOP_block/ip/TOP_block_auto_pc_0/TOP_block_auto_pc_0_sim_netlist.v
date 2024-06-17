@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-// Date        : Wed Mar 27 15:45:21 2024
+// Date        : Wed Mar 27 15:45:20 2024
 // Host        : PC_Alessandro running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim
-//               C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/ip/TOP_block_auto_pc_0/TOP_block_auto_pc_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top TOP_block_auto_pc_0 -prefix
+//               TOP_block_auto_pc_0_ TOP_block_auto_pc_0_sim_netlist.v
 // Design      : TOP_block_auto_pc_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -282,7 +282,6 @@ module TOP_block_auto_pc_0
         .s_axi_wvalid(s_axi_wvalid));
 endmodule
 
-(* ORIG_REF_NAME = "axi_data_fifo_v2_1_19_axic_fifo" *) 
 module TOP_block_auto_pc_0_axi_data_fifo_v2_1_19_axic_fifo
    (\goreg_dm.dout_i_reg[4] ,
     full,
@@ -672,7 +671,6 @@ module TOP_block_auto_pc_0_axi_data_fifo_v2_1_19_axic_fifo__xdcDup__1
         .wr_en(wr_en));
 endmodule
 
-(* ORIG_REF_NAME = "axi_data_fifo_v2_1_19_fifo_gen" *) 
 module TOP_block_auto_pc_0_axi_data_fifo_v2_1_19_fifo_gen
    (\goreg_dm.dout_i_reg[4] ,
     full,
@@ -2517,7 +2515,6 @@ module TOP_block_auto_pc_0_axi_data_fifo_v2_1_19_fifo_gen__xdcDup__1
         .O(E));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_20_a_axi3_conv" *) 
 module TOP_block_auto_pc_0_axi_protocol_converter_v2_1_20_a_axi3_conv
    (dout,
     empty,
@@ -5059,7 +5056,6 @@ module TOP_block_auto_pc_0_axi_protocol_converter_v2_1_20_a_axi3_conv
         .R(SR));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_20_axi3_conv" *) 
 module TOP_block_auto_pc_0_axi_protocol_converter_v2_1_20_axi3_conv
    (ram_full_i_reg,
     S_AXI_AREADY_I_reg,
@@ -5266,10 +5262,10 @@ endmodule
 (* C_AXI_RUSER_WIDTH = "1" *) (* C_AXI_SUPPORTS_READ = "0" *) (* C_AXI_SUPPORTS_USER_SIGNALS = "0" *) 
 (* C_AXI_SUPPORTS_WRITE = "1" *) (* C_AXI_WUSER_WIDTH = "1" *) (* C_FAMILY = "zynq" *) 
 (* C_IGNORE_ID = "1" *) (* C_M_AXI_PROTOCOL = "1" *) (* C_S_AXI_PROTOCOL = "0" *) 
-(* C_TRANSLATION_MODE = "2" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* ORIG_REF_NAME = "axi_protocol_converter_v2_1_20_axi_protocol_converter" *) 
-(* P_AXI3 = "1" *) (* P_AXI4 = "0" *) (* P_AXILITE = "2" *) 
-(* P_AXILITE_SIZE = "3'b010" *) (* P_CONVERSION = "2" *) (* P_DECERR = "2'b11" *) 
-(* P_INCR = "2'b01" *) (* P_PROTECTION = "1" *) (* P_SLVERR = "2'b10" *) 
+(* C_TRANSLATION_MODE = "2" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* P_AXI3 = "1" *) 
+(* P_AXI4 = "0" *) (* P_AXILITE = "2" *) (* P_AXILITE_SIZE = "3'b010" *) 
+(* P_CONVERSION = "2" *) (* P_DECERR = "2'b11" *) (* P_INCR = "2'b01" *) 
+(* P_PROTECTION = "1" *) (* P_SLVERR = "2'b10" *) 
 module TOP_block_auto_pc_0_axi_protocol_converter_v2_1_20_axi_protocol_converter
    (aclk,
     aresetn,
@@ -5651,7 +5647,6 @@ module TOP_block_auto_pc_0_axi_protocol_converter_v2_1_20_axi_protocol_converter
         .s_axi_wvalid(s_axi_wvalid));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_20_b_downsizer" *) 
 module TOP_block_auto_pc_0_axi_protocol_converter_v2_1_20_b_downsizer
    (E,
     last_word,
@@ -5822,7 +5817,6 @@ module TOP_block_auto_pc_0_axi_protocol_converter_v2_1_20_b_downsizer
         .O(last_word));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_20_w_axi3_conv" *) 
 module TOP_block_auto_pc_0_axi_protocol_converter_v2_1_20_w_axi3_conv
    (\length_counter_1_reg[1]_0 ,
     first_mi_word,
@@ -6108,8 +6102,8 @@ module TOP_block_auto_pc_0_axi_protocol_converter_v2_1_20_w_axi3_conv
 endmodule
 
 (* DEF_VAL = "1'b0" *) (* DEST_SYNC_FF = "2" *) (* INIT_SYNC_FF = "0" *) 
-(* INV_DEF_VAL = "1'b1" *) (* ORIG_REF_NAME = "xpm_cdc_async_rst" *) (* RST_ACTIVE_HIGH = "1" *) 
-(* VERSION = "0" *) (* XPM_MODULE = "TRUE" *) (* xpm_cdc = "ASYNC_RST" *) 
+(* INV_DEF_VAL = "1'b1" *) (* RST_ACTIVE_HIGH = "1" *) (* VERSION = "0" *) 
+(* XPM_MODULE = "TRUE" *) (* xpm_cdc = "ASYNC_RST" *) 
 module TOP_block_auto_pc_0_xpm_cdc_async_rst
    (src_arst,
     dest_clk,
@@ -6187,7 +6181,6 @@ module TOP_block_auto_pc_0_xpm_cdc_async_rst__2
         .Q(arststages_ff[1]));
 endmodule
 
-(* ORIG_REF_NAME = "dmem" *) 
 module TOP_block_auto_pc_0_dmem
    (dout_i,
     clk,
@@ -6373,7 +6366,6 @@ module TOP_block_auto_pc_0_dmem_3
         .R(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "fifo_generator_ramfifo" *) 
 module TOP_block_auto_pc_0_fifo_generator_ramfifo
    (empty,
     full,
@@ -6537,7 +6529,6 @@ module TOP_block_auto_pc_0_fifo_generator_ramfifo__xdcDup__1
         .rst(rst));
 endmodule
 
-(* ORIG_REF_NAME = "fifo_generator_top" *) 
 module TOP_block_auto_pc_0_fifo_generator_top
    (empty,
     full,
@@ -6682,7 +6673,7 @@ endmodule
 (* C_WR_DEPTH_WRCH = "16" *) (* C_WR_FREQ = "1" *) (* C_WR_PNTR_WIDTH = "5" *) 
 (* C_WR_PNTR_WIDTH_AXIS = "10" *) (* C_WR_PNTR_WIDTH_RACH = "4" *) (* C_WR_PNTR_WIDTH_RDCH = "10" *) 
 (* C_WR_PNTR_WIDTH_WACH = "4" *) (* C_WR_PNTR_WIDTH_WDCH = "10" *) (* C_WR_PNTR_WIDTH_WRCH = "4" *) 
-(* C_WR_RESPONSE_LATENCY = "1" *) (* ORIG_REF_NAME = "fifo_generator_v13_2_5" *) 
+(* C_WR_RESPONSE_LATENCY = "1" *) 
 module TOP_block_auto_pc_0_fifo_generator_v13_2_5
    (backup,
     backup_marker,
@@ -8929,7 +8920,6 @@ module TOP_block_auto_pc_0_fifo_generator_v13_2_5__xdcDup__1
         .wr_en(wr_en));
 endmodule
 
-(* ORIG_REF_NAME = "fifo_generator_v13_2_5_synth" *) 
 module TOP_block_auto_pc_0_fifo_generator_v13_2_5_synth
    (empty,
     full,
@@ -9007,7 +8997,6 @@ module TOP_block_auto_pc_0_fifo_generator_v13_2_5_synth__xdcDup__1
         .wr_en(wr_en));
 endmodule
 
-(* ORIG_REF_NAME = "memory" *) 
 module TOP_block_auto_pc_0_memory
    (dout,
     E,
@@ -9165,7 +9154,6 @@ module TOP_block_auto_pc_0_memory_2
         .R(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "rd_bin_cntr" *) 
 module TOP_block_auto_pc_0_rd_bin_cntr
    (Q,
     \gc0.count_d1_reg[4]_0 ,
@@ -9447,7 +9435,6 @@ module TOP_block_auto_pc_0_rd_bin_cntr_8
         .Q(Q[4]));
 endmodule
 
-(* ORIG_REF_NAME = "rd_fwft" *) 
 module TOP_block_auto_pc_0_rd_fwft
    (out,
     empty,
@@ -9817,7 +9804,6 @@ module TOP_block_auto_pc_0_rd_fwft_6
         .Q(user_valid));
 endmodule
 
-(* ORIG_REF_NAME = "rd_logic" *) 
 module TOP_block_auto_pc_0_rd_logic
    (out,
     \gpregsm1.curr_fwft_state_reg[1] ,
@@ -9935,7 +9921,6 @@ module TOP_block_auto_pc_0_rd_logic_0
         .\gc0.count_d1_reg[4]_0 (\gc0.count_d1_reg[4] ));
 endmodule
 
-(* ORIG_REF_NAME = "rd_status_flags_ss" *) 
 module TOP_block_auto_pc_0_rd_status_flags_ss
    (out,
     ram_empty_i_reg_0,
@@ -10019,7 +10004,6 @@ module TOP_block_auto_pc_0_rd_status_flags_ss_7
         .Q(ram_empty_i));
 endmodule
 
-(* ORIG_REF_NAME = "reset_blk_ramfifo" *) 
 module TOP_block_auto_pc_0_reset_blk_ramfifo
    (E,
     AR,
@@ -10261,7 +10245,6 @@ module TOP_block_auto_pc_0_reset_blk_ramfifo__xdcDup__1
         .src_arst(rst));
 endmodule
 
-(* ORIG_REF_NAME = "wr_bin_cntr" *) 
 module TOP_block_auto_pc_0_wr_bin_cntr
    (ram_full_comb,
     ram_full_fb_i_reg,
@@ -10751,7 +10734,6 @@ module TOP_block_auto_pc_0_wr_bin_cntr_5
         .O(ram_full_fb_i_i_3_n_0));
 endmodule
 
-(* ORIG_REF_NAME = "wr_logic" *) 
 module TOP_block_auto_pc_0_wr_logic
    (full,
     ram_full_fb_i_reg,
@@ -10875,7 +10857,6 @@ module TOP_block_auto_pc_0_wr_logic_1
         .wr_en(wr_en));
 endmodule
 
-(* ORIG_REF_NAME = "wr_status_flags_ss" *) 
 module TOP_block_auto_pc_0_wr_status_flags_ss
    (out,
     full,

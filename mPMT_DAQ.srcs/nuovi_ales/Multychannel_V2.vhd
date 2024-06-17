@@ -44,7 +44,7 @@ architecture Behavioral of Multychannel_V2 is
 COMPONENT FIFO_single_channel
     PORT (
         clk : IN STD_LOGIC;
-        srst : IN STD_LOGIC;
+        rst : IN STD_LOGIC;
         din : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
         wr_en : IN STD_LOGIC;
         rd_en : IN STD_LOGIC;
@@ -177,7 +177,7 @@ begin
     FIFO: FIFO_single_channel
         PORT MAP (
             clk       => Multiclk(0),
-            srst      => reset,
+            rst       => reset,
             din       => word_to_FIFO(i),
             wr_en     => wr_en(i),
             rd_en     => rd_en(i),
@@ -244,7 +244,7 @@ end generate;
     FIFO_PPS : FIFO_single_channel
         PORT MAP (
             clk       => Multiclk(0),
-            srst      => reset,
+            rst       => reset,
             din       => word_to_FIFO(n_channel),
             wr_en     => wr_en(n_channel),
             rd_en     => rd_en(n_channel),

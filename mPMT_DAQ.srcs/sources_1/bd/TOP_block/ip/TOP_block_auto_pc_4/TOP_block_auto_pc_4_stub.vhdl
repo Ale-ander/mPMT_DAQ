@@ -1,10 +1,10 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
--- Date        : Wed Mar 27 15:45:13 2024
+-- Date        : Wed Mar 27 15:45:12 2024
 -- Host        : PC_Alessandro running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/ip/TOP_block_auto_pc_4/TOP_block_auto_pc_4_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top TOP_block_auto_pc_4 -prefix
+--               TOP_block_auto_pc_4_ TOP_block_auto_pc_4_stub.vhdl
 -- Design      : TOP_block_auto_pc_4
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7z014sclg484-2

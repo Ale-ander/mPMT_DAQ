@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-// Date        : Wed Mar 27 15:45:26 2024
+// Date        : Wed Mar 27 15:45:25 2024
 // Host        : PC_Alessandro running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim
-//               C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/ip/TOP_block_auto_pc_1/TOP_block_auto_pc_1_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top TOP_block_auto_pc_1 -prefix
+//               TOP_block_auto_pc_1_ TOP_block_auto_pc_1_sim_netlist.v
 // Design      : TOP_block_auto_pc_1
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -346,10 +346,10 @@ endmodule
 (* C_AXI_RUSER_WIDTH = "1" *) (* C_AXI_SUPPORTS_READ = "1" *) (* C_AXI_SUPPORTS_USER_SIGNALS = "0" *) 
 (* C_AXI_SUPPORTS_WRITE = "1" *) (* C_AXI_WUSER_WIDTH = "1" *) (* C_FAMILY = "zynq" *) 
 (* C_IGNORE_ID = "0" *) (* C_M_AXI_PROTOCOL = "2" *) (* C_S_AXI_PROTOCOL = "0" *) 
-(* C_TRANSLATION_MODE = "2" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* ORIG_REF_NAME = "axi_protocol_converter_v2_1_20_axi_protocol_converter" *) 
-(* P_AXI3 = "1" *) (* P_AXI4 = "0" *) (* P_AXILITE = "2" *) 
-(* P_AXILITE_SIZE = "3'b010" *) (* P_CONVERSION = "2" *) (* P_DECERR = "2'b11" *) 
-(* P_INCR = "2'b01" *) (* P_PROTECTION = "1" *) (* P_SLVERR = "2'b10" *) 
+(* C_TRANSLATION_MODE = "2" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* P_AXI3 = "1" *) 
+(* P_AXI4 = "0" *) (* P_AXILITE = "2" *) (* P_AXILITE_SIZE = "3'b010" *) 
+(* P_CONVERSION = "2" *) (* P_DECERR = "2'b11" *) (* P_INCR = "2'b01" *) 
+(* P_PROTECTION = "1" *) (* P_SLVERR = "2'b10" *) 
 module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_axi_protocol_converter
    (aclk,
     aresetn,
@@ -729,7 +729,6 @@ module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_axi_protocol_converter
         .s_axi_rvalid(s_axi_rvalid));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_20_b2s" *) 
 module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_b2s
    (s_axi_awready,
     s_axi_arready,
@@ -1161,7 +1160,6 @@ module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_b2s
         .R(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_20_b2s_ar_channel" *) 
 module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_b2s_ar_channel
    (sel_first,
     sel_first_reg,
@@ -1472,7 +1470,6 @@ module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_b2s_ar_channel
         .R(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_20_b2s_aw_channel" *) 
 module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_b2s_aw_channel
    (sel_first_0,
     sel_first,
@@ -1787,7 +1784,6 @@ module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_b2s_aw_channel
         .R(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_20_b2s_b_channel" *) 
 module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_b2s_b_channel
    (si_rs_bvalid,
     b_full,
@@ -2058,7 +2054,6 @@ module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_b2s_b_channel
         .R(areset_d1));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_20_b2s_cmd_translator" *) 
 module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_b2s_cmd_translator
    (incr_next_pending,
     next_pending_r_reg,
@@ -2498,7 +2493,6 @@ module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_b2s_cmd_translator_1
         .\wrap_second_len_r_reg[3]_0 (\wrap_second_len_r_reg[3] ));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_20_b2s_incr_cmd" *) 
 module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_b2s_incr_cmd
    (incr_next_pending,
     sel_first_reg_0,
@@ -4026,7 +4020,6 @@ module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_b2s_incr_cmd_2
         .R(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_20_b2s_r_channel" *) 
 module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_b2s_r_channel
    (r_full,
     m_axi_rready,
@@ -4188,7 +4181,6 @@ module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_b2s_r_channel
         .wr_en0(wr_en0));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_20_b2s_rd_cmd_fsm" *) 
 module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_b2s_rd_cmd_fsm
    (s_ready_i0,
     Q,
@@ -4561,7 +4553,6 @@ module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_b2s_rd_cmd_fsm
         .O(\FSM_sequential_state_reg[1]_0 ));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_20_b2s_simple_fifo" *) 
 module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_b2s_simple_fifo
    (b_full,
     addr,
@@ -6085,7 +6076,6 @@ module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_b2s_simple_fifo__param
         .Q31(\NLW_memory_reg[31][9]_srl32_Q31_UNCONNECTED ));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_20_b2s_wr_cmd_fsm" *) 
 module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_b2s_wr_cmd_fsm
    (\m_payload_i_reg[39] ,
     sel_first_i,
@@ -6351,7 +6341,6 @@ module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_b2s_wr_cmd_fsm
         .O(E));
 endmodule
 
-(* ORIG_REF_NAME = "axi_protocol_converter_v2_1_20_b2s_wrap_cmd" *) 
 module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_b2s_wrap_cmd
    (next_pending_r_reg_0,
     sel_first,
@@ -7490,7 +7479,6 @@ module TOP_block_auto_pc_1_axi_protocol_converter_v2_1_20_b2s_wrap_cmd_3
         .R(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "axi_register_slice_v2_1_20_axi_register_slice" *) 
 module TOP_block_auto_pc_1_axi_register_slice_v2_1_20_axi_register_slice
    (s_ready_i_reg,
     s_ready_i_reg_0,
@@ -7860,7 +7848,6 @@ module TOP_block_auto_pc_1_axi_register_slice_v2_1_20_axi_register_slice
         .\skid_buffer_reg[46]_0 (\skid_buffer_reg[46] ));
 endmodule
 
-(* ORIG_REF_NAME = "axi_register_slice_v2_1_20_axic_register_slice" *) 
 module TOP_block_auto_pc_1_axi_register_slice_v2_1_20_axic_register_slice
    (s_ready_i_reg_0,
     m_valid_i_reg_0,

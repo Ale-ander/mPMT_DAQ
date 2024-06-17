@@ -1,7 +1,7 @@
 --Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
---Date        : Wed Mar 27 15:43:10 2024
+--Date        : Wed Jun 12 22:55:47 2024
 --Host        : PC_Alessandro running 64-bit major release  (build 9200)
 --Command     : generate_target TOP_block_wrapper.bd
 --Design      : TOP_block_wrapper
@@ -104,16 +104,6 @@ architecture STRUCTURE of TOP_block_wrapper is
     DDR_dq : inout STD_LOGIC_VECTOR ( 31 downto 0 );
     DDR_dqs_n : inout STD_LOGIC_VECTOR ( 3 downto 0 );
     DDR_dqs_p : inout STD_LOGIC_VECTOR ( 3 downto 0 );
-    AXI_STR_RXD_0_tdata : in STD_LOGIC_VECTOR ( 31 downto 0 );
-    AXI_STR_RXD_0_tlast : in STD_LOGIC;
-    AXI_STR_RXD_0_tready : out STD_LOGIC;
-    AXI_STR_RXD_0_tvalid : in STD_LOGIC;
-    FIXED_IO_mio : inout STD_LOGIC_VECTOR ( 53 downto 0 );
-    FIXED_IO_ddr_vrn : inout STD_LOGIC;
-    FIXED_IO_ddr_vrp : inout STD_LOGIC;
-    FIXED_IO_ps_srstb : inout STD_LOGIC;
-    FIXED_IO_ps_clk : inout STD_LOGIC;
-    FIXED_IO_ps_porb : inout STD_LOGIC;
     M00_AXI_0_awaddr : out STD_LOGIC_VECTOR ( 31 downto 0 );
     M00_AXI_0_awprot : out STD_LOGIC_VECTOR ( 2 downto 0 );
     M00_AXI_0_awvalid : out STD_LOGIC;
@@ -133,8 +123,18 @@ architecture STRUCTURE of TOP_block_wrapper is
     M00_AXI_0_rresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
     M00_AXI_0_rvalid : in STD_LOGIC;
     M00_AXI_0_rready : out STD_LOGIC;
+    AXI_STR_RXD_0_tdata : in STD_LOGIC_VECTOR ( 31 downto 0 );
+    AXI_STR_RXD_0_tlast : in STD_LOGIC;
+    AXI_STR_RXD_0_tready : out STD_LOGIC;
+    AXI_STR_RXD_0_tvalid : in STD_LOGIC;
     uart_Sama_boot_rxd : in STD_LOGIC;
-    uart_Sama_boot_txd : out STD_LOGIC
+    uart_Sama_boot_txd : out STD_LOGIC;
+    FIXED_IO_mio : inout STD_LOGIC_VECTOR ( 53 downto 0 );
+    FIXED_IO_ddr_vrn : inout STD_LOGIC;
+    FIXED_IO_ddr_vrp : inout STD_LOGIC;
+    FIXED_IO_ps_srstb : inout STD_LOGIC;
+    FIXED_IO_ps_clk : inout STD_LOGIC;
+    FIXED_IO_ps_porb : inout STD_LOGIC
   );
   end component TOP_block;
 begin

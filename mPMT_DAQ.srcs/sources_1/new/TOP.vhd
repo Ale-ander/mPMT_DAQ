@@ -280,7 +280,8 @@ component pps_module2 is
 		   -- OUT
 		   PPS_OUT 		      : out STD_LOGIC;                     -- Pulse Per Second (PPS)
 		   RunC_PPS_na    	  : out STD_LOGIC;                     -- 0 = PPS not aligned, 1 = PPS aligned
-		   runC_PPS_nr    	  : out STD_LOGIC;                     -- 0 = PPS not received, 1 = PPS received		   CONTA 			  : out STD_LOGIC_VECTOR(27 downto 0); -- 200MHz clock counter
+		   runC_PPS_nr    	  : out STD_LOGIC;                     -- 0 = PPS not received, 1 = PPS received		   
+		   CONTA 			  : out STD_LOGIC_VECTOR(27 downto 0); -- 200MHz clock counter
 		   COUNTA_sec 		  : out STD_LOGIC_VECTOR(31 downto 0); -- PPS counter
 		   Unix_Time_na       : out STD_LOGIC                      -- unixtime not aligned
 	    ); 
@@ -370,7 +371,6 @@ generic (
         -- To outside
         CH_ENABLE           : out std_logic_vector(18 downto 0);  -- Single channel enable (also STM32 boot mode)
         PWR_EN              : out std_logic_vector(18 downto 0);  -- Single channel power enable (turn on)
-        CALIBRAZIONE	    : out std_logic;                      -- Start ADC automatic calibrations procedure        
         -- To FIFO
         RST_FIFO            : out std_logic;  -- Reset data FIFO
             
@@ -520,6 +520,7 @@ signal HF_FIFO         : STD_LOGIC;
 signal FIFO_data_count : STD_LOGIC_VECTOR(13 downto 0);
 signal din_BIG         : STD_LOGIC_VECTOR(31 downto 0);
 signal dout_BIG        : STD_LOGIC_VECTOR(31 downto 0);
+signal RST_FIFO_RC     : STD_LOGIC;
 signal RST_FIFO        : STD_LOGIC;
 signal RD_EN_FIFO      : STD_LOGIC;
 signal wr_en_fifo      : STD_LOGIC;
@@ -531,7 +532,6 @@ signal CLK_aut_man     : STD_LOGIC;
 signal CLK_aut_man_ref : STD_LOGIC;
 signal CLK_1_2         : STD_LOGIC;
 signal Rst_CLKSafe     : STD_LOGIC;
-signal Rst_CLK_reg     : STD_LOGIC;
 signal CLK_OK_1        : STD_LOGIC;
 signal CLK_Lost_1      : STD_LOGIC;
 signal CLK_Found_1     : STD_LOGIC;
@@ -684,26 +684,25 @@ RunControl: RunControl_AXI
     -- To outside
     CH_ENABLE         => CH_ENABLE,
     PWR_EN            => PWR_EN_int,
-    CALIBRAZIONE	  => Calibrate_ADC,
     -- To FIFO
-    RST_FIFO          => RST_FIFO,
+    RST_FIFO          => RST_FIFO_RC,
 
 	-- AXI signals
 	S_AXI_ACLK	    => Multiclk(0),
 	S_AXI_ARESETN	=> peripheral_aresetn(0),
 	S_AXI_AWADDR	=> M00_AXI_0_awaddr,
-	S_AXI_AWPROT	=> M00_AXI_0_awprot,
+	S_AXI_AWPROT	=> M00_AXI_0_awprot(2 downto 0),
 	S_AXI_AWVALID	=> M00_AXI_0_awvalid(0),
 	S_AXI_AWREADY	=> M00_AXI_0_awready(0),
 	S_AXI_WDATA	    => M00_AXI_0_wdata,
-	S_AXI_WSTRB	    => M00_AXI_0_wstrb,--(others => '1'),
+	S_AXI_WSTRB	    => M00_AXI_0_wstrb(3 downto 0),--(others => '1'),
 	S_AXI_WVALID	=> M00_AXI_0_wvalid(0),
 	S_AXI_WREADY	=> M00_AXI_0_wready(0),
 	S_AXI_BRESP	    => M00_AXI_0_bresp,
 	S_AXI_BVALID	=> M00_AXI_0_bvalid(0),
 	S_AXI_BREADY	=> M00_AXI_0_bready(0),
 	S_AXI_ARADDR	=> M00_AXI_0_araddr,
-	S_AXI_ARPROT	=> M00_AXI_0_arprot,
+	S_AXI_ARPROT	=> M00_AXI_0_arprot(2 downto 0),
 	S_AXI_ARVALID	=> M00_AXI_0_arvalid(0),
 	S_AXI_ARREADY	=> M00_AXI_0_arready(0),
 	S_AXI_RDATA	    => M00_AXI_0_rdata,
@@ -785,14 +784,14 @@ CLK_SAFE_MODULE: CLK_SAFE
         -- IN
         Ref_CLK1 		=> CLK_Cable_1,     -- ref_CLK dal cable 1                         
         Ref_CLK2 		=> CLK_Cable_2,     -- ref_CLK dal cable 2                         
-        XCLK 			=> Quartz25,        --Quartz a 25MHz                                 
-        FCLK25M 		=> FCLK_25,         -- CLK from fabric                             
+        XCLK 			=> Quartz25,        -- Quartz a 25MHz                                 
+        FCLK25M 		=> FCLK_25,         -- CLK from fabric                       
         RESET 			=> Reset,           -- Reset component                         
         CLK_ext_int	    => CLK_ext_int,     -- 0 = Internal, 1 = External                   
         CLK_aut_man	    => CLK_aut_man,     -- 0 = Manual,   1 = Automatic                  
         CLK_aut_man_ref => CLK_aut_man_ref, -- 0 = Manual,   1 = Automatic                 
         CLK_cable_1_2 	=> CLK_1_2,         -- 0 = cable1,   1 = cable2  
-        RST_clk_reg     => Rst_CLK_reg,              
+        RST_clk_reg     => Rst_CLKSafe,              
         -- OUT
         CLK_OK_flg      => CLK_OK_flg,
         CLK_OK_1        => CLK_OK_1,
@@ -834,7 +833,7 @@ MULTYCHANNEL: Multychannel_V2
         Counter200M  => COUNTER200M,
         -- PPS channel
         PPS          => PPS,
-        COUNTA_sec   => (others => '0'),
+        COUNTA_sec   => PPS_contati(27 downto 0),  -- A che serve nel mutychannel???
         -- From/To RunControl
         delay        => TDC_delay,
         massimo      => Time_to_peaks,
@@ -882,7 +881,7 @@ FIFO_DATA_32bit : fifo_generator_0
     );
     
 RD_EN_FIFO     <= AXI_STR_RXD_0_tready and FIFO_nEmpty_32 and valid;
-RST_FIFO       <= (not peripheral_aresetn(0)) or Reset;
+RST_FIFO       <= (not peripheral_aresetn(0)) or Reset or RST_FIFO_RC;
 FIFO_nEmpty_32 <= not empty_Big;
       
 --===========================================
@@ -929,7 +928,8 @@ PPS_recovery: pps_module2
         -- OUT
         PPS_OUT 	      => PPS,
 	    RunC_PPS_na		  => RunC_PPS_na,          -- 0 = PPS not aligned, 1 = PPS aligned
- 	    RunC_PPS_nr		  => RunC_PPS_nr,          -- 0 = PPS not received, 1 = PPS received        CONTA 		      => COUNTER200M,
+ 	    RunC_PPS_nr		  => RunC_PPS_nr,          -- 0 = PPS not received, 1 = PPS received        
+ 	    CONTA 		      => COUNTER200M,
         COUNTA_sec 	      => PPS_contati,
         Unix_Time_na      => Unixtime_na
         );
