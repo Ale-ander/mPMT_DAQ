@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date             : Fri Jun 14 18:06:43 2024
+| Date             : Wed Jul 17 11:06:04 2024
 | Host             : PC_Alessandro running 64-bit major release  (build 9200)
 | Command          : report_power -file TOP_power_routed.rpt -pb TOP_power_summary_routed.pb -rpx TOP_power_routed.rpx
 | Design           : TOP
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 2.239        |
+| Total On-Chip Power (W)  | 2.242        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 2.071        |
+| Dynamic (W)              | 2.074        |
 | Device Static (W)        | 0.168        |
 | Effective TJA (C/W)      | 11.5         |
-| Max Ambient (C)          | 59.2         |
-| Junction Temperature (C) | 50.8         |
+| Max Ambient (C)          | 59.1         |
+| Junction Temperature (C) | 50.9         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,22 +52,22 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.141 |       16 |       --- |             --- |
-| Slice Logic              |     0.036 |    31908 |       --- |             --- |
-|   LUT as Logic           |     0.032 |    12078 |     40600 |           29.75 |
-|   Register               |     0.003 |    14348 |     81200 |           17.67 |
+| Clocks                   |     0.145 |       16 |       --- |             --- |
+| Slice Logic              |     0.036 |    31922 |       --- |             --- |
+|   LUT as Logic           |     0.032 |    12098 |     40600 |           29.80 |
+|   Register               |     0.003 |    14350 |     81200 |           17.67 |
 |   CARRY4                 |     0.001 |     1152 |     13300 |            8.66 |
 |   LUT as Shift Register  |    <0.001 |      286 |     17400 |            1.64 |
 |   F7/F8 Muxes            |    <0.001 |      195 |     53200 |            0.37 |
 |   LUT as Distributed RAM |    <0.001 |       20 |     17400 |            0.11 |
-|   Others                 |     0.000 |     1874 |       --- |             --- |
-| Signals                  |     0.058 |    24730 |       --- |             --- |
+|   Others                 |     0.000 |     1876 |       --- |             --- |
+| Signals                  |     0.058 |    24751 |       --- |             --- |
 | Block RAM                |     0.019 |     55.5 |       107 |           51.87 |
 | MMCM                     |     0.076 |        1 |         4 |           25.00 |
 | I/O                      |     0.601 |      166 |       200 |           83.00 |
 | PS7                      |     1.138 |        1 |       --- |             --- |
 | Static Power             |     0.168 |          |           |                 |
-| Total                    |     2.239 |          |           |                 |
+| Total                    |     2.242 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -77,7 +77,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.285 |       0.263 |      0.022 |
+| Vccint    |       1.000 |     0.289 |       0.267 |      0.022 |
 | Vccaux    |       1.800 |     0.092 |       0.075 |      0.017 |
 | Vcco33    |       3.300 |     0.122 |       0.121 |      0.001 |
 | Vcco25    |       2.500 |     0.055 |       0.054 |      0.001 |
@@ -185,15 +185,15 @@ Table of Contents
 +-------------------------------------+-----------+
 | Name                                | Power (W) |
 +-------------------------------------+-----------+
-| TOP                                 |     2.071 |
+| TOP                                 |     2.074 |
 |   FIFO_DATA_32bit                   |     0.006 |
 |     U0                              |     0.006 |
 |       inst_fifo_gen                 |     0.006 |
 |   I2C_SCL_IOBUF_inst                |     0.008 |
 |   I2C_SDA_IOBUF_inst                |     0.008 |
-|   MULTYCHANNEL                      |     0.265 |
+|   MULTYCHANNEL                      |     0.270 |
 |     PPS_channel                     |     0.004 |
-|     channel[0].single_channel_inst  |     0.012 |
+|     channel[0].single_channel_inst  |     0.013 |
 |       ADC                           |     0.002 |
 |       Time_block                    |     0.003 |
 |     channel[10].single_channel_inst |     0.013 |
@@ -202,14 +202,14 @@ Table of Contents
 |     channel[11].single_channel_inst |     0.013 |
 |       ADC                           |     0.002 |
 |       Time_block                    |     0.003 |
-|     channel[12].single_channel_inst |     0.012 |
+|     channel[12].single_channel_inst |     0.013 |
 |       ADC                           |     0.002 |
 |       Time_block                    |     0.003 |
-|     channel[13].single_channel_inst |     0.013 |
+|     channel[13].single_channel_inst |     0.012 |
 |       ADC                           |     0.002 |
 |       Time_block                    |     0.003 |
 |     channel[14].single_channel_inst |     0.012 |
-|       ADC                           |     0.001 |
+|       ADC                           |     0.002 |
 |       Time_block                    |     0.003 |
 |     channel[15].single_channel_inst |     0.012 |
 |       ADC                           |     0.002 |
@@ -217,51 +217,51 @@ Table of Contents
 |     channel[16].single_channel_inst |     0.012 |
 |       ADC                           |     0.002 |
 |       Time_block                    |     0.003 |
-|     channel[17].single_channel_inst |     0.012 |
+|     channel[17].single_channel_inst |     0.013 |
 |       ADC                           |     0.002 |
 |       Time_block                    |     0.003 |
 |     channel[18].single_channel_inst |     0.012 |
 |       ADC                           |     0.002 |
 |       Time_block                    |     0.003 |
-|     channel[1].single_channel_inst  |     0.012 |
+|     channel[1].single_channel_inst  |     0.013 |
 |       ADC                           |     0.002 |
 |       Time_block                    |     0.003 |
-|     channel[2].single_channel_inst  |     0.012 |
+|     channel[2].single_channel_inst  |     0.013 |
 |       ADC                           |     0.002 |
 |       Time_block                    |     0.003 |
 |     channel[3].single_channel_inst  |     0.013 |
 |       ADC                           |     0.002 |
 |       Time_block                    |     0.003 |
-|     channel[4].single_channel_inst  |     0.012 |
+|     channel[4].single_channel_inst  |     0.013 |
 |       ADC                           |     0.002 |
 |       Time_block                    |     0.003 |
 |     channel[5].single_channel_inst  |     0.013 |
 |       ADC                           |     0.002 |
 |       Time_block                    |     0.003 |
-|     channel[6].single_channel_inst  |     0.012 |
+|     channel[6].single_channel_inst  |     0.013 |
 |       ADC                           |     0.002 |
 |       Time_block                    |     0.003 |
 |     channel[7].single_channel_inst  |     0.013 |
-|       ADC                           |     0.003 |
-|       Time_block                    |     0.003 |
-|     channel[8].single_channel_inst  |     0.012 |
 |       ADC                           |     0.002 |
 |       Time_block                    |     0.003 |
-|     channel[9].single_channel_inst  |     0.014 |
-|       ADC                           |     0.003 |
+|     channel[8].single_channel_inst  |     0.013 |
+|       ADC                           |     0.002 |
+|       Time_block                    |     0.003 |
+|     channel[9].single_channel_inst  |     0.013 |
+|       ADC                           |     0.002 |
 |       Time_block                    |     0.003 |
 |   PPS_recovery                      |     0.003 |
 |   RunControl                        |     0.013 |
-|   TOP_block_i                       |     1.221 |
-|     TOP_block_i                     |     1.221 |
+|   TOP_block_i                       |     1.220 |
+|     TOP_block_i                     |     1.220 |
 |       axi_bram_ctrl_0               |     0.003 |
 |       axi_bram_ctrl_1               |     0.002 |
-|       axi_dma_0                     |     0.028 |
+|       axi_dma_0                     |     0.027 |
 |       axi_interconnect_0            |     0.005 |
 |       axi_uartlite_1                |     0.001 |
 |       axis_data_fifo_0              |     0.009 |
 |       processing_system7_0          |     1.142 |
-|       ps7_0_axi_periph              |     0.029 |
+|       ps7_0_axi_periph              |     0.028 |
 |   multiphase_clock                  |     0.078 |
 |     inst                            |     0.078 |
 +-------------------------------------+-----------+

@@ -72,32 +72,32 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="TOP_block.bd" FileRelPathName="ip/TOP_block_axi_dma_0_0/TOP_block_axi_dma_0_0.xci">
-          <Proxy FileSetName="TOP_block_axi_dma_0_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="TOP_block.bd" FileRelPathName="ip/TOP_block_axi_uartlite_1_0/TOP_block_axi_uartlite_1_0.xci">
           <Proxy FileSetName="TOP_block_axi_uartlite_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="TOP_block.bd" FileRelPathName="ip/TOP_block_axi_bram_ctrl_0_0/TOP_block_axi_bram_ctrl_0_0.xci">
-          <Proxy FileSetName="TOP_block_axi_bram_ctrl_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="TOP_block.bd" FileRelPathName="ip/TOP_block_blk_mem_gen_0_0/TOP_block_blk_mem_gen_0_0.xci">
-          <Proxy FileSetName="TOP_block_blk_mem_gen_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="TOP_block.bd" FileRelPathName="ip/TOP_block_processing_system7_0_0/TOP_block_processing_system7_0_0.xci">
           <Proxy FileSetName="TOP_block_processing_system7_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="TOP_block.bd" FileRelPathName="ip/TOP_block_axi_bram_ctrl_1_6/TOP_block_axi_bram_ctrl_1_6.xci">
-          <Proxy FileSetName="TOP_block_axi_bram_ctrl_1_6"/>
+        <CompFileExtendedInfo CompFileName="TOP_block.bd" FileRelPathName="ip/TOP_block_axi_bram_ctrl_0_0/TOP_block_axi_bram_ctrl_0_0.xci">
+          <Proxy FileSetName="TOP_block_axi_bram_ctrl_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="TOP_block.bd" FileRelPathName="ip/TOP_block_xbar_0/TOP_block_xbar_0.xci">
           <Proxy FileSetName="TOP_block_xbar_0"/>
         </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="TOP_block.bd" FileRelPathName="ip/TOP_block_rst_ps7_0_200M_0/TOP_block_rst_ps7_0_200M_0.xci">
+          <Proxy FileSetName="TOP_block_rst_ps7_0_200M_0"/>
+        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="TOP_block.bd" FileRelPathName="ip/TOP_block_axis_data_fifo_0_1/TOP_block_axis_data_fifo_0_1.xci">
           <Proxy FileSetName="TOP_block_axis_data_fifo_0_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="TOP_block.bd" FileRelPathName="ip/TOP_block_rst_ps7_0_200M_0/TOP_block_rst_ps7_0_200M_0.xci">
-          <Proxy FileSetName="TOP_block_rst_ps7_0_200M_0"/>
+        <CompFileExtendedInfo CompFileName="TOP_block.bd" FileRelPathName="ip/TOP_block_axi_dma_0_0/TOP_block_axi_dma_0_0.xci">
+          <Proxy FileSetName="TOP_block_axi_dma_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="TOP_block.bd" FileRelPathName="ip/TOP_block_blk_mem_gen_0_0/TOP_block_blk_mem_gen_0_0.xci">
+          <Proxy FileSetName="TOP_block_blk_mem_gen_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="TOP_block.bd" FileRelPathName="ip/TOP_block_axi_bram_ctrl_1_6/TOP_block_axi_bram_ctrl_1_6.xci">
+          <Proxy FileSetName="TOP_block_axi_bram_ctrl_1_6"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/new/bufferPackage.vhd">

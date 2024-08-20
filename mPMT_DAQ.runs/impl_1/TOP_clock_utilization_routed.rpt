@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Fri Jun 14 18:06:46 2024
+| Date         : Wed Jul 17 11:06:07 2024
 | Host         : PC_Alessandro running 64-bit major release  (build 9200)
 | Command      : report_clock_utilization -file TOP_clock_utilization_routed.rpt
 | Design       : TOP
@@ -81,14 +81,14 @@ Table of Contents
 +-----------+-----------+-----------------+------------+----------------+--------------+-------------------+-------------+-----------------+--------------+--------------------+----------------------------------------------------------------------------------------+------------------------------------------------------------------+
 | Global Id | Source Id | Driver Type/Pin | Constraint | Site           | Clock Region | Load Clock Region | Clock Loads | Non-Clock Loads | Clock Period | Clock              | Driver Pin                                                                             | Net                                                              |
 +-----------+-----------+-----------------+------------+----------------+--------------+-------------------+-------------+-----------------+--------------+--------------------+----------------------------------------------------------------------------------------+------------------------------------------------------------------+
-| g0        | src0      | BUFG/O          | None       | BUFGCTRL_X0Y0  | n/a          |                 6 |       12817 |               0 |        5.000 | clk_out1_clk_wiz_0 | multiphase_clock/inst/clkout1_buf/O                                                    | multiphase_clock/inst/clk_out1                                   |
-| g1        | src0      | BUFG/O          | None       | BUFGCTRL_X0Y1  | n/a          |                 3 |         171 |               0 |        5.000 | clk_out4_clk_wiz_0 | multiphase_clock/inst/clkout4_buf/O                                                    | multiphase_clock/inst/clk_out4                                   |
-| g2        | src0      | BUFG/O          | None       | BUFGCTRL_X0Y2  | n/a          |                 2 |         152 |               0 |        5.000 | clk_out6_clk_wiz_0 | multiphase_clock/inst/clkout6_buf/O                                                    | multiphase_clock/inst/clk_out6                                   |
-| g3        | src0      | BUFG/O          | None       | BUFGCTRL_X0Y3  | n/a          |                 2 |         114 |               0 |        5.000 | clk_out3_clk_wiz_0 | multiphase_clock/inst/clkout3_buf/O                                                    | multiphase_clock/inst/clk_out3                                   |
+| g0        | src0      | BUFG/O          | None       | BUFGCTRL_X0Y0  | n/a          |                 6 |       12819 |               0 |        5.000 | clk_out1_clk_wiz_0 | multiphase_clock/inst/clkout1_buf/O                                                    | multiphase_clock/inst/clk_out1                                   |
+| g1        | src0      | BUFG/O          | None       | BUFGCTRL_X0Y1  | n/a          |                 1 |         171 |               0 |        5.000 | clk_out4_clk_wiz_0 | multiphase_clock/inst/clkout4_buf/O                                                    | multiphase_clock/inst/clk_out4                                   |
+| g2        | src0      | BUFG/O          | None       | BUFGCTRL_X0Y2  | n/a          |                 1 |         152 |               0 |        5.000 | clk_out6_clk_wiz_0 | multiphase_clock/inst/clkout6_buf/O                                                    | multiphase_clock/inst/clk_out6                                   |
+| g3        | src0      | BUFG/O          | None       | BUFGCTRL_X0Y3  | n/a          |                 1 |         114 |               0 |        5.000 | clk_out3_clk_wiz_0 | multiphase_clock/inst/clkout3_buf/O                                                    | multiphase_clock/inst/clk_out3                                   |
 | g4        | src0      | BUFG/O          | None       | BUFGCTRL_X0Y4  | n/a          |                 2 |          96 |               0 |        5.000 | clk_out7_clk_wiz_0 | multiphase_clock/inst/clkout7_buf/O                                                    | multiphase_clock/inst/clk_out7                                   |
 | g5        | src0      | BUFG/O          | None       | BUFGCTRL_X0Y5  | n/a          |                 1 |          76 |               0 |        5.000 | clk_out2_clk_wiz_0 | multiphase_clock/inst/clkout2_buf/O                                                    | multiphase_clock/inst/clk_out2                                   |
-| g6        | src0      | BUFG/O          | None       | BUFGCTRL_X0Y6  | n/a          |                 2 |          76 |               0 |        5.000 | clk_out5_clk_wiz_0 | multiphase_clock/inst/clkout5_buf/O                                                    | multiphase_clock/inst/clk_out5                                   |
-| g7        | src1      | BUFG/O          | None       | BUFGCTRL_X0Y20 | n/a          |                 1 |          43 |               0 |       40.000 | Quartz25           | Quartz25_IBUF_BUFG_inst/O                                                              | Quartz25_IBUF_BUFG                                               |
+| g6        | src0      | BUFG/O          | None       | BUFGCTRL_X0Y6  | n/a          |                 1 |          76 |               0 |        5.000 | clk_out5_clk_wiz_0 | multiphase_clock/inst/clkout5_buf/O                                                    | multiphase_clock/inst/clk_out5                                   |
+| g7        | src1      | BUFG/O          | None       | BUFGCTRL_X0Y20 | n/a          |                 2 |          43 |               0 |       40.000 | Quartz25           | Quartz25_IBUF_BUFG_inst/O                                                              | Quartz25_IBUF_BUFG                                               |
 | g8        | src2      | BUFGCTRL/O      | None       | BUFGCTRL_X0Y18 | n/a          |                 2 |          40 |               1 |       40.000 | Multiple           | CLK_SAFE_MODULE/BUFGMUX_inst/O                                                         | CLK_SAFE_MODULE/CLK_IN_USB                                       |
 | g9        | src3      | BUFG/O          | None       | BUFGCTRL_X0Y21 | n/a          |                 1 |          15 |               0 |        4.000 | RING_OSC           | MULTYCHANNEL/channel[0].single_channel_inst/ADC/Oscillator/buf_inst_lower.BUFG_inst/O  | MULTYCHANNEL/channel[0].single_channel_inst/ADC/Oscillator/FREQ  |
 | g10       | src4      | BUFG/O          | None       | BUFGCTRL_X0Y22 | n/a          |                 1 |          15 |               0 |        4.000 | RING_OSC           | MULTYCHANNEL/channel[10].single_channel_inst/ADC/Oscillator/buf_inst_lower.BUFG_inst/O | MULTYCHANNEL/channel[10].single_channel_inst/ADC/Oscillator/FREQ |
@@ -106,9 +106,9 @@ Table of Contents
 | g22       | src16     | BUFG/O          | None       | BUFGCTRL_X0Y9  | n/a          |                 1 |          15 |               0 |        4.000 | RING_OSC           | MULTYCHANNEL/channel[4].single_channel_inst/ADC/Oscillator/buf_inst_lower.BUFG_inst/O  | MULTYCHANNEL/channel[4].single_channel_inst/ADC/Oscillator/FREQ  |
 | g23       | src17     | BUFG/O          | None       | BUFGCTRL_X0Y10 | n/a          |                 1 |          15 |               0 |        4.000 | RING_OSC           | MULTYCHANNEL/channel[5].single_channel_inst/ADC/Oscillator/buf_inst_lower.BUFG_inst/O  | MULTYCHANNEL/channel[5].single_channel_inst/ADC/Oscillator/FREQ  |
 | g24       | src18     | BUFG/O          | None       | BUFGCTRL_X0Y11 | n/a          |                 1 |          15 |               0 |        4.000 | RING_OSC           | MULTYCHANNEL/channel[6].single_channel_inst/ADC/Oscillator/buf_inst_lower.BUFG_inst/O  | MULTYCHANNEL/channel[6].single_channel_inst/ADC/Oscillator/FREQ  |
-| g25       | src19     | BUFG/O          | None       | BUFGCTRL_X0Y12 | n/a          |                 2 |          15 |               0 |        4.000 | RING_OSC           | MULTYCHANNEL/channel[7].single_channel_inst/ADC/Oscillator/buf_inst_lower.BUFG_inst/O  | MULTYCHANNEL/channel[7].single_channel_inst/ADC/Oscillator/FREQ  |
+| g25       | src19     | BUFG/O          | None       | BUFGCTRL_X0Y12 | n/a          |                 1 |          15 |               0 |        4.000 | RING_OSC           | MULTYCHANNEL/channel[7].single_channel_inst/ADC/Oscillator/buf_inst_lower.BUFG_inst/O  | MULTYCHANNEL/channel[7].single_channel_inst/ADC/Oscillator/FREQ  |
 | g26       | src20     | BUFG/O          | None       | BUFGCTRL_X0Y13 | n/a          |                 1 |          15 |               0 |        4.000 | RING_OSC           | MULTYCHANNEL/channel[8].single_channel_inst/ADC/Oscillator/buf_inst_lower.BUFG_inst/O  | MULTYCHANNEL/channel[8].single_channel_inst/ADC/Oscillator/FREQ  |
-| g27       | src21     | BUFG/O          | None       | BUFGCTRL_X0Y14 | n/a          |                 2 |          15 |               0 |        4.000 | RING_OSC           | MULTYCHANNEL/channel[9].single_channel_inst/ADC/Oscillator/buf_inst_lower.BUFG_inst/O  | MULTYCHANNEL/channel[9].single_channel_inst/ADC/Oscillator/FREQ  |
+| g27       | src21     | BUFG/O          | None       | BUFGCTRL_X0Y14 | n/a          |                 1 |          15 |               0 |        4.000 | RING_OSC           | MULTYCHANNEL/channel[9].single_channel_inst/ADC/Oscillator/buf_inst_lower.BUFG_inst/O  | MULTYCHANNEL/channel[9].single_channel_inst/ADC/Oscillator/FREQ  |
 | g28       | src22     | BUFG/O          | None       | BUFGCTRL_X0Y16 | n/a          |                 2 |           6 |               1 |       40.000 | REF_CLK_P          | CLK_Cable_1_BUFG_inst/O                                                                | CLK_Cable_1_BUFG                                                 |
 | g29       | src22     | BUFGCTRL/O      | None       | BUFGCTRL_X0Y19 | n/a          |                 1 |           1 |               0 |       40.000 | Multiple           | CLK_SAFE_MODULE/BUFGMUX_inst_refCLK/O                                                  | CLK_SAFE_MODULE/RefCLK_Mux                                       |
 | g30       | src23     | BUFG/O          | None       | BUFGCTRL_X0Y17 | n/a          |                 2 |           6 |               1 |       40.000 | REF_CLK2_P         | CLK_Cable_2_BUFG_inst/O                                                                | CLK_Cable_2_BUFG                                                 |
@@ -135,24 +135,24 @@ Table of Contents
 | src1      | g7        | IBUF/O              | IOB_X1Y122 | IOB_X1Y122      | X1Y2         |           2 |               0 |              40.000 | Quartz25           | Quartz25_IBUF_inst/O                                                           | Quartz25_IBUF                                                     |
 | src2      | g8        | BUFGCTRL/O          | None       | BUFGCTRL_X0Y19  | n/a          |           1 |               0 |              40.000 | Multiple           | CLK_SAFE_MODULE/BUFGMUX_inst_refCLK/O                                          | CLK_SAFE_MODULE/RefCLK_Mux                                        |
 | src3      | g9        | CARRY4/CO[3]        | None       | SLICE_X39Y50    | X0Y1         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[0].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3]  | MULTYCHANNEL/channel[0].single_channel_inst/ADC/Oscillator/CA[3]  |
-| src4      | g10       | CARRY4/CO[3]        | None       | SLICE_X60Y71    | X1Y1         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[10].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3] | MULTYCHANNEL/channel[10].single_channel_inst/ADC/Oscillator/CA[3] |
-| src5      | g11       | CARRY4/CO[3]        | None       | SLICE_X61Y71    | X1Y1         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[11].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3] | MULTYCHANNEL/channel[11].single_channel_inst/ADC/Oscillator/CA[3] |
-| src6      | g12       | CARRY4/CO[3]        | None       | SLICE_X66Y76    | X1Y1         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[12].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3] | MULTYCHANNEL/channel[12].single_channel_inst/ADC/Oscillator/CA[3] |
-| src7      | g13       | CARRY4/CO[3]        | None       | SLICE_X66Y72    | X1Y1         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[13].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3] | MULTYCHANNEL/channel[13].single_channel_inst/ADC/Oscillator/CA[3] |
-| src8      | g14       | CARRY4/CO[3]        | None       | SLICE_X61Y74    | X1Y1         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[14].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3] | MULTYCHANNEL/channel[14].single_channel_inst/ADC/Oscillator/CA[3] |
-| src9      | g15       | CARRY4/CO[3]        | None       | SLICE_X60Y101   | X1Y2         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[15].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3] | MULTYCHANNEL/channel[15].single_channel_inst/ADC/Oscillator/CA[3] |
-| src10     | g16       | CARRY4/CO[3]        | None       | SLICE_X53Y104   | X1Y2         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[16].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3] | MULTYCHANNEL/channel[16].single_channel_inst/ADC/Oscillator/CA[3] |
-| src11     | g17       | CARRY4/CO[3]        | None       | SLICE_X56Y107   | X1Y2         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[17].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3] | MULTYCHANNEL/channel[17].single_channel_inst/ADC/Oscillator/CA[3] |
-| src12     | g18       | CARRY4/CO[3]        | None       | SLICE_X54Y106   | X1Y2         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[18].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3] | MULTYCHANNEL/channel[18].single_channel_inst/ADC/Oscillator/CA[3] |
-| src13     | g19       | CARRY4/CO[3]        | None       | SLICE_X38Y49    | X0Y0         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[1].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3]  | MULTYCHANNEL/channel[1].single_channel_inst/ADC/Oscillator/CA[3]  |
-| src14     | g20       | CARRY4/CO[3]        | None       | SLICE_X39Y48    | X0Y0         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[2].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3]  | MULTYCHANNEL/channel[2].single_channel_inst/ADC/Oscillator/CA[3]  |
-| src15     | g21       | CARRY4/CO[3]        | None       | SLICE_X45Y48    | X0Y0         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[3].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3]  | MULTYCHANNEL/channel[3].single_channel_inst/ADC/Oscillator/CA[3]  |
-| src16     | g22       | CARRY4/CO[3]        | None       | SLICE_X48Y62    | X0Y1         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[4].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3]  | MULTYCHANNEL/channel[4].single_channel_inst/ADC/Oscillator/CA[3]  |
-| src17     | g23       | CARRY4/CO[3]        | None       | SLICE_X49Y48    | X0Y0         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[5].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3]  | MULTYCHANNEL/channel[5].single_channel_inst/ADC/Oscillator/CA[3]  |
-| src18     | g24       | CARRY4/CO[3]        | None       | SLICE_X48Y63    | X0Y1         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[6].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3]  | MULTYCHANNEL/channel[6].single_channel_inst/ADC/Oscillator/CA[3]  |
-| src19     | g25       | CARRY4/CO[3]        | None       | SLICE_X50Y54    | X1Y1         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[7].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3]  | MULTYCHANNEL/channel[7].single_channel_inst/ADC/Oscillator/CA[3]  |
-| src20     | g26       | CARRY4/CO[3]        | None       | SLICE_X45Y66    | X0Y1         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[8].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3]  | MULTYCHANNEL/channel[8].single_channel_inst/ADC/Oscillator/CA[3]  |
-| src21     | g27       | CARRY4/CO[3]        | None       | SLICE_X60Y68    | X1Y1         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[9].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3]  | MULTYCHANNEL/channel[9].single_channel_inst/ADC/Oscillator/CA[3]  |
+| src4      | g10       | CARRY4/CO[3]        | None       | SLICE_X56Y45    | X1Y0         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[10].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3] | MULTYCHANNEL/channel[10].single_channel_inst/ADC/Oscillator/CA[3] |
+| src5      | g11       | CARRY4/CO[3]        | None       | SLICE_X58Y50    | X1Y1         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[11].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3] | MULTYCHANNEL/channel[11].single_channel_inst/ADC/Oscillator/CA[3] |
+| src6      | g12       | CARRY4/CO[3]        | None       | SLICE_X64Y49    | X1Y0         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[12].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3] | MULTYCHANNEL/channel[12].single_channel_inst/ADC/Oscillator/CA[3] |
+| src7      | g13       | CARRY4/CO[3]        | None       | SLICE_X64Y61    | X1Y1         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[13].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3] | MULTYCHANNEL/channel[13].single_channel_inst/ADC/Oscillator/CA[3] |
+| src8      | g14       | CARRY4/CO[3]        | None       | SLICE_X65Y52    | X1Y1         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[14].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3] | MULTYCHANNEL/channel[14].single_channel_inst/ADC/Oscillator/CA[3] |
+| src9      | g15       | CARRY4/CO[3]        | None       | SLICE_X64Y105   | X1Y2         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[15].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3] | MULTYCHANNEL/channel[15].single_channel_inst/ADC/Oscillator/CA[3] |
+| src10     | g16       | CARRY4/CO[3]        | None       | SLICE_X59Y103   | X1Y2         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[16].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3] | MULTYCHANNEL/channel[16].single_channel_inst/ADC/Oscillator/CA[3] |
+| src11     | g17       | CARRY4/CO[3]        | None       | SLICE_X58Y102   | X1Y2         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[17].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3] | MULTYCHANNEL/channel[17].single_channel_inst/ADC/Oscillator/CA[3] |
+| src12     | g18       | CARRY4/CO[3]        | None       | SLICE_X56Y100   | X1Y2         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[18].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3] | MULTYCHANNEL/channel[18].single_channel_inst/ADC/Oscillator/CA[3] |
+| src13     | g19       | CARRY4/CO[3]        | None       | SLICE_X38Y28    | X0Y0         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[1].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3]  | MULTYCHANNEL/channel[1].single_channel_inst/ADC/Oscillator/CA[3]  |
+| src14     | g20       | CARRY4/CO[3]        | None       | SLICE_X46Y46    | X0Y0         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[2].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3]  | MULTYCHANNEL/channel[2].single_channel_inst/ADC/Oscillator/CA[3]  |
+| src15     | g21       | CARRY4/CO[3]        | None       | SLICE_X39Y22    | X0Y0         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[3].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3]  | MULTYCHANNEL/channel[3].single_channel_inst/ADC/Oscillator/CA[3]  |
+| src16     | g22       | CARRY4/CO[3]        | None       | SLICE_X44Y46    | X0Y0         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[4].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3]  | MULTYCHANNEL/channel[4].single_channel_inst/ADC/Oscillator/CA[3]  |
+| src17     | g23       | CARRY4/CO[3]        | None       | SLICE_X40Y23    | X0Y0         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[5].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3]  | MULTYCHANNEL/channel[5].single_channel_inst/ADC/Oscillator/CA[3]  |
+| src18     | g24       | CARRY4/CO[3]        | None       | SLICE_X45Y46    | X0Y0         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[6].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3]  | MULTYCHANNEL/channel[6].single_channel_inst/ADC/Oscillator/CA[3]  |
+| src19     | g25       | CARRY4/CO[3]        | None       | SLICE_X49Y20    | X0Y0         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[7].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3]  | MULTYCHANNEL/channel[7].single_channel_inst/ADC/Oscillator/CA[3]  |
+| src20     | g26       | CARRY4/CO[3]        | None       | SLICE_X57Y46    | X1Y0         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[8].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3]  | MULTYCHANNEL/channel[8].single_channel_inst/ADC/Oscillator/CA[3]  |
+| src21     | g27       | CARRY4/CO[3]        | None       | SLICE_X58Y46    | X1Y0         |           1 |               1 |                     |                    | MULTYCHANNEL/channel[9].single_channel_inst/ADC/Oscillator/CARRY4_inst0/CO[3]  | MULTYCHANNEL/channel[9].single_channel_inst/ADC/Oscillator/CA[3]  |
 | src22     | g28, g29  | IBUFDS/O            | IOB_X1Y124 | IOB_X1Y124      | X1Y2         |           2 |               0 |              40.000 | REF_CLK_P          | IBUFGDS_1/O                                                                    | CLK_Cable_1                                                       |
 | src23     | g30       | IBUFDS/O            | IOB_X1Y126 | IOB_X1Y126      | X1Y2         |           2 |               0 |              40.000 | REF_CLK2_P         | IBUFGDS_2/O                                                                    | CLK_Cable_2                                                       |
 +-----------+-----------+---------------------+------------+-----------------+--------------+-------------+-----------------+---------------------+--------------------+--------------------------------------------------------------------------------+-------------------------------------------------------------------+
@@ -166,44 +166,44 @@ Table of Contents
 +----------+-----------------+------------+------------------+--------------+-------------+-----------------+--------------+-------+----------------------------------------------------------------------------------------+-------------------------------------------------------------------+
 | Local Id | Driver Type/Pin | Constraint | Site/BEL         | Clock Region | Clock Loads | Non-Clock Loads | Clock Period | Clock | Driver Pin                                                                             | Net                                                               |
 +----------+-----------------+------------+------------------+--------------+-------------+-----------------+--------------+-------+----------------------------------------------------------------------------------------+-------------------------------------------------------------------||
-| 0        | FDRE/Q          | None       | SLICE_X31Y28/AFF | X0Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[0].single_channel_inst/Time_block/state_reg[0]/Q                  | MULTYCHANNEL/channel[0].single_channel_inst/Time_block/state[0]   - Static -
-| 1        | FDRE/Q          | None       | SLICE_X79Y22/AFF | X1Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[10].single_channel_inst/Time_block/state_reg[0]/Q                 | MULTYCHANNEL/channel[10].single_channel_inst/Time_block/state[0]  - Static -
-| 2        | FDRE/Q          | None       | SLICE_X81Y28/AFF | X1Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[11].single_channel_inst/Time_block/state_reg[0]/Q                 | MULTYCHANNEL/channel[11].single_channel_inst/Time_block/state[0]  - Static -
-| 3        | FDRE/Q          | None       | SLICE_X86Y33/AFF | X1Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[12].single_channel_inst/Time_block/state_reg[0]/Q                 | MULTYCHANNEL/channel[12].single_channel_inst/Time_block/state[0]  - Static -
-| 4        | FDRE/Q          | None       | SLICE_X87Y38/AFF | X1Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[13].single_channel_inst/Time_block/state_reg[0]/Q                 | MULTYCHANNEL/channel[13].single_channel_inst/Time_block/state[0]  - Static -
-| 5        | FDRE/Q          | None       | SLICE_X83Y42/AFF | X1Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[14].single_channel_inst/Time_block/state_reg[0]/Q                 | MULTYCHANNEL/channel[14].single_channel_inst/Time_block/state[0]  - Static -
-| 6        | FDRE/Q          | None       | SLICE_X93Y47/AFF | X1Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[15].single_channel_inst/Time_block/state_reg[0]/Q                 | MULTYCHANNEL/channel[15].single_channel_inst/Time_block/state[0]  - Static -
-| 7        | FDRE/Q          | None       | SLICE_X81Y52/AFF | X1Y1         |          44 |               6 |              |       | MULTYCHANNEL/channel[16].single_channel_inst/Time_block/state_reg[0]/Q                 | MULTYCHANNEL/channel[16].single_channel_inst/Time_block/state[0]  - Static -
-| 8        | FDRE/Q          | None       | SLICE_X61Y50/CFF | X1Y1         |          44 |               6 |              |       | MULTYCHANNEL/channel[17].single_channel_inst/Time_block/state_reg[0]/Q                 | MULTYCHANNEL/channel[17].single_channel_inst/Time_block/state[0]  - Static -
-| 9        | FDRE/Q          | None       | SLICE_X45Y45/BFF | X0Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[18].single_channel_inst/Time_block/state_reg[0]/Q                 | MULTYCHANNEL/channel[18].single_channel_inst/Time_block/state[0]  - Static -
-| 10       | FDRE/Q          | None       | SLICE_X35Y37/AFF | X0Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[1].single_channel_inst/Time_block/state_reg[0]/Q                  | MULTYCHANNEL/channel[1].single_channel_inst/Time_block/state[0]   - Static -
-| 11       | FDRE/Q          | None       | SLICE_X43Y33/AFF | X0Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[2].single_channel_inst/Time_block/state_reg[0]/Q                  | MULTYCHANNEL/channel[2].single_channel_inst/Time_block/state[0]   - Static -
-| 12       | FDRE/Q          | None       | SLICE_X44Y29/AFF | X0Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[3].single_channel_inst/Time_block/state_reg[0]/Q                  | MULTYCHANNEL/channel[3].single_channel_inst/Time_block/state[0]   - Static -
-| 13       | FDRE/Q          | None       | SLICE_X46Y21/AFF | X0Y0         |          44 |               7 |              |       | MULTYCHANNEL/channel[4].single_channel_inst/Time_block/state_reg[0]/Q                  | MULTYCHANNEL/channel[4].single_channel_inst/Time_block/state[0]   - Static -
-| 14       | FDRE/Q          | None       | SLICE_X55Y22/AFF | X1Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[5].single_channel_inst/Time_block/state_reg[0]/Q                  | MULTYCHANNEL/channel[5].single_channel_inst/Time_block/state[0]   - Static -
-| 15       | FDRE/Q          | None       | SLICE_X59Y26/AFF | X1Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[6].single_channel_inst/Time_block/state_reg[0]/Q                  | MULTYCHANNEL/channel[6].single_channel_inst/Time_block/state[0]   - Static -
-| 16       | FDRE/Q          | None       | SLICE_X68Y16/AFF | X1Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[7].single_channel_inst/Time_block/state_reg[0]/Q                  | MULTYCHANNEL/channel[7].single_channel_inst/Time_block/state[0]   - Static -
-| 17       | FDRE/Q          | None       | SLICE_X75Y14/AFF | X1Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[8].single_channel_inst/Time_block/state_reg[0]/Q                  | MULTYCHANNEL/channel[8].single_channel_inst/Time_block/state[0]   - Static -
-| 18       | FDRE/Q          | None       | SLICE_X79Y20/AFF | X1Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[9].single_channel_inst/Time_block/state_reg[0]/Q                  | MULTYCHANNEL/channel[9].single_channel_inst/Time_block/state[0]   - Static -
-| 19       | FDRE/Q          | None       | SLICE_X32Y41/DFF | X0Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[0].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q  | MULTYCHANNEL/channel[0].single_channel_inst/ADC/present_state[2]  - Static -
-| 20       | FDRE/Q          | None       | SLICE_X99Y45/BFF | X1Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[10].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q | MULTYCHANNEL/channel[10].single_channel_inst/ADC/present_state[2] - Static -
-| 21       | FDRE/Q          | None       | SLICE_X90Y54/DFF | X1Y1         |           3 |               8 |              |       | MULTYCHANNEL/channel[11].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q | MULTYCHANNEL/channel[11].single_channel_inst/ADC/present_state[2] - Static -
-| 22       | FDRE/Q          | None       | SLICE_X84Y37/DFF | X1Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[12].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q | MULTYCHANNEL/channel[12].single_channel_inst/ADC/present_state[2] - Static -
-| 23       | FDRE/Q          | None       | SLICE_X96Y39/DFF | X1Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[13].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q | MULTYCHANNEL/channel[13].single_channel_inst/ADC/present_state[2] - Static -
-| 24       | FDRE/Q          | None       | SLICE_X84Y45/DFF | X1Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[14].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q | MULTYCHANNEL/channel[14].single_channel_inst/ADC/present_state[2] - Static -
-| 25       | FDRE/Q          | None       | SLICE_X96Y53/DFF | X1Y1         |           3 |               8 |              |       | MULTYCHANNEL/channel[15].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q | MULTYCHANNEL/channel[15].single_channel_inst/ADC/present_state[2] - Static -
-| 26       | FDRE/Q          | None       | SLICE_X94Y54/DFF | X1Y1         |           3 |               8 |              |       | MULTYCHANNEL/channel[16].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q | MULTYCHANNEL/channel[16].single_channel_inst/ADC/present_state[2] - Static -
-| 27       | FDRE/Q          | None       | SLICE_X82Y70/DFF | X1Y1         |           3 |               8 |              |       | MULTYCHANNEL/channel[17].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q | MULTYCHANNEL/channel[17].single_channel_inst/ADC/present_state[2] - Static -
-| 28       | FDRE/Q          | None       | SLICE_X88Y56/DFF | X1Y1         |           3 |               8 |              |       | MULTYCHANNEL/channel[18].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q | MULTYCHANNEL/channel[18].single_channel_inst/ADC/present_state[2] - Static -
-| 29       | FDRE/Q          | None       | SLICE_X33Y44/DFF | X0Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[1].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q  | MULTYCHANNEL/channel[1].single_channel_inst/ADC/present_state[2]  - Static -
-| 30       | FDRE/Q          | None       | SLICE_X37Y40/CFF | X0Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[2].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q  | MULTYCHANNEL/channel[2].single_channel_inst/ADC/present_state[2]  - Static -
-| 31       | FDRE/Q          | None       | SLICE_X36Y42/CFF | X0Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[3].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q  | MULTYCHANNEL/channel[3].single_channel_inst/ADC/present_state[2]  - Static -
-| 32       | FDRE/Q          | None       | SLICE_X39Y43/CFF | X0Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[4].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q  | MULTYCHANNEL/channel[4].single_channel_inst/ADC/present_state[2]  - Static -
-| 33       | FDRE/Q          | None       | SLICE_X42Y39/DFF | X0Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[5].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q  | MULTYCHANNEL/channel[5].single_channel_inst/ADC/present_state[2]  - Static -
-| 34       | FDRE/Q          | None       | SLICE_X40Y41/DFF | X0Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[6].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q  | MULTYCHANNEL/channel[6].single_channel_inst/ADC/present_state[2]  - Static -
-| 35       | FDRE/Q          | None       | SLICE_X47Y37/BFF | X0Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[7].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q  | MULTYCHANNEL/channel[7].single_channel_inst/ADC/present_state[2]  - Static -
-| 36       | FDRE/Q          | None       | SLICE_X48Y40/DFF | X0Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[8].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q  | MULTYCHANNEL/channel[8].single_channel_inst/ADC/present_state[2]  - Static -
-| 37       | FDRE/Q          | None       | SLICE_X77Y49/DFF | X1Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[9].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q  | MULTYCHANNEL/channel[9].single_channel_inst/ADC/present_state[2]  - Static -
+| 0        | FDRE/Q          | None       | SLICE_X20Y8/BFF  | X0Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[0].single_channel_inst/Time_block/state_reg[0]/Q                  | MULTYCHANNEL/channel[0].single_channel_inst/Time_block/state[0]   - Static -
+| 1        | FDRE/Q          | None       | SLICE_X73Y4/BFF  | X1Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[10].single_channel_inst/Time_block/state_reg[0]/Q                 | MULTYCHANNEL/channel[10].single_channel_inst/Time_block/state[0]  - Static -
+| 2        | FDRE/Q          | None       | SLICE_X84Y6/AFF  | X1Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[11].single_channel_inst/Time_block/state_reg[0]/Q                 | MULTYCHANNEL/channel[11].single_channel_inst/Time_block/state[0]  - Static -
+| 3        | FDRE/Q          | None       | SLICE_X94Y8/AFF  | X1Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[12].single_channel_inst/Time_block/state_reg[0]/Q                 | MULTYCHANNEL/channel[12].single_channel_inst/Time_block/state[0]  - Static -
+| 4        | FDRE/Q          | None       | SLICE_X83Y14/DFF | X1Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[13].single_channel_inst/Time_block/state_reg[0]/Q                 | MULTYCHANNEL/channel[13].single_channel_inst/Time_block/state[0]  - Static -
+| 5        | FDRE/Q          | None       | SLICE_X90Y15/AFF | X1Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[14].single_channel_inst/Time_block/state_reg[0]/Q                 | MULTYCHANNEL/channel[14].single_channel_inst/Time_block/state[0]  - Static -
+| 6        | FDRE/Q          | None       | SLICE_X90Y18/AFF | X1Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[15].single_channel_inst/Time_block/state_reg[0]/Q                 | MULTYCHANNEL/channel[15].single_channel_inst/Time_block/state[0]  - Static -
+| 7        | FDRE/Q          | None       | SLICE_X96Y21/BFF | X1Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[16].single_channel_inst/Time_block/state_reg[0]/Q                 | MULTYCHANNEL/channel[16].single_channel_inst/Time_block/state[0]  - Static -
+| 8        | FDRE/Q          | None       | SLICE_X80Y23/BFF | X1Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[17].single_channel_inst/Time_block/state_reg[0]/Q                 | MULTYCHANNEL/channel[17].single_channel_inst/Time_block/state[0]  - Static -
+| 9        | FDRE/Q          | None       | SLICE_X87Y33/AFF | X1Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[18].single_channel_inst/Time_block/state_reg[0]/Q                 | MULTYCHANNEL/channel[18].single_channel_inst/Time_block/state[0]  - Static -
+| 10       | FDRE/Q          | None       | SLICE_X20Y12/BFF | X0Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[1].single_channel_inst/Time_block/state_reg[0]/Q                  | MULTYCHANNEL/channel[1].single_channel_inst/Time_block/state[0]   - Static -
+| 11       | FDRE/Q          | None       | SLICE_X32Y16/AFF | X0Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[2].single_channel_inst/Time_block/state_reg[0]/Q                  | MULTYCHANNEL/channel[2].single_channel_inst/Time_block/state[0]   - Static -
+| 12       | FDRE/Q          | None       | SLICE_X34Y17/AFF | X0Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[3].single_channel_inst/Time_block/state_reg[0]/Q                  | MULTYCHANNEL/channel[3].single_channel_inst/Time_block/state[0]   - Static -
+| 13       | FDRE/Q          | None       | SLICE_X38Y11/AFF | X0Y0         |          44 |               7 |              |       | MULTYCHANNEL/channel[4].single_channel_inst/Time_block/state_reg[0]/Q                  | MULTYCHANNEL/channel[4].single_channel_inst/Time_block/state[0]   - Static -
+| 14       | FDRE/Q          | None       | SLICE_X42Y14/BFF | X0Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[5].single_channel_inst/Time_block/state_reg[0]/Q                  | MULTYCHANNEL/channel[5].single_channel_inst/Time_block/state[0]   - Static -
+| 15       | FDRE/Q          | None       | SLICE_X47Y14/AFF | X0Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[6].single_channel_inst/Time_block/state_reg[0]/Q                  | MULTYCHANNEL/channel[6].single_channel_inst/Time_block/state[0]   - Static -
+| 16       | FDRE/Q          | None       | SLICE_X49Y8/CFF  | X0Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[7].single_channel_inst/Time_block/state_reg[0]/Q                  | MULTYCHANNEL/channel[7].single_channel_inst/Time_block/state[0]   - Static -
+| 17       | FDRE/Q          | None       | SLICE_X60Y8/CFF  | X1Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[8].single_channel_inst/Time_block/state_reg[0]/Q                  | MULTYCHANNEL/channel[8].single_channel_inst/Time_block/state[0]   - Static -
+| 18       | FDRE/Q          | None       | SLICE_X67Y7/CFF  | X1Y0         |          44 |               6 |              |       | MULTYCHANNEL/channel[9].single_channel_inst/Time_block/state_reg[0]/Q                  | MULTYCHANNEL/channel[9].single_channel_inst/Time_block/state[0]   - Static -
+| 19       | FDRE/Q          | None       | SLICE_X12Y4/DFF  | X0Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[0].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q  | MULTYCHANNEL/channel[0].single_channel_inst/ADC/present_state[2]  - Static -
+| 20       | FDRE/Q          | None       | SLICE_X65Y2/CFF  | X1Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[10].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q | MULTYCHANNEL/channel[10].single_channel_inst/ADC/present_state[2] - Static -
+| 21       | FDRE/Q          | None       | SLICE_X73Y3/DFF  | X1Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[11].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q | MULTYCHANNEL/channel[11].single_channel_inst/ADC/present_state[2] - Static -
+| 22       | FDRE/Q          | None       | SLICE_X78Y5/DFF  | X1Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[12].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q | MULTYCHANNEL/channel[12].single_channel_inst/ADC/present_state[2] - Static -
+| 23       | FDRE/Q          | None       | SLICE_X78Y6/BFF  | X1Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[13].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q | MULTYCHANNEL/channel[13].single_channel_inst/ADC/present_state[2] - Static -
+| 24       | FDRE/Q          | None       | SLICE_X82Y11/DFF | X1Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[14].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q | MULTYCHANNEL/channel[14].single_channel_inst/ADC/present_state[2] - Static -
+| 25       | FDRE/Q          | None       | SLICE_X81Y11/DFF | X1Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[15].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q | MULTYCHANNEL/channel[15].single_channel_inst/ADC/present_state[2] - Static -
+| 26       | FDRE/Q          | None       | SLICE_X87Y15/DFF | X1Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[16].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q | MULTYCHANNEL/channel[16].single_channel_inst/ADC/present_state[2] - Static -
+| 27       | FDRE/Q          | None       | SLICE_X82Y17/DFF | X1Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[17].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q | MULTYCHANNEL/channel[17].single_channel_inst/ADC/present_state[2] - Static -
+| 28       | FDRE/Q          | None       | SLICE_X83Y18/DFF | X1Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[18].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q | MULTYCHANNEL/channel[18].single_channel_inst/ADC/present_state[2] - Static -
+| 29       | FDRE/Q          | None       | SLICE_X14Y11/CFF | X0Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[1].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q  | MULTYCHANNEL/channel[1].single_channel_inst/ADC/present_state[2]  - Static -
+| 30       | FDRE/Q          | None       | SLICE_X27Y4/DFF  | X0Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[2].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q  | MULTYCHANNEL/channel[2].single_channel_inst/ADC/present_state[2]  - Static -
+| 31       | FDRE/Q          | None       | SLICE_X21Y17/DFF | X0Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[3].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q  | MULTYCHANNEL/channel[3].single_channel_inst/ADC/present_state[2]  - Static -
+| 32       | FDRE/Q          | None       | SLICE_X32Y1/DFF  | X0Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[4].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q  | MULTYCHANNEL/channel[4].single_channel_inst/ADC/present_state[2]  - Static -
+| 33       | FDRE/Q          | None       | SLICE_X35Y2/DFF  | X0Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[5].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q  | MULTYCHANNEL/channel[5].single_channel_inst/ADC/present_state[2]  - Static -
+| 34       | FDRE/Q          | None       | SLICE_X42Y2/DFF  | X0Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[6].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q  | MULTYCHANNEL/channel[6].single_channel_inst/ADC/present_state[2]  - Static -
+| 35       | FDRE/Q          | None       | SLICE_X44Y2/DFF  | X0Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[7].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q  | MULTYCHANNEL/channel[7].single_channel_inst/ADC/present_state[2]  - Static -
+| 36       | FDRE/Q          | None       | SLICE_X51Y3/DFF  | X1Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[8].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q  | MULTYCHANNEL/channel[8].single_channel_inst/ADC/present_state[2]  - Static -
+| 37       | FDRE/Q          | None       | SLICE_X62Y2/DFF  | X1Y0         |           3 |               8 |              |       | MULTYCHANNEL/channel[9].single_channel_inst/ADC/FSM_sequential_present_state_reg[2]/Q  | MULTYCHANNEL/channel[9].single_channel_inst/ADC/present_state[2]  - Static -
 +----------+-----------------+------------+------------------+--------------+-------------+-----------------+--------------+-------+----------------------------------------------------------------------------------------+-------------------------------------------------------------------||
 * Local Clocks in this context represents only clocks driven by non-global buffers
 ** Clock Loads column represents the clock pin loads (pin count)
@@ -218,12 +218,12 @@ Table of Contents
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
 | Clock Region Name | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail | Used | Avail |
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
-| X0Y0              |   11 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 | 1521 |  2500 |  679 |  1000 |    0 |    60 |   29 |    30 |    0 |    60 |
-| X1Y0              |   10 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    1 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 | 3317 |  3200 | 1037 |   850 |    0 |    60 |   19 |    30 |    0 |    40 |
-| X0Y1              |   11 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 | 2901 |  1200 | 1056 |   400 |    1 |    20 |    2 |    10 |    0 |    20 |
-| X1Y1              |    7 |    12 |    3 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 | 4066 |  2600 | 1426 |   850 |    0 |    60 |    4 |    30 |    0 |    40 |
-| X0Y2              |    1 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |  773 |  1200 |  312 |   400 |    0 |    20 |    0 |    10 |    0 |    20 |
-| X1Y2              |    7 |    12 |    4 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |  820 |  2600 |  240 |   850 |    0 |    60 |    0 |    30 |    0 |    40 |
+| X0Y0              |   12 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 | 3230 |  2500 | 1366 |  1000 |    0 |    60 |   29 |    30 |    0 |    60 |
+| X1Y0              |   12 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    1 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 | 4376 |  3200 | 1391 |   850 |    0 |    60 |   17 |    30 |    0 |    40 |
+| X0Y1              |    3 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 | 2641 |  1200 | 1147 |   400 |    0 |    20 |    5 |    10 |    0 |    20 |
+| X1Y1              |    6 |    12 |    3 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 | 1916 |  2600 |  512 |   850 |    0 |    60 |    3 |    30 |    0 |    40 |
+| X0Y2              |    1 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |  808 |  1200 |  308 |   400 |    0 |    20 |    0 |    10 |    0 |    20 |
+| X1Y2              |    7 |    12 |    4 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |  429 |  2600 |  114 |   850 |    0 |    60 |    0 |    30 |    0 |    40 |
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
 * Global Clock column represents track count; while other columns represents cell counts
 
@@ -236,8 +236,8 @@ All Modules
 |    | X0 | X1 |
 +----+----+----+
 | Y2 |  1 |  7 |
-| Y1 | 11 |  7 |
-| Y0 | 11 | 10 |
+| Y1 |  3 |  6 |
+| Y0 | 12 | 12 |
 +----+----+----+
 
 
@@ -247,7 +247,7 @@ All Modules
 +-----------+-----------------+-------------------+--------------------+-------------+---------------+-------------+----------+----------------+----------+--------------------------------+
 | Global Id | Driver Type/Pin | Driver Region (D) | Clock              | Period (ns) | Waveform (ns) | Slice Loads | IO Loads | Clocking Loads | GT Loads | Net                            |
 +-----------+-----------------+-------------------+--------------------+-------------+---------------+-------------+----------+----------------+----------+--------------------------------+
-| g0        | BUFG/O          | n/a               | clk_out1_clk_wiz_0 |       5.000 | {0.357 2.857} |       12754 |        0 |              0 |        0 | multiphase_clock/inst/clk_out1 |
+| g0        | BUFG/O          | n/a               | clk_out1_clk_wiz_0 |       5.000 | {0.357 2.857} |       12756 |        0 |              0 |        0 | multiphase_clock/inst/clk_out1 |
 +-----------+-----------------+-------------------+--------------------+-------------+---------------+-------------+----------+----------------+----------+--------------------------------+
 * Slice Loads column represents load cell count of all cell types other than IO, GT and clock resources
 ** IO Loads column represents load cell count of IO types
@@ -258,9 +258,9 @@ All Modules
 +----+-------+-------+
 |    | X0    | X1    |
 +----+-------+-------+
-| Y2 |   859 |   786 |
-| Y1 |  2904 |  4076 |
-| Y0 |  1438 |  2691 |
+| Y2 |   897 |   382 |
+| Y1 |  2861 |  1869 |
+| Y0 |  3095 |  3652 |
 +----+-------+-------+
 
 
@@ -282,8 +282,8 @@ All Modules
 |    | X0 | X1   |
 +----+----+------+
 | Y2 |  0 |    0 |
-| Y1 |  0 |    5 |
-| Y0 |  7 |  159 |
+| Y1 |  0 |    0 |
+| Y0 |  0 |  171 |
 +----+----+------+
 
 
@@ -301,13 +301,13 @@ All Modules
 **** GT Loads column represents load cell count of GT types
 
 
-+----+-----+------+
-|    | X0  | X1   |
-+----+-----+------+
-| Y2 |   0 |    0 |
-| Y1 |   0 |    0 |
-| Y0 |  10 |  142 |
-+----+-----+------+
++----+----+------+
+|    | X0 | X1   |
++----+----+------+
+| Y2 |  0 |    0 |
+| Y1 |  0 |    0 |
+| Y0 |  0 |  152 |
++----+----+------+
 
 
 10. Device Cell Placement Summary for Global Clock g3
@@ -329,7 +329,7 @@ All Modules
 +----+----+------+
 | Y2 |  0 |    0 |
 | Y1 |  0 |    0 |
-| Y0 |  2 |  112 |
+| Y0 |  0 |  114 |
 +----+----+------+
 
 
@@ -351,8 +351,8 @@ All Modules
 |    | X0 | X1  |
 +----+----+-----+
 | Y2 |  0 |   0 |
-| Y1 |  0 |   0 |
-| Y0 |  4 |  92 |
+| Y1 |  1 |   0 |
+| Y0 |  0 |  95 |
 +----+----+-----+
 
 
@@ -398,7 +398,7 @@ All Modules
 +----+----+-----+
 | Y2 |  0 |   0 |
 | Y1 |  0 |   0 |
-| Y0 |  2 |  74 |
+| Y0 |  0 |  76 |
 +----+----+-----+
 
 
@@ -421,7 +421,7 @@ All Modules
 +----+-----+----+
 | Y2 |   0 |  0 |
 | Y1 |   0 |  0 |
-| Y0 |  43 |  0 |
+| Y0 |  41 |  2 |
 +----+-----+----+
 
 
@@ -439,13 +439,13 @@ All Modules
 **** GT Loads column represents load cell count of GT types
 
 
-+----+-----+----+
-|    | X0  | X1 |
-+----+-----+----+
-| Y2 |   0 |  0 |
-| Y1 |   0 |  0 |
-| Y0 |  39 |  2 |
-+----+-----+----+
++----+----+-----+
+|    | X0 | X1  |
++----+----+-----+
+| Y2 |  0 |   0 |
+| Y1 |  1 |   0 |
+| Y0 |  0 |  40 |
++----+----+-----+
 
 
 16. Device Cell Placement Summary for Global Clock g9
@@ -466,8 +466,8 @@ All Modules
 |    | X0  | X1 |
 +----+-----+----+
 | Y2 |   0 |  0 |
-| Y1 |  15 |  0 |
-| Y0 |   0 |  0 |
+| Y1 |   0 |  0 |
+| Y0 |  15 |  0 |
 +----+-----+----+
 
 
@@ -485,13 +485,13 @@ All Modules
 **** GT Loads column represents load cell count of GT types
 
 
-+----+-----+----+
-|    | X0  | X1 |
-+----+-----+----+
-| Y2 |   0 |  0 |
-| Y1 |  15 |  0 |
-| Y0 |   0 |  0 |
-+----+-----+----+
++----+----+-----+
+|    | X0 | X1  |
++----+----+-----+
+| Y2 |  0 |   0 |
+| Y1 |  0 |   0 |
+| Y0 |  0 |  15 |
++----+----+-----+
 
 
 18. Device Cell Placement Summary for Global Clock g11
@@ -696,8 +696,8 @@ All Modules
 |    | X0  | X1 |
 +----+-----+----+
 | Y2 |   0 |  0 |
-| Y1 |  15 |  0 |
-| Y0 |   0 |  0 |
+| Y1 |   0 |  0 |
+| Y0 |  15 |  0 |
 +----+-----+----+
 
 
@@ -719,8 +719,8 @@ All Modules
 |    | X0  | X1 |
 +----+-----+----+
 | Y2 |   0 |  0 |
-| Y1 |  15 |  0 |
-| Y0 |   0 |  0 |
+| Y1 |   0 |  0 |
+| Y0 |  15 |  0 |
 +----+-----+----+
 
 
@@ -742,8 +742,8 @@ All Modules
 |    | X0  | X1 |
 +----+-----+----+
 | Y2 |   0 |  0 |
-| Y1 |  15 |  0 |
-| Y0 |   0 |  0 |
+| Y1 |   0 |  0 |
+| Y0 |  15 |  0 |
 +----+-----+----+
 
 
@@ -765,8 +765,8 @@ All Modules
 |    | X0  | X1 |
 +----+-----+----+
 | Y2 |   0 |  0 |
-| Y1 |  15 |  0 |
-| Y0 |   0 |  0 |
+| Y1 |   0 |  0 |
+| Y0 |  15 |  0 |
 +----+-----+----+
 
 
@@ -788,8 +788,8 @@ All Modules
 |    | X0  | X1 |
 +----+-----+----+
 | Y2 |   0 |  0 |
-| Y1 |  15 |  0 |
-| Y0 |   0 |  0 |
+| Y1 |   0 |  0 |
+| Y0 |  15 |  0 |
 +----+-----+----+
 
 
@@ -811,8 +811,8 @@ All Modules
 |    | X0  | X1 |
 +----+-----+----+
 | Y2 |   0 |  0 |
-| Y1 |  15 |  0 |
-| Y0 |   0 |  0 |
+| Y1 |   0 |  0 |
+| Y0 |  15 |  0 |
 +----+-----+----+
 
 
@@ -834,8 +834,8 @@ All Modules
 |    | X0  | X1 |
 +----+-----+----+
 | Y2 |   0 |  0 |
-| Y1 |  14 |  0 |
-| Y0 |   1 |  0 |
+| Y1 |   0 |  0 |
+| Y0 |  15 |  0 |
 +----+-----+----+
 
 
@@ -853,13 +853,13 @@ All Modules
 **** GT Loads column represents load cell count of GT types
 
 
-+----+-----+----+
-|    | X0  | X1 |
-+----+-----+----+
-| Y2 |   0 |  0 |
-| Y1 |  15 |  0 |
-| Y0 |   0 |  0 |
-+----+-----+----+
++----+----+-----+
+|    | X0 | X1  |
++----+----+-----+
+| Y2 |  0 |   0 |
+| Y1 |  0 |   0 |
+| Y0 |  0 |  15 |
++----+----+-----+
 
 
 34. Device Cell Placement Summary for Global Clock g27
@@ -880,8 +880,8 @@ All Modules
 |    | X0 | X1  |
 +----+----+-----+
 | Y2 |  0 |   0 |
-| Y1 |  0 |  14 |
-| Y0 |  0 |   1 |
+| Y1 |  0 |  15 |
+| Y0 |  0 |   0 |
 +----+----+-----+
 
 
@@ -983,15 +983,16 @@ All Modules
 +-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+-----------------------------------------------------------------+
 | Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF   | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                             |
 +-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+-----------------------------------------------------------------+
-| g0        | n/a   | BUFG/O          | None       |        1438 |               0 | 1402 |      7 |   29 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out1                                  |
-| g1        | n/a   | BUFG/O          | None       |           7 |               0 |    7 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out4                                  |
-| g2        | n/a   | BUFG/O          | None       |          10 |               0 |   10 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out6                                  |
-| g3        | n/a   | BUFG/O          | None       |           2 |               0 |    2 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out3                                  |
-| g4        | n/a   | BUFG/O          | None       |           4 |               0 |    4 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out7                                  |
-| g6        | n/a   | BUFG/O          | None       |           2 |               0 |    2 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out5                                  |
-| g7        | n/a   | BUFG/O          | None       |          43 |               0 |   43 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | Quartz25_IBUF_BUFG                                              |
-| g8        | n/a   | BUFGCTRL/O      | None       |          38 |               1 |   39 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | CLK_SAFE_MODULE/CLK_IN_USB                                      |
-| g25       | n/a   | BUFG/O          | None       |           1 |               0 |    1 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[7].single_channel_inst/ADC/Oscillator/FREQ |
+| g0        | n/a   | BUFG/O          | None       |        3095 |               0 | 3057 |      8 |   29 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out1                                  |
+| g7        | n/a   | BUFG/O          | None       |          41 |               0 |   41 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | Quartz25_IBUF_BUFG                                              |
+| g9        | n/a   | BUFG/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[0].single_channel_inst/ADC/Oscillator/FREQ |
+| g19       | n/a   | BUFG/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[1].single_channel_inst/ADC/Oscillator/FREQ |
+| g20       | n/a   | BUFG/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[2].single_channel_inst/ADC/Oscillator/FREQ |
+| g21       | n/a   | BUFG/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[3].single_channel_inst/ADC/Oscillator/FREQ |
+| g22       | n/a   | BUFG/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[4].single_channel_inst/ADC/Oscillator/FREQ |
+| g23       | n/a   | BUFG/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[5].single_channel_inst/ADC/Oscillator/FREQ |
+| g24       | n/a   | BUFG/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[6].single_channel_inst/ADC/Oscillator/FREQ |
+| g25       | n/a   | BUFG/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[7].single_channel_inst/ADC/Oscillator/FREQ |
 | g28       | n/a   | BUFG/O          | None       |           6 |               0 |    6 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | CLK_Cable_1_BUFG                                                |
 | g30       | n/a   | BUFG/O          | None       |           6 |               0 |    6 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | CLK_Cable_2_BUFG                                                |
 +-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+-----------------------------------------------------------------+
@@ -1003,20 +1004,22 @@ All Modules
 40. Clock Region Cell Placement per Global Clock: Region X1Y0
 -------------------------------------------------------------
 
-+-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+-----------------------------------------------------------------+
-| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF   | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                             |
-+-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+-----------------------------------------------------------------+
-| g0        | n/a   | BUFG/O          | None       |        2691 |               0 | 2660 |     11 |   19 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out1                                  |
-| g1        | n/a   | BUFG/O          | None       |         159 |               0 |  159 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out4                                  |
-| g2        | n/a   | BUFG/O          | None       |         142 |               0 |  142 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out6                                  |
-| g3        | n/a   | BUFG/O          | None       |         112 |               0 |  112 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out3                                  |
-| g4        | n/a   | BUFG/O          | None       |          92 |               0 |   92 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out7                                  |
-| g5        | n/a   | BUFG/O          | None       |          76 |               0 |   76 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out2                                  |
-| g6        | n/a   | BUFG/O          | None       |          74 |               0 |   74 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out5                                  |
-| g8        | n/a   | BUFGCTRL/O      | None       |           2 |               0 |    1 |      0 |    0 |   0 |  0 |    1 |   0 |       0 | CLK_SAFE_MODULE/CLK_IN_USB                                      |
-| g27       | n/a   | BUFG/O          | None       |           1 |               0 |    1 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[9].single_channel_inst/ADC/Oscillator/FREQ |
-| g31       | n/a   | BUFG/O          | None       |           1 |               0 |    0 |      0 |    0 |   0 |  0 |    1 |   0 |       0 | multiphase_clock/inst/clkfbout_buf_clk_wiz_0                    |
-+-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+-----------------------------------------------------------------+
++-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+------------------------------------------------------------------+
+| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF   | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                              |
++-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+------------------------------------------------------------------+
+| g0        | n/a   | BUFG/O          | None       |        3652 |               0 | 3621 |     13 |   17 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out1                                   |
+| g1        | n/a   | BUFG/O          | None       |         171 |               0 |  171 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out4                                   |
+| g2        | n/a   | BUFG/O          | None       |         152 |               0 |  152 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out6                                   |
+| g3        | n/a   | BUFG/O          | None       |         114 |               0 |  114 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out3                                   |
+| g4        | n/a   | BUFG/O          | None       |          95 |               0 |   95 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out7                                   |
+| g5        | n/a   | BUFG/O          | None       |          76 |               0 |   76 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out2                                   |
+| g6        | n/a   | BUFG/O          | None       |          76 |               0 |   76 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out5                                   |
+| g7        | n/a   | BUFG/O          | None       |           2 |               0 |    2 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | Quartz25_IBUF_BUFG                                               |
+| g8        | n/a   | BUFGCTRL/O      | None       |          40 |               0 |   39 |      0 |    0 |   0 |  0 |    1 |   0 |       0 | CLK_SAFE_MODULE/CLK_IN_USB                                       |
+| g10       | n/a   | BUFG/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[10].single_channel_inst/ADC/Oscillator/FREQ |
+| g26       | n/a   | BUFG/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[8].single_channel_inst/ADC/Oscillator/FREQ  |
+| g31       | n/a   | BUFG/O          | None       |           1 |               0 |    0 |      0 |    0 |   0 |  0 |    1 |   0 |       0 | multiphase_clock/inst/clkfbout_buf_clk_wiz_0                     |
++-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+------------------------------------------------------------------+
 * Clock Loads column represents the clock pin loads (pin count)
 ** Non-Clock Loads column represents the non-clock pin loads (pin count)
 *** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
@@ -1025,21 +1028,13 @@ All Modules
 41. Clock Region Cell Placement per Global Clock: Region X0Y1
 -------------------------------------------------------------
 
-+-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+------------------------------------------------------------------+
-| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF   | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                              |
-+-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+------------------------------------------------------------------+
-| g0        | n/a   | BUFG/O          | None       |        2904 |               0 | 2752 |    148 |    3 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out1                                   |
-| g9        | n/a   | BUFG/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[0].single_channel_inst/ADC/Oscillator/FREQ  |
-| g10       | n/a   | BUFG/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[10].single_channel_inst/ADC/Oscillator/FREQ |
-| g19       | n/a   | BUFG/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[1].single_channel_inst/ADC/Oscillator/FREQ  |
-| g20       | n/a   | BUFG/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[2].single_channel_inst/ADC/Oscillator/FREQ  |
-| g21       | n/a   | BUFG/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[3].single_channel_inst/ADC/Oscillator/FREQ  |
-| g22       | n/a   | BUFG/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[4].single_channel_inst/ADC/Oscillator/FREQ  |
-| g23       | n/a   | BUFG/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[5].single_channel_inst/ADC/Oscillator/FREQ  |
-| g24       | n/a   | BUFG/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[6].single_channel_inst/ADC/Oscillator/FREQ  |
-| g25       | n/a   | BUFG/O          | None       |          14 |               0 |   14 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[7].single_channel_inst/ADC/Oscillator/FREQ  |
-| g26       | n/a   | BUFG/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[8].single_channel_inst/ADC/Oscillator/FREQ  |
-+-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+------------------------------------------------------------------+
++-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+--------------------------------+
+| Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF   | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                            |
++-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+--------------------------------+
+| g0        | n/a   | BUFG/O          | None       |        2861 |               0 | 2640 |    215 |    5 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out1 |
+| g4        | n/a   | BUFG/O          | None       |           1 |               0 |    1 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out7 |
+| g8        | n/a   | BUFGCTRL/O      | None       |           0 |               1 |    1 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | CLK_SAFE_MODULE/CLK_IN_USB     |
++-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+--------------------------------+
 * Clock Loads column represents the clock pin loads (pin count)
 ** Non-Clock Loads column represents the non-clock pin loads (pin count)
 *** Columns FF, LUTRAM, RAMB through 'Hard IP' represents load cell counts
@@ -1051,13 +1046,12 @@ All Modules
 +-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+------------------------------------------------------------------+
 | Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF   | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                              |
 +-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+------------------------------------------------------------------+
-| g0        | n/a   | BUFG/O          | None       |        4076 |               0 | 3987 |     85 |    4 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out1                                   |
-| g1        | n/a   | BUFG/O          | None       |           5 |               0 |    5 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out4                                   |
+| g0        | n/a   | BUFG/O          | None       |        1869 |               0 | 1841 |     25 |    3 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out1                                   |
 | g11       | n/a   | BUFG/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[11].single_channel_inst/ADC/Oscillator/FREQ |
 | g12       | n/a   | BUFR/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[12].single_channel_inst/ADC/Oscillator/FREQ |
 | g13       | n/a   | BUFR/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[13].single_channel_inst/ADC/Oscillator/FREQ |
 | g14       | n/a   | BUFR/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[14].single_channel_inst/ADC/Oscillator/FREQ |
-| g27       | n/a   | BUFG/O          | None       |          14 |               0 |   14 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[9].single_channel_inst/ADC/Oscillator/FREQ  |
+| g27       | n/a   | BUFG/O          | None       |          15 |               0 |   15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[9].single_channel_inst/ADC/Oscillator/FREQ  |
 +-----------+-------+-----------------+------------+-------------+-----------------+------+--------+------+-----+----+------+-----+---------+------------------------------------------------------------------+
 * Clock Loads column represents the clock pin loads (pin count)
 ** Non-Clock Loads column represents the non-clock pin loads (pin count)
@@ -1070,7 +1064,7 @@ All Modules
 +-----------+-------+-----------------+------------+-------------+-----------------+-----+--------+------+-----+----+------+-----+---------+--------------------------------+
 | Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF  | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                            |
 +-----------+-------+-----------------+------------+-------------+-----------------+-----+--------+------+-----+----+------+-----+---------+--------------------------------+
-| g0        | n/a   | BUFG/O          | None       |         859 |               0 | 773 |     85 |    0 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out1 |
+| g0        | n/a   | BUFG/O          | None       |         897 |               0 | 808 |     88 |    0 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out1 |
 +-----------+-------+-----------------+------------+-------------+-----------------+-----+--------+------+-----+----+------+-----+---------+--------------------------------+
 * Clock Loads column represents the clock pin loads (pin count)
 ** Non-Clock Loads column represents the non-clock pin loads (pin count)
@@ -1083,7 +1077,7 @@ All Modules
 +-----------+-------+-----------------+------------+-------------+-----------------+-----+--------+------+-----+----+------+-----+---------+------------------------------------------------------------------+
 | Global Id | Track | Driver Type/Pin | Constraint | Clock Loads | Non-Clock Loads | FF  | LUTRAM | RAMB | DSP | GT | MMCM | PLL | Hard IP | Net                                                              |
 +-----------+-------+-----------------+------------+-------------+-----------------+-----+--------+------+-----+----+------+-----+---------+------------------------------------------------------------------+
-| g0        | n/a   | BUFG/O          | None       |         786 |               0 | 760 |     26 |    0 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out1                                   |
+| g0        | n/a   | BUFG/O          | None       |         382 |               0 | 369 |     13 |    0 |   0 |  0 |    0 |   0 |       0 | multiphase_clock/inst/clk_out1                                   |
 | g15       | n/a   | BUFR/O          | None       |          15 |               0 |  15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[15].single_channel_inst/ADC/Oscillator/FREQ |
 | g16       | n/a   | BUFR/O          | None       |          15 |               0 |  15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[16].single_channel_inst/ADC/Oscillator/FREQ |
 | g17       | n/a   | BUFR/O          | None       |          15 |               0 |  15 |      0 |    0 |   0 |  0 |    0 |   0 |       0 | MULTYCHANNEL/channel[17].single_channel_inst/ADC/Oscillator/FREQ |
@@ -1148,35 +1142,35 @@ set_property LOC IOB_X1Y124 [get_ports REF_CLK_P]
 #startgroup
 create_pblock {CLKAG_multiphase_clock/inst/clk_out7}
 add_cells_to_pblock [get_pblocks  {CLKAG_multiphase_clock/inst/clk_out7}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="multiphase_clock/inst/clk_out7"}]]]
-resize_pblock [get_pblocks {CLKAG_multiphase_clock/inst/clk_out7}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+resize_pblock [get_pblocks {CLKAG_multiphase_clock/inst/clk_out7}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
 #endgroup
 
 # Clock net "multiphase_clock/inst/clk_out6" driven by instance "multiphase_clock/inst/clkout6_buf" located at site "BUFGCTRL_X0Y2"
 #startgroup
 create_pblock {CLKAG_multiphase_clock/inst/clk_out6}
 add_cells_to_pblock [get_pblocks  {CLKAG_multiphase_clock/inst/clk_out6}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="multiphase_clock/inst/clk_out6"}]]]
-resize_pblock [get_pblocks {CLKAG_multiphase_clock/inst/clk_out6}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+resize_pblock [get_pblocks {CLKAG_multiphase_clock/inst/clk_out6}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
 #endgroup
 
 # Clock net "multiphase_clock/inst/clk_out5" driven by instance "multiphase_clock/inst/clkout5_buf" located at site "BUFGCTRL_X0Y6"
 #startgroup
 create_pblock {CLKAG_multiphase_clock/inst/clk_out5}
 add_cells_to_pblock [get_pblocks  {CLKAG_multiphase_clock/inst/clk_out5}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="multiphase_clock/inst/clk_out5"}]]]
-resize_pblock [get_pblocks {CLKAG_multiphase_clock/inst/clk_out5}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+resize_pblock [get_pblocks {CLKAG_multiphase_clock/inst/clk_out5}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
 #endgroup
 
 # Clock net "multiphase_clock/inst/clk_out4" driven by instance "multiphase_clock/inst/clkout4_buf" located at site "BUFGCTRL_X0Y1"
 #startgroup
 create_pblock {CLKAG_multiphase_clock/inst/clk_out4}
 add_cells_to_pblock [get_pblocks  {CLKAG_multiphase_clock/inst/clk_out4}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="multiphase_clock/inst/clk_out4"}]]]
-resize_pblock [get_pblocks {CLKAG_multiphase_clock/inst/clk_out4}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1}
+resize_pblock [get_pblocks {CLKAG_multiphase_clock/inst/clk_out4}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
 #endgroup
 
 # Clock net "multiphase_clock/inst/clk_out3" driven by instance "multiphase_clock/inst/clkout3_buf" located at site "BUFGCTRL_X0Y3"
 #startgroup
 create_pblock {CLKAG_multiphase_clock/inst/clk_out3}
 add_cells_to_pblock [get_pblocks  {CLKAG_multiphase_clock/inst/clk_out3}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="multiphase_clock/inst/clk_out3"}]]]
-resize_pblock [get_pblocks {CLKAG_multiphase_clock/inst/clk_out3}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+resize_pblock [get_pblocks {CLKAG_multiphase_clock/inst/clk_out3}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
 #endgroup
 
 # Clock net "multiphase_clock/inst/clk_out2" driven by instance "multiphase_clock/inst/clkout2_buf" located at site "BUFGCTRL_X0Y5"
@@ -1197,70 +1191,70 @@ resize_pblock [get_pblocks {CLKAG_multiphase_clock/inst/clk_out1}] -add {CLOCKRE
 #startgroup
 create_pblock {CLKAG_Quartz25_IBUF_BUFG}
 add_cells_to_pblock [get_pblocks  {CLKAG_Quartz25_IBUF_BUFG}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="Quartz25_IBUF_BUFG"}]]]
-resize_pblock [get_pblocks {CLKAG_Quartz25_IBUF_BUFG}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
+resize_pblock [get_pblocks {CLKAG_Quartz25_IBUF_BUFG}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
 #endgroup
 
 # Clock net "MULTYCHANNEL/channel[9].single_channel_inst/ADC/Oscillator/FREQ" driven by instance "MULTYCHANNEL/channel[9].single_channel_inst/ADC/Oscillator/buf_inst_lower.BUFG_inst" located at site "BUFGCTRL_X0Y14"
 #startgroup
 create_pblock {CLKAG_MULTYCHANNEL/channel[9].single_channel_inst/ADC/Oscillator/FREQ}
 add_cells_to_pblock [get_pblocks  {CLKAG_MULTYCHANNEL/channel[9].single_channel_inst/ADC/Oscillator/FREQ}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="MULTYCHANNEL/channel[9].single_channel_inst/ADC/Oscillator/FREQ"}]]]
-resize_pblock [get_pblocks {CLKAG_MULTYCHANNEL/channel[9].single_channel_inst/ADC/Oscillator/FREQ}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0 CLOCKREGION_X1Y1:CLOCKREGION_X1Y1}
+resize_pblock [get_pblocks {CLKAG_MULTYCHANNEL/channel[9].single_channel_inst/ADC/Oscillator/FREQ}] -add {CLOCKREGION_X1Y1:CLOCKREGION_X1Y1}
 #endgroup
 
 # Clock net "MULTYCHANNEL/channel[8].single_channel_inst/ADC/Oscillator/FREQ" driven by instance "MULTYCHANNEL/channel[8].single_channel_inst/ADC/Oscillator/buf_inst_lower.BUFG_inst" located at site "BUFGCTRL_X0Y13"
 #startgroup
 create_pblock {CLKAG_MULTYCHANNEL/channel[8].single_channel_inst/ADC/Oscillator/FREQ}
 add_cells_to_pblock [get_pblocks  {CLKAG_MULTYCHANNEL/channel[8].single_channel_inst/ADC/Oscillator/FREQ}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="MULTYCHANNEL/channel[8].single_channel_inst/ADC/Oscillator/FREQ"}]]]
-resize_pblock [get_pblocks {CLKAG_MULTYCHANNEL/channel[8].single_channel_inst/ADC/Oscillator/FREQ}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1}
+resize_pblock [get_pblocks {CLKAG_MULTYCHANNEL/channel[8].single_channel_inst/ADC/Oscillator/FREQ}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
 #endgroup
 
 # Clock net "MULTYCHANNEL/channel[7].single_channel_inst/ADC/Oscillator/FREQ" driven by instance "MULTYCHANNEL/channel[7].single_channel_inst/ADC/Oscillator/buf_inst_lower.BUFG_inst" located at site "BUFGCTRL_X0Y12"
 #startgroup
 create_pblock {CLKAG_MULTYCHANNEL/channel[7].single_channel_inst/ADC/Oscillator/FREQ}
 add_cells_to_pblock [get_pblocks  {CLKAG_MULTYCHANNEL/channel[7].single_channel_inst/ADC/Oscillator/FREQ}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="MULTYCHANNEL/channel[7].single_channel_inst/ADC/Oscillator/FREQ"}]]]
-resize_pblock [get_pblocks {CLKAG_MULTYCHANNEL/channel[7].single_channel_inst/ADC/Oscillator/FREQ}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X0Y1:CLOCKREGION_X0Y1}
+resize_pblock [get_pblocks {CLKAG_MULTYCHANNEL/channel[7].single_channel_inst/ADC/Oscillator/FREQ}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
 #endgroup
 
 # Clock net "MULTYCHANNEL/channel[6].single_channel_inst/ADC/Oscillator/FREQ" driven by instance "MULTYCHANNEL/channel[6].single_channel_inst/ADC/Oscillator/buf_inst_lower.BUFG_inst" located at site "BUFGCTRL_X0Y11"
 #startgroup
 create_pblock {CLKAG_MULTYCHANNEL/channel[6].single_channel_inst/ADC/Oscillator/FREQ}
 add_cells_to_pblock [get_pblocks  {CLKAG_MULTYCHANNEL/channel[6].single_channel_inst/ADC/Oscillator/FREQ}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="MULTYCHANNEL/channel[6].single_channel_inst/ADC/Oscillator/FREQ"}]]]
-resize_pblock [get_pblocks {CLKAG_MULTYCHANNEL/channel[6].single_channel_inst/ADC/Oscillator/FREQ}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1}
+resize_pblock [get_pblocks {CLKAG_MULTYCHANNEL/channel[6].single_channel_inst/ADC/Oscillator/FREQ}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
 #endgroup
 
 # Clock net "MULTYCHANNEL/channel[5].single_channel_inst/ADC/Oscillator/FREQ" driven by instance "MULTYCHANNEL/channel[5].single_channel_inst/ADC/Oscillator/buf_inst_lower.BUFG_inst" located at site "BUFGCTRL_X0Y10"
 #startgroup
 create_pblock {CLKAG_MULTYCHANNEL/channel[5].single_channel_inst/ADC/Oscillator/FREQ}
 add_cells_to_pblock [get_pblocks  {CLKAG_MULTYCHANNEL/channel[5].single_channel_inst/ADC/Oscillator/FREQ}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="MULTYCHANNEL/channel[5].single_channel_inst/ADC/Oscillator/FREQ"}]]]
-resize_pblock [get_pblocks {CLKAG_MULTYCHANNEL/channel[5].single_channel_inst/ADC/Oscillator/FREQ}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1}
+resize_pblock [get_pblocks {CLKAG_MULTYCHANNEL/channel[5].single_channel_inst/ADC/Oscillator/FREQ}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
 #endgroup
 
 # Clock net "MULTYCHANNEL/channel[4].single_channel_inst/ADC/Oscillator/FREQ" driven by instance "MULTYCHANNEL/channel[4].single_channel_inst/ADC/Oscillator/buf_inst_lower.BUFG_inst" located at site "BUFGCTRL_X0Y9"
 #startgroup
 create_pblock {CLKAG_MULTYCHANNEL/channel[4].single_channel_inst/ADC/Oscillator/FREQ}
 add_cells_to_pblock [get_pblocks  {CLKAG_MULTYCHANNEL/channel[4].single_channel_inst/ADC/Oscillator/FREQ}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="MULTYCHANNEL/channel[4].single_channel_inst/ADC/Oscillator/FREQ"}]]]
-resize_pblock [get_pblocks {CLKAG_MULTYCHANNEL/channel[4].single_channel_inst/ADC/Oscillator/FREQ}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1}
+resize_pblock [get_pblocks {CLKAG_MULTYCHANNEL/channel[4].single_channel_inst/ADC/Oscillator/FREQ}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
 #endgroup
 
 # Clock net "MULTYCHANNEL/channel[3].single_channel_inst/ADC/Oscillator/FREQ" driven by instance "MULTYCHANNEL/channel[3].single_channel_inst/ADC/Oscillator/buf_inst_lower.BUFG_inst" located at site "BUFGCTRL_X0Y8"
 #startgroup
 create_pblock {CLKAG_MULTYCHANNEL/channel[3].single_channel_inst/ADC/Oscillator/FREQ}
 add_cells_to_pblock [get_pblocks  {CLKAG_MULTYCHANNEL/channel[3].single_channel_inst/ADC/Oscillator/FREQ}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="MULTYCHANNEL/channel[3].single_channel_inst/ADC/Oscillator/FREQ"}]]]
-resize_pblock [get_pblocks {CLKAG_MULTYCHANNEL/channel[3].single_channel_inst/ADC/Oscillator/FREQ}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1}
+resize_pblock [get_pblocks {CLKAG_MULTYCHANNEL/channel[3].single_channel_inst/ADC/Oscillator/FREQ}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
 #endgroup
 
 # Clock net "MULTYCHANNEL/channel[2].single_channel_inst/ADC/Oscillator/FREQ" driven by instance "MULTYCHANNEL/channel[2].single_channel_inst/ADC/Oscillator/buf_inst_lower.BUFG_inst" located at site "BUFGCTRL_X0Y7"
 #startgroup
 create_pblock {CLKAG_MULTYCHANNEL/channel[2].single_channel_inst/ADC/Oscillator/FREQ}
 add_cells_to_pblock [get_pblocks  {CLKAG_MULTYCHANNEL/channel[2].single_channel_inst/ADC/Oscillator/FREQ}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="MULTYCHANNEL/channel[2].single_channel_inst/ADC/Oscillator/FREQ"}]]]
-resize_pblock [get_pblocks {CLKAG_MULTYCHANNEL/channel[2].single_channel_inst/ADC/Oscillator/FREQ}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1}
+resize_pblock [get_pblocks {CLKAG_MULTYCHANNEL/channel[2].single_channel_inst/ADC/Oscillator/FREQ}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
 #endgroup
 
 # Clock net "MULTYCHANNEL/channel[1].single_channel_inst/ADC/Oscillator/FREQ" driven by instance "MULTYCHANNEL/channel[1].single_channel_inst/ADC/Oscillator/buf_inst_lower.BUFG_inst" located at site "BUFGCTRL_X0Y24"
 #startgroup
 create_pblock {CLKAG_MULTYCHANNEL/channel[1].single_channel_inst/ADC/Oscillator/FREQ}
 add_cells_to_pblock [get_pblocks  {CLKAG_MULTYCHANNEL/channel[1].single_channel_inst/ADC/Oscillator/FREQ}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="MULTYCHANNEL/channel[1].single_channel_inst/ADC/Oscillator/FREQ"}]]]
-resize_pblock [get_pblocks {CLKAG_MULTYCHANNEL/channel[1].single_channel_inst/ADC/Oscillator/FREQ}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1}
+resize_pblock [get_pblocks {CLKAG_MULTYCHANNEL/channel[1].single_channel_inst/ADC/Oscillator/FREQ}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
 #endgroup
 
 # Clock net "MULTYCHANNEL/channel[18].single_channel_inst/ADC/Oscillator/FREQ" driven by instance "MULTYCHANNEL/channel[18].single_channel_inst/ADC/Oscillator/buf_inst_upper.BUFR_inst" located at site "BUFR_X1Y9"
@@ -1323,21 +1317,21 @@ resize_pblock [get_pblocks {CLKAG_MULTYCHANNEL/channel[11].single_channel_inst/A
 #startgroup
 create_pblock {CLKAG_MULTYCHANNEL/channel[10].single_channel_inst/ADC/Oscillator/FREQ}
 add_cells_to_pblock [get_pblocks  {CLKAG_MULTYCHANNEL/channel[10].single_channel_inst/ADC/Oscillator/FREQ}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="MULTYCHANNEL/channel[10].single_channel_inst/ADC/Oscillator/FREQ"}]]]
-resize_pblock [get_pblocks {CLKAG_MULTYCHANNEL/channel[10].single_channel_inst/ADC/Oscillator/FREQ}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1}
+resize_pblock [get_pblocks {CLKAG_MULTYCHANNEL/channel[10].single_channel_inst/ADC/Oscillator/FREQ}] -add {CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
 #endgroup
 
 # Clock net "MULTYCHANNEL/channel[0].single_channel_inst/ADC/Oscillator/FREQ" driven by instance "MULTYCHANNEL/channel[0].single_channel_inst/ADC/Oscillator/buf_inst_lower.BUFG_inst" located at site "BUFGCTRL_X0Y21"
 #startgroup
 create_pblock {CLKAG_MULTYCHANNEL/channel[0].single_channel_inst/ADC/Oscillator/FREQ}
 add_cells_to_pblock [get_pblocks  {CLKAG_MULTYCHANNEL/channel[0].single_channel_inst/ADC/Oscillator/FREQ}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL } -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="MULTYCHANNEL/channel[0].single_channel_inst/ADC/Oscillator/FREQ"}]]]
-resize_pblock [get_pblocks {CLKAG_MULTYCHANNEL/channel[0].single_channel_inst/ADC/Oscillator/FREQ}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1}
+resize_pblock [get_pblocks {CLKAG_MULTYCHANNEL/channel[0].single_channel_inst/ADC/Oscillator/FREQ}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0}
 #endgroup
 
 # Clock net "CLK_SAFE_MODULE/CLK_IN_USB" driven by instance "CLK_SAFE_MODULE/BUFGMUX_inst" located at site "BUFGCTRL_X0Y18"
 #startgroup
 create_pblock {CLKAG_CLK_SAFE_MODULE/CLK_IN_USB}
 add_cells_to_pblock [get_pblocks  {CLKAG_CLK_SAFE_MODULE/CLK_IN_USB}] [get_cells -filter { PRIMITIVE_GROUP != I/O && IS_PRIMITIVE==1 && PRIMITIVE_LEVEL !=INTERNAL && NAME!=multiphase_clock/inst/mmcm_adv_inst} -of_object [get_pins -filter {DIRECTION==IN} -of_objects [get_nets -hierarchical -filter {PARENT=="CLK_SAFE_MODULE/CLK_IN_USB"}]]]
-resize_pblock [get_pblocks {CLKAG_CLK_SAFE_MODULE/CLK_IN_USB}] -add {CLOCKREGION_X0Y0:CLOCKREGION_X0Y0 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
+resize_pblock [get_pblocks {CLKAG_CLK_SAFE_MODULE/CLK_IN_USB}] -add {CLOCKREGION_X0Y1:CLOCKREGION_X0Y1 CLOCKREGION_X1Y0:CLOCKREGION_X1Y0}
 #endgroup
 
 # Clock net "CLK_Cable_2_BUFG" driven by instance "CLK_Cable_2_BUFG_inst" located at site "BUFGCTRL_X0Y17"

@@ -2,14 +2,15 @@
 # Vivado v2019.2 (64-bit)
 # SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
 # IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Fri Jun 14 18:01:52 2024
-# Process ID: 11196
+# Start of session at: Wed Jul 17 11:01:45 2024
+# Process ID: 5588
 # Current directory: C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/impl_1
 # Command line: vivado.exe -log TOP.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source TOP.tcl -notrace
 # Log file: C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/impl_1/TOP.vdi
 # Journal file: C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
 source TOP.tcl -notrace
+create_project: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 472.770 ; gain = 184.148
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/alexa/OneDrive/Desktop/Vivado_projects/ip_repo/myip2_1.0'; Can't find the specified path.
 If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
@@ -40,7 +41,7 @@ INFO: [Project 1-454] Reading design checkpoint 'c:/Users/alexa/OneDrive/Desktop
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/ip/TOP_block_auto_pc_2/TOP_block_auto_pc_2.dcp' for cell 'TOP_block_i/TOP_block_i/ps7_0_axi_periph/m01_couplers/auto_pc'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/ip/TOP_block_auto_pc_3/TOP_block_auto_pc_3.dcp' for cell 'TOP_block_i/TOP_block_i/ps7_0_axi_periph/m02_couplers/auto_pc'
 INFO: [Project 1-454] Reading design checkpoint 'c:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/ip/TOP_block_auto_pc_4/TOP_block_auto_pc_4.dcp' for cell 'TOP_block_i/TOP_block_i/ps7_0_axi_periph/s00_couplers/auto_pc'
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.805 . Memory (MB): peak = 906.816 ; gain = 3.852
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.637 . Memory (MB): peak = 907.082 ; gain = 4.000
 INFO: [Netlist 29-17] Analyzing 1480 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2019.2
@@ -68,7 +69,7 @@ Finished Parsing XDC File [c:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_
 Parsing XDC File [c:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'multiphase_clock/inst'
 INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
 INFO: [Timing 38-2] Deriving generated clocks [c:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
-get_clocks: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1670.602 ; gain = 581.500
+get_clocks: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 1669.504 ; gain = 581.125
 Finished Parsing XDC File [c:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'multiphase_clock/inst'
 Parsing XDC File [c:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/ip/FIFO_single_channel/FIFO_single_channel.xdc] for cell 'MULTYCHANNEL/FIFO_PPS/U0'
 Finished Parsing XDC File [c:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/ip/FIFO_single_channel/FIFO_single_channel.xdc] for cell 'MULTYCHANNEL/FIFO_PPS/U0'
@@ -181,168 +182,101 @@ INFO: [Power 33-23] Power model is not available for STARTUPE2_inst [C:/Users/al
 WARNING: [Vivado 12-507] No nets matched 'TOP_block_i/TOP_block_i/ps7_0_axi_periph/xbar/inst/gen_sasd.crossbar_sasd_0/addr_arbiter_inst/SR[0]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:545]
 CRITICAL WARNING: [Vivado 12-4739] set_switching_activity:No valid object(s) found for '-objects [get_nets {TOP_block_i/TOP_block_i/ps7_0_axi_periph/xbar/inst/gen_sasd.crossbar_sasd_0/addr_arbiter_inst/SR[0]}]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:545]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-627] No clocks matched 'CLK_25MHZ'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:774]
-WARNING: [Vivado 12-627] No clocks matched 'CLK_25MHZ'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:774]
-WARNING: [Vivado 12-3521] Clock specified in more than one group: REF_CLK2_P, REF_CLK_P, clk_fpga_0, clk_out1_clk_wiz_0, clk_out2_clk_wiz_0, clk_out3_clk_wiz_0, clk_out4_clk_wiz_0, clk_out5_clk_wiz_0, clk_out6_clk_wiz_0, and clk_out7_clk_wiz_0 [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:774]
-WARNING: [Vivado 12-627] No clocks matched 'clk_fpga_2'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:775]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:775]
-CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_clocks clk_fpga_2]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:775]
+WARNING: [Vivado 12-627] No clocks matched 'CLK_25MHZ'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:767]
+WARNING: [Vivado 12-627] No clocks matched 'CLK_25MHZ'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:767]
+WARNING: [Vivado 12-3521] Clock specified in more than one group: REF_CLK2_P, REF_CLK_P, clk_fpga_0, clk_out1_clk_wiz_0, clk_out2_clk_wiz_0, clk_out3_clk_wiz_0, clk_out4_clk_wiz_0, clk_out5_clk_wiz_0, clk_out6_clk_wiz_0, and clk_out7_clk_wiz_0 [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:767]
+WARNING: [Vivado 12-627] No clocks matched 'clk_fpga_2'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:768]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:768]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_clocks clk_fpga_2]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:768]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-627] No clocks matched 'clk_fpga_2'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:776]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:776]
-CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_clocks clk_fpga_2]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:776]
+WARNING: [Vivado 12-627] No clocks matched 'clk_fpga_2'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:769]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:769]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_clocks clk_fpga_2]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:769]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:771]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[17].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:771]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:771]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:772]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[4].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:772]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:772]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:773]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[0].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:773]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:773]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:774]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[16].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:774]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:774]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:775]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[3].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:775]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:775]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:776]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[1].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:776]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:776]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:777]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[10].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:777]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:777]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:778]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[14].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:778]
+CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:778]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
 WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:779]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[17].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:779]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[6].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:779]
 CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:779]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
 WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:780]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[4].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:780]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[2].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:780]
 CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:780]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
 WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:781]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[0].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:781]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[13].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:781]
 CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:781]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
 WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:782]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[16].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:782]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[15].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:782]
 CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:782]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
 WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:783]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[3].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:783]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[18].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:783]
 CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:783]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
 WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:784]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[1].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:784]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[11].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:784]
 CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:784]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
 WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:785]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[10].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:785]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[8].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:785]
 CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:785]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
 WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:786]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[14].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:786]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[12].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:786]
 CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:786]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
 WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:787]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[6].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:787]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[9].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:787]
 CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:787]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
 WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:788]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[2].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:788]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[5].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:788]
 CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:788]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
 WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:789]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[13].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:789]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[7].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:789]
 CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:789]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:790]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[15].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:790]
-CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:790]
+WARNING: [Vivado 12-180] No cells matched 'Inst_Pulser/PULSER_OUT_reg'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:795]
+CRITICAL WARNING: [Vivado 12-4739] set_disable_timing:No valid object(s) found for '-objects [get_cells Inst_Pulser/PULSER_OUT_reg]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:795]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:791]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[18].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:791]
-CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:791]
+WARNING: [Vivado 12-627] No clocks matched 'CLK_25MHZ'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:799]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:799]
+CRITICAL WARNING: [Vivado 12-4739] set_multicycle_path:No valid object(s) found for '-from [get_clocks CLK_25MHZ]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:799]
 Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:792]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[11].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:792]
-CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:792]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:793]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[8].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:793]
-CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:793]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:794]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[12].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:794]
-CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:794]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:795]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[9].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:795]
-CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:795]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:796]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[5].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:796]
-CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:796]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:797]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[7].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:797]
-CRITICAL WARNING: [Vivado 12-4739] set_false_path:No valid object(s) found for '-from [get_pins Inst_Pulser/PULSER_OUT_reg/C]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:797]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-180] No cells matched 'Inst_Pulser/PULSER_OUT_reg'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:803]
-CRITICAL WARNING: [Vivado 12-4739] set_disable_timing:No valid object(s) found for '-objects [get_cells Inst_Pulser/PULSER_OUT_reg]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:803]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-627] No clocks matched 'CLK_25MHZ'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:807]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:807]
-CRITICAL WARNING: [Vivado 12-4739] set_multicycle_path:No valid object(s) found for '-from [get_clocks CLK_25MHZ]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:807]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Constraints 18-633] Creating clock RING_OSC with 19 sources. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:811]
-WARNING: [Vivado 12-508] No pins matched 'Inst_CLK_SAFE/BUFGMUX_inst/O'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:818]
-CRITICAL WARNING: [Vivado 12-4739] create_generated_clock:No valid object(s) found for '-objects [get_pins Inst_CLK_SAFE/BUFGMUX_inst/O]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:818]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-508] No pins matched 'Inst_CLK_SAFE/BUFGMUX_inst/O'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:819]
-CRITICAL WARNING: [Vivado 12-4739] create_generated_clock:No valid object(s) found for '-objects [get_pins Inst_CLK_SAFE/BUFGMUX_inst/O]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:819]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-508] No pins matched 'Inst_CLK_SAFE/BUFGMUX_inst/O'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:820]
-CRITICAL WARNING: [Vivado 12-4739] create_generated_clock:No valid object(s) found for '-objects [get_pins Inst_CLK_SAFE/BUFGMUX_inst/O]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:820]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-627] No clocks matched 'REF_CLK2_P_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:821]
-WARNING: [Vivado 12-627] No clocks matched 'REF_CLK_P_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:821]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:821]
-WARNING: [Vivado 12-627] No clocks matched 'CLK_25MHZ_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:821]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:821]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks -include_generated_clocks {REF_CLK2_P_Gen REF_CLK_P_Gen}]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:821]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks -include_generated_clocks CLK_25MHZ_Gen]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:821]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Constraints 18-4644] set_clock_groups: All clock groups specified are empty. Please specify atleast one clock group which is not empty. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:821]
-WARNING: [Vivado 12-627] No clocks matched 'CLK_25MHZ_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:825]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:825]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks CLK_25MHZ_Gen]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:825]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-5201] set_clock_groups: cannot set the clock group when only one non-empty group remains. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:825]
-WARNING: [Vivado 12-627] No clocks matched 'REF_CLK_P_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:827]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:827]
-WARNING: [Vivado 12-627] No clocks matched 'REF_CLK2_P_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:827]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:827]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks REF_CLK_P_Gen]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:827]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks REF_CLK2_P_Gen]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:827]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Constraints 18-4644] set_clock_groups: All clock groups specified are empty. Please specify atleast one clock group which is not empty. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:827]
-WARNING: [Vivado 12-627] No clocks matched 'REF_CLK2_P_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:828]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:828]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks REF_CLK2_P_Gen]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:828]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-5201] set_clock_groups: cannot set the clock group when only one non-empty group remains. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:828]
-WARNING: [Vivado 12-627] No clocks matched 'REF_CLK2_P_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:830]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:830]
-WARNING: [Vivado 12-627] No clocks matched 'REF_CLK_P_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:830]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:830]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks REF_CLK2_P_Gen]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:830]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks REF_CLK_P_Gen]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:830]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Constraints 18-4644] set_clock_groups: All clock groups specified are empty. Please specify atleast one clock group which is not empty. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:830]
-WARNING: [Vivado 12-627] No clocks matched 'REF_CLK_P_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:831]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:831]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks REF_CLK_P_Gen]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:831]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-5201] set_clock_groups: cannot set the clock group when only one non-empty group remains. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:831]
-WARNING: [Vivado 12-627] No clocks matched 'CLK_25MHZ_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:833]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:833]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks CLK_25MHZ_Gen]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:833]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-5201] set_clock_groups: cannot set the clock group when only one non-empty group remains. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:833]
-WARNING: [Vivado 12-627] No clocks matched 'REF_CLK2_P_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:834]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:834]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks REF_CLK2_P_Gen]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:834]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-5201] set_clock_groups: cannot set the clock group when only one non-empty group remains. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:834]
-WARNING: [Vivado 12-627] No clocks matched 'REF_CLK_P_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:835]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:835]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks REF_CLK_P_Gen]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:835]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-5201] set_clock_groups: cannot set the clock group when only one non-empty group remains. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:835]
+WARNING: [Constraints 18-633] Creating clock RING_OSC with 19 sources. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:803]
 Finished Parsing XDC File [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc]
 Parsing XDC File [c:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/ip/TOP_block_axi_dma_0_0/TOP_block_axi_dma_0_0_clocks.xdc] for cell 'TOP_block_i/TOP_block_i/axi_dma_0/U0'
 Finished Parsing XDC File [c:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/ip/TOP_block_axi_dma_0_0/TOP_block_axi_dma_0_0_clocks.xdc] for cell 'TOP_block_i/TOP_block_i/axi_dma_0/U0'
@@ -364,16 +298,16 @@ Sourcing Tcl File [C:/Xilinx/Vivado/2019.2/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst
 Finished Sourcing Tcl File [C:/Xilinx/Vivado/2019.2/data/ip/xpm/xpm_fifo/tcl/xpm_fifo_rst.tcl] for cell 'TOP_block_i/TOP_block_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst'
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 Generating merged BMM file for the design top 'TOP'...
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1695.898 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1700.031 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 9 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 2 instances
   OBUFDS => OBUFDS: 2 instances
   RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 5 instances
 
-45 Infos, 91 Warnings, 70 Critical Warnings and 0 Errors encountered.
+33 Infos, 75 Warnings, 46 Critical Warnings and 0 Errors encountered.
 link_design completed successfully
-link_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:33 . Memory (MB): peak = 1695.898 ; gain = 1173.453
+link_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:26 . Memory (MB): peak = 1700.031 ; gain = 1177.410
 Command: opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z014s'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z014s'
@@ -384,14 +318,14 @@ INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 1695.898 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.879 . Memory (MB): peak = 1700.031 ; gain = 0.000
 
 Starting Cache Timing Information Task
-WARNING: [Constraints 18-633] Creating clock RING_OSC with 19 sources. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:811]
+WARNING: [Constraints 18-633] Creating clock RING_OSC with 19 sources. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:803]
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 Ending Cache Timing Information Task | Checksum: 1cb93c751
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 1718.812 ; gain = 22.914
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.806 . Memory (MB): peak = 1713.547 ; gain = 13.516
 
 Starting Logic Optimization Task
 
@@ -400,7 +334,7 @@ INFO: [Opt 31-138] Pushed 4 inverter(s) to 17 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
 Phase 1 Retarget | Checksum: 113e168c6
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1891.520 ; gain = 0.891
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1884.051 ; gain = 0.980
 INFO: [Opt 31-389] Phase Retarget created 49 cells and removed 455 cells
 INFO: [Opt 31-1021] In phase Retarget, 27 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
@@ -408,14 +342,14 @@ Phase 2 Constant propagation
 INFO: [Opt 31-138] Pushed 4 inverter(s) to 15 load pin(s).
 Phase 2 Constant propagation | Checksum: 1a4d62d2b
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 1891.520 ; gain = 0.891
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1884.051 ; gain = 0.980
 INFO: [Opt 31-389] Phase Constant propagation created 237 cells and removed 811 cells
 INFO: [Opt 31-1021] In phase Constant propagation, 24 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
 Phase 3 Sweep
 Phase 3 Sweep | Checksum: 1306022db
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1891.520 ; gain = 0.891
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1884.051 ; gain = 0.980
 INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 1257 cells
 INFO: [Opt 31-1021] In phase Sweep, 80 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 
@@ -425,20 +359,20 @@ INFO: [Opt 31-1112] Starts optimizing BUFG(s) with a common driver.
 INFO: [Opt 31-1092] Phase BUFG optimization transformed 0 BUFG(s) to MBUFG(s).
 Phase 4 BUFG optimization | Checksum: 1306022db
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1891.520 ; gain = 0.891
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1884.051 ; gain = 0.980
 INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
 
 Phase 5 Shift Register Optimization
 INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
 Phase 5 Shift Register Optimization | Checksum: 1306022db
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1891.520 ; gain = 0.891
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1884.051 ; gain = 0.980
 INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
 
 Phase 6 Post Processing Netlist
 Phase 6 Post Processing Netlist | Checksum: 1306022db
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1891.520 ; gain = 0.891
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1884.051 ; gain = 0.980
 INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
 INFO: [Opt 31-1021] In phase Post Processing Netlist, 32 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
 Opt_design Change Summary
@@ -460,18 +394,18 @@ Opt_design Change Summary
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.115 . Memory (MB): peak = 1891.520 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 1884.051 ; gain = 0.000
 Ending Logic Optimization Task | Checksum: 1e30c1705
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1891.520 ; gain = 0.891
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1884.051 ; gain = 0.980
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
-WARNING: [Constraints 18-633] Creating clock RING_OSC with 19 sources. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:811]
+WARNING: [Constraints 18-633] Creating clock RING_OSC with 19 sources. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:803]
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [Pwropt 34-9] Applying IDT optimizations ...
 INFO: [Pwropt 34-10] Applying ODC optimizations ...
-INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.396 | TNS=-1080.956 |
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.592 | TNS=-2230.991 |
 INFO: [Power 33-23] Power model is not available for STARTUPE2_inst
 Running Vector-less Activity Propagation...
 
@@ -479,10 +413,10 @@ Finished Running Vector-less Activity Propagation
 WARNING: [Power 33-410] CLK_SAFE_MODULE/BUFGMUX_inst : User defined Switching Activity setting is ignored on global clock buffers. Use set_case_analysis instead to constrain Clock Enable pin. Please ignore this message if desired set_case_analysis is already set.
 WARNING: [Power 33-410] CLK_SAFE_MODULE/BUFGMUX_inst_refCLK : User defined Switching Activity setting is ignored on global clock buffers. Use set_case_analysis instead to constrain Clock Enable pin. Please ignore this message if desired set_case_analysis is already set.
 WARNING: [Power 33-410] CLK_SAFE_MODULE/BUFGMUX_inst : User defined Switching Activity setting is ignored on global clock buffers. Use set_case_analysis instead to constrain Clock Enable pin. Please ignore this message if desired set_case_analysis is already set.
-WARNING: [Power 33-410] CLK_SAFE_MODULE/BUFGMUX_inst_refCLK : User defined Switching Activity setting is ignored on global clock buffers. Use set_case_analysis instead to constrain Clock Enable pin. Please ignore this message if desired set_case_analysis is already set.
 WARNING: [Power 33-410] CLK_SAFE_MODULE/BUFGMUX_inst : User defined Switching Activity setting is ignored on global clock buffers. Use set_case_analysis instead to constrain Clock Enable pin. Please ignore this message if desired set_case_analysis is already set.
 WARNING: [Power 33-410] CLK_SAFE_MODULE/BUFGMUX_inst_refCLK : User defined Switching Activity setting is ignored on global clock buffers. Use set_case_analysis instead to constrain Clock Enable pin. Please ignore this message if desired set_case_analysis is already set.
 WARNING: [Power 33-410] CLK_SAFE_MODULE/BUFGMUX_inst : User defined Switching Activity setting is ignored on global clock buffers. Use set_case_analysis instead to constrain Clock Enable pin. Please ignore this message if desired set_case_analysis is already set.
+WARNING: [Power 33-410] CLK_SAFE_MODULE/BUFGMUX_inst_refCLK : User defined Switching Activity setting is ignored on global clock buffers. Use set_case_analysis instead to constrain Clock Enable pin. Please ignore this message if desired set_case_analysis is already set.
 WARNING: [Power 33-323] Power for clock manager block multiphase_clock/inst/mmcm_adv_inst is calculated assuming it is enabled. Please use 'set_switching_activity -static_probability 1 -signal_rate 0 [get_nets PPS_recovery/RESET_IN]' command to consider it disabled.
 
 
@@ -492,43 +426,43 @@ INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
 Number of BRAM Ports augmented: 34 newly gated: 0 Total Ports: 74
 Ending PowerOpt Patch Enables Task | Checksum: 17028889e
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.365 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.260 . Memory (MB): peak = 2188.250 ; gain = 0.000
 Ending Power Optimization Task | Checksum: 17028889e
 
-Time (s): cpu = 00:00:06 ; elapsed = 00:00:14 . Memory (MB): peak = 2192.980 ; gain = 301.461
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2188.250 ; gain = 304.199
 
 Starting Final Cleanup Task
 
 Starting Logic Optimization Task
-WARNING: [Constraints 18-633] Creating clock RING_OSC with 19 sources. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:811]
+WARNING: [Constraints 18-633] Creating clock RING_OSC with 19 sources. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:803]
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 Ending Logic Optimization Task | Checksum: 1d76f9366
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:03 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:03 . Memory (MB): peak = 2188.250 ; gain = 0.000
 Ending Final Cleanup Task | Checksum: 1d76f9366
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 2188.250 ; gain = 0.000
 
 Starting Netlist Obfuscation Task
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2188.250 ; gain = 0.000
 Ending Netlist Obfuscation Task | Checksum: 1d76f9366
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 2188.250 ; gain = 0.000
 INFO: [Common 17-83] Releasing license: Implementation
-77 Infos, 102 Warnings, 70 Critical Warnings and 0 Errors encountered.
+65 Infos, 86 Warnings, 46 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:32 . Memory (MB): peak = 2192.980 ; gain = 497.082
-WARNING: [Constraints 18-633] Creating clock RING_OSC with 19 sources. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:811]
+opt_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:24 . Memory (MB): peak = 2188.250 ; gain = 488.219
+WARNING: [Constraints 18-633] Creating clock RING_OSC with 19 sources. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:803]
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 2188.250 ; gain = 0.000
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.117 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.178 . Memory (MB): peak = 2188.250 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/impl_1/TOP_opt.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 2192.980 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 2188.250 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_drc -file TOP_drc_opted.rpt -pb TOP_drc_opted.pb -rpx TOP_drc_opted.rpx
 Command: report_drc -file TOP_drc_opted.rpt -pb TOP_drc_opted.pb -rpx TOP_drc_opted.rpx
 INFO: [IP_Flow 19-1839] IP Catalog is up to date.
@@ -594,27 +528,27 @@ INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 
 Phase 1 Placer Initialization
 
 Phase 1.1 Placer Initialization Netlist Sorting
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 2188.250 ; gain = 0.000
 Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 18245612c
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 2192.980 ; gain = 0.000
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 2188.250 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 2188.250 ; gain = 0.000
 
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
-WARNING: [Place 30-568] A LUT 'MULTYCHANNEL/channel[2].single_channel_inst/ADC/Inst_flip_flop_time_i_1__1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
-	MULTYCHANNEL/channel[2].single_channel_inst/ADC/enable_osc_reg {FDCE}
-WARNING: [Place 30-568] A LUT 'MULTYCHANNEL/channel[1].single_channel_inst/ADC/Inst_flip_flop_time_i_1__0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
-	MULTYCHANNEL/channel[1].single_channel_inst/ADC/enable_osc_reg {FDCE}
 WARNING: [Place 30-568] A LUT 'MULTYCHANNEL/channel[0].single_channel_inst/ADC/Inst_flip_flop_time_i_1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
 	MULTYCHANNEL/channel[0].single_channel_inst/ADC/enable_osc_reg {FDCE}
 WARNING: [Place 30-568] A LUT 'MULTYCHANNEL/channel[12].single_channel_inst/ADC/Inst_flip_flop_time_i_1__11' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
 	MULTYCHANNEL/channel[12].single_channel_inst/ADC/enable_osc_reg {FDCE}
 WARNING: [Place 30-568] A LUT 'MULTYCHANNEL/channel[11].single_channel_inst/ADC/Inst_flip_flop_time_i_1__10' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
 	MULTYCHANNEL/channel[11].single_channel_inst/ADC/enable_osc_reg {FDCE}
-WARNING: [Place 30-568] A LUT 'MULTYCHANNEL/channel[14].single_channel_inst/ADC/Inst_flip_flop_time_i_1__13' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
-	MULTYCHANNEL/channel[14].single_channel_inst/ADC/enable_osc_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'MULTYCHANNEL/channel[2].single_channel_inst/ADC/Inst_flip_flop_time_i_1__1' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	MULTYCHANNEL/channel[2].single_channel_inst/ADC/enable_osc_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'MULTYCHANNEL/channel[1].single_channel_inst/ADC/Inst_flip_flop_time_i_1__0' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	MULTYCHANNEL/channel[1].single_channel_inst/ADC/enable_osc_reg {FDCE}
 WARNING: [Place 30-568] A LUT 'MULTYCHANNEL/channel[13].single_channel_inst/ADC/Inst_flip_flop_time_i_1__12' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
 	MULTYCHANNEL/channel[13].single_channel_inst/ADC/enable_osc_reg {FDCE}
+WARNING: [Place 30-568] A LUT 'MULTYCHANNEL/channel[14].single_channel_inst/ADC/Inst_flip_flop_time_i_1__13' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
+	MULTYCHANNEL/channel[14].single_channel_inst/ADC/enable_osc_reg {FDCE}
 WARNING: [Place 30-568] A LUT 'MULTYCHANNEL/channel[15].single_channel_inst/ADC/Inst_flip_flop_time_i_1__14' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
 	MULTYCHANNEL/channel[15].single_channel_inst/ADC/enable_osc_reg {FDCE}
 WARNING: [Place 30-568] A LUT 'MULTYCHANNEL/channel[16].single_channel_inst/ADC/Inst_flip_flop_time_i_1__15' is driving clock pin of 1 registers. This could lead to large hold time violations. First few involved registers are:
@@ -641,51 +575,52 @@ WARNING: [Place 30-568] A LUT 'MULTYCHANNEL/channel[10].single_channel_inst/ADC/
 	MULTYCHANNEL/channel[10].single_channel_inst/ADC/enable_osc_reg {FDCE}
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 1c865b669
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:03 . Memory (MB): peak = 2188.250 ; gain = 0.000
 
 Phase 1.3 Build Placer Netlist Model
-Phase 1.3 Build Placer Netlist Model | Checksum: 16f3773c9
+Phase 1.3 Build Placer Netlist Model | Checksum: 217df29af
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 2188.250 ; gain = 0.000
 
 Phase 1.4 Constrain Clocks/Macros
-Phase 1.4 Constrain Clocks/Macros | Checksum: 16f3773c9
+Phase 1.4 Constrain Clocks/Macros | Checksum: 217df29af
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 2192.980 ; gain = 0.000
-Phase 1 Placer Initialization | Checksum: 16f3773c9
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 2188.250 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 217df29af
 
-Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 2188.250 ; gain = 0.000
 
 Phase 2 Global Placement
 
 Phase 2.1 Floorplanning
-Phase 2.1 Floorplanning | Checksum: 1ce3238b1
+Phase 2.1 Floorplanning | Checksum: 16242895b
 
-Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 2188.250 ; gain = 0.000
 
 Phase 2.2 Global Placement Core
 
 Phase 2.2.1 Physical Synthesis In Placer
-INFO: [Physopt 32-1018] Found 2291 candidate LUT instances to create LUTNM shape
-INFO: [Physopt 32-775] End 1 Pass. Optimized 79 nets or cells. Created 52 new cells, deleted 27 existing cells and moved 0 existing cell
+INFO: [Physopt 32-1018] Found 2246 candidate LUT instances to create LUTNM shape
+INFO: [Physopt 32-775] End 1 Pass. Optimized 85 nets or cells. Created 58 new cells, deleted 27 existing cells and moved 0 existing cell
 INFO: [Physopt 32-65] No nets found for high-fanout optimization.
 INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
 INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
-INFO: [Physopt 32-117] Net TOP_block_i/TOP_block_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/xpm_fifo_rst_inst/ram_wr_en_pf could not be optimized because driver TOP_block_i/TOP_block_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_ENABLE_INDET_BTT_SF.I_INDET_BTT/I_DATA_FIFO/BLK_MEM.I_SYNC_FIFOGEN_FIFO/xpm_fifo_instance.xpm_fifo_sync_inst/xpm_fifo_base_inst/xpm_fifo_rst_inst/gen_sdpram.xpm_memory_base_inst_i_1 could not be replicated
 INFO: [Physopt 32-117] Net FIFO_DATA_32bit/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/tmp_ram_rd_en could not be optimized because driver FIFO_DATA_32bit/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_i_2__1 could not be replicated
+INFO: [Physopt 32-117] Net FIFO_DATA_32bit/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/enb_array[1] could not be optimized because driver FIFO_DATA_32bit/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_i_2 could not be replicated
+INFO: [Physopt 32-117] Net FIFO_DATA_32bit/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/enb_array[0] could not be optimized because driver FIFO_DATA_32bit/U0/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/rpntr/DEVICE_7SERIES.NO_BMM_INFO.SDP.SIMPLE_PRIM36.ram_i_2__0 could not be replicated
 INFO: [Physopt 32-68] No nets found for critical-cell optimization.
 INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
 INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
 INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
 INFO: [Physopt 32-775] End 2 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
 INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
-INFO: [Physopt 32-775] End 1 Pass. Optimized 1 net or cell. Created 6 new cells, deleted 0 existing cell and moved 0 existing cell
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 2192.980 ; gain = 0.000
+INFO: [Physopt 32-775] End 1 Pass. Optimized 3 nets or cells. Created 18 new cells, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 2188.250 ; gain = 0.000
 INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found in the design
 INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
 INFO: [Physopt 32-949] No candidate nets found for HD net replication
 INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 2188.250 ; gain = 0.000
 
 Summary of Physical Synthesis Optimizations
 ============================================
@@ -694,140 +629,140 @@ Summary of Physical Synthesis Optimizations
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 |  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-|  LUT Combining                                    |           52  |             27  |                    79  |           0  |           1  |  00:00:00  |
+|  LUT Combining                                    |           58  |             27  |                    85  |           0  |           1  |  00:00:00  |
 |  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
 |  Critical Cell                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
 |  DSP Register                                     |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
 |  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
-|  Shift Register                                   |            6  |              0  |                     1  |           0  |           1  |  00:00:00  |
+|  Shift Register                                   |           18  |              0  |                     3  |           0  |           1  |  00:00:00  |
 |  BRAM Register                                    |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
 |  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
-|  Total                                            |           58  |             27  |                    80  |           0  |           8  |  00:00:01  |
+|  Total                                            |           76  |             27  |                    88  |           0  |           8  |  00:00:00  |
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Phase 2.2.1 Physical Synthesis In Placer | Checksum: befaf9ee
+Phase 2.2.1 Physical Synthesis In Placer | Checksum: 11ac8885b
 
-Time (s): cpu = 00:00:12 ; elapsed = 00:00:34 . Memory (MB): peak = 2192.980 ; gain = 0.000
-Phase 2.2 Global Placement Core | Checksum: 14a3ab193
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:26 . Memory (MB): peak = 2188.250 ; gain = 0.000
+Phase 2.2 Global Placement Core | Checksum: e01ba925
 
-Time (s): cpu = 00:00:12 ; elapsed = 00:00:35 . Memory (MB): peak = 2192.980 ; gain = 0.000
-Phase 2 Global Placement | Checksum: 14a3ab193
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:27 . Memory (MB): peak = 2188.250 ; gain = 0.000
+Phase 2 Global Placement | Checksum: e01ba925
 
-Time (s): cpu = 00:00:12 ; elapsed = 00:00:35 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:27 . Memory (MB): peak = 2188.250 ; gain = 0.000
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
-Phase 3.1 Commit Multi Column Macros | Checksum: bd1dd970
+Phase 3.1 Commit Multi Column Macros | Checksum: 7e56f173
 
-Time (s): cpu = 00:00:12 ; elapsed = 00:00:37 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:28 . Memory (MB): peak = 2188.250 ; gain = 0.000
 
 Phase 3.2 Commit Most Macros & LUTRAMs
-Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1365d89b6
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 831ab34c
 
-Time (s): cpu = 00:00:12 ; elapsed = 00:00:42 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 2188.250 ; gain = 0.000
 
 Phase 3.3 Area Swap Optimization
-Phase 3.3 Area Swap Optimization | Checksum: 1964f6ffd
+Phase 3.3 Area Swap Optimization | Checksum: 10b55b0c7
 
-Time (s): cpu = 00:00:12 ; elapsed = 00:00:42 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 2188.250 ; gain = 0.000
 
 Phase 3.4 Pipeline Register Optimization
-Phase 3.4 Pipeline Register Optimization | Checksum: 1c5fac5b3
+Phase 3.4 Pipeline Register Optimization | Checksum: 833df134
 
-Time (s): cpu = 00:00:12 ; elapsed = 00:00:42 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 2188.250 ; gain = 0.000
 
 Phase 3.5 Fast Optimization
-Phase 3.5 Fast Optimization | Checksum: 1fc9549b0
+Phase 3.5 Fast Optimization | Checksum: 1625ea5b3
 
-Time (s): cpu = 00:00:13 ; elapsed = 00:00:47 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:36 . Memory (MB): peak = 2188.250 ; gain = 0.000
 
 Phase 3.6 Small Shape Detail Placement
-Phase 3.6 Small Shape Detail Placement | Checksum: 150f9c26d
+Phase 3.6 Small Shape Detail Placement | Checksum: 112116431
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:57 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:43 . Memory (MB): peak = 2188.250 ; gain = 0.000
 
 Phase 3.7 Re-assign LUT pins
-Phase 3.7 Re-assign LUT pins | Checksum: 1ab88789e
+Phase 3.7 Re-assign LUT pins | Checksum: 14fee79c5
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:58 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:44 . Memory (MB): peak = 2188.250 ; gain = 0.000
 
 Phase 3.8 Pipeline Register Optimization
-Phase 3.8 Pipeline Register Optimization | Checksum: 131c1b5e7
+Phase 3.8 Pipeline Register Optimization | Checksum: 1299c7ee7
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:58 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:44 . Memory (MB): peak = 2188.250 ; gain = 0.000
 
 Phase 3.9 Fast Optimization
-Phase 3.9 Fast Optimization | Checksum: fd2bdc6d
+Phase 3.9 Fast Optimization | Checksum: 1632e2ad7
 
-Time (s): cpu = 00:00:17 ; elapsed = 00:01:08 . Memory (MB): peak = 2192.980 ; gain = 0.000
-Phase 3 Detail Placement | Checksum: fd2bdc6d
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:52 . Memory (MB): peak = 2188.250 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 1632e2ad7
 
-Time (s): cpu = 00:00:17 ; elapsed = 00:01:08 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:52 . Memory (MB): peak = 2188.250 ; gain = 0.000
 
 Phase 4 Post Placement Optimization and Clean-Up
 
 Phase 4.1 Post Commit Optimization
-WARNING: [Constraints 18-633] Creating clock RING_OSC with 19 sources. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:811]
+WARNING: [Constraints 18-633] Creating clock RING_OSC with 19 sources. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:803]
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Phase 4.1.1 Post Placement Optimization
-Post Placement Optimization Initialization | Checksum: 242287219
+Post Placement Optimization Initialization | Checksum: a1aa951b
 
 Phase 4.1.1.1 BUFG Insertion
 INFO: [Place 46-33] Processed net RunControl/RESET, BUFG insertion was skipped due to placement/routing conflicts.
 INFO: [Place 46-56] BUFG insertion identified 1 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 1, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
-Phase 4.1.1.1 BUFG Insertion | Checksum: 242287219
+Phase 4.1.1.1 BUFG Insertion | Checksum: a1aa951b
 
-Time (s): cpu = 00:00:18 ; elapsed = 00:01:13 . Memory (MB): peak = 2192.980 ; gain = 0.000
-INFO: [Place 30-746] Post Placement Timing Summary WNS=-6.653. For the most accurate timing information please run report_timing.
-Phase 4.1.1 Post Placement Optimization | Checksum: 244177ff0
+Time (s): cpu = 00:00:28 ; elapsed = 00:00:57 . Memory (MB): peak = 2188.250 ; gain = 0.000
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-7.017. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 1179340ea
 
-Time (s): cpu = 00:00:22 ; elapsed = 00:01:31 . Memory (MB): peak = 2192.980 ; gain = 0.000
-Phase 4.1 Post Commit Optimization | Checksum: 244177ff0
+Time (s): cpu = 00:00:39 ; elapsed = 00:01:19 . Memory (MB): peak = 2188.250 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 1179340ea
 
-Time (s): cpu = 00:00:22 ; elapsed = 00:01:31 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:39 ; elapsed = 00:01:19 . Memory (MB): peak = 2188.250 ; gain = 0.000
 
 Phase 4.2 Post Placement Cleanup
-Phase 4.2 Post Placement Cleanup | Checksum: 244177ff0
+Phase 4.2 Post Placement Cleanup | Checksum: 1179340ea
 
-Time (s): cpu = 00:00:22 ; elapsed = 00:01:31 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:39 ; elapsed = 00:01:20 . Memory (MB): peak = 2188.250 ; gain = 0.000
 
 Phase 4.3 Placer Reporting
-Phase 4.3 Placer Reporting | Checksum: 244177ff0
+Phase 4.3 Placer Reporting | Checksum: 1179340ea
 
-Time (s): cpu = 00:00:22 ; elapsed = 00:01:31 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:39 ; elapsed = 00:01:20 . Memory (MB): peak = 2188.250 ; gain = 0.000
 
 Phase 4.4 Final Placement Cleanup
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 2192.980 ; gain = 0.000
-Phase 4.4 Final Placement Cleanup | Checksum: 2433d2f17
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 2188.250 ; gain = 0.000
+Phase 4.4 Final Placement Cleanup | Checksum: 1da82466c
 
-Time (s): cpu = 00:00:22 ; elapsed = 00:01:31 . Memory (MB): peak = 2192.980 ; gain = 0.000
-Phase 4 Post Placement Optimization and Clean-Up | Checksum: 2433d2f17
+Time (s): cpu = 00:00:39 ; elapsed = 00:01:20 . Memory (MB): peak = 2188.250 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1da82466c
 
-Time (s): cpu = 00:00:22 ; elapsed = 00:01:32 . Memory (MB): peak = 2192.980 ; gain = 0.000
-Ending Placer Task | Checksum: 16886adac
+Time (s): cpu = 00:00:39 ; elapsed = 00:01:20 . Memory (MB): peak = 2188.250 ; gain = 0.000
+Ending Placer Task | Checksum: 1a2ad8568
 
-Time (s): cpu = 00:00:22 ; elapsed = 00:01:32 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:39 ; elapsed = 00:01:20 . Memory (MB): peak = 2188.250 ; gain = 0.000
 INFO: [Common 17-83] Releasing license: Implementation
-115 Infos, 165 Warnings, 70 Critical Warnings and 0 Errors encountered.
+104 Infos, 149 Warnings, 46 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
-place_design: Time (s): cpu = 00:00:24 ; elapsed = 00:01:34 . Memory (MB): peak = 2192.980 ; gain = 0.000
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 2192.980 ; gain = 0.000
+place_design: Time (s): cpu = 00:00:40 ; elapsed = 00:01:22 . Memory (MB): peak = 2188.250 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 2188.250 ; gain = 0.000
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2188.250 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/impl_1/TOP_placed.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 2192.980 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 2188.250 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_io -file TOP_io_placed.rpt
-report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.125 . Memory (MB): peak = 2192.980 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.122 . Memory (MB): peak = 2188.250 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_utilization -file TOP_utilization_placed.rpt -pb TOP_utilization_placed.pb
 INFO: [runtcl-4] Executing : report_control_sets -verbose -file TOP_control_sets_placed.rpt
-report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.095 . Memory (MB): peak = 2192.980 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.074 . Memory (MB): peak = 2188.250 ; gain = 0.000
 Command: route_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z014s'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z014s'
@@ -839,71 +774,71 @@ INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more in
 
 Starting Routing Task
 INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
-Checksum: PlaceDB: 8bf62c9e ConstDB: 0 ShapeSum: dc90810e RouteDB: 0
+Checksum: PlaceDB: bf68c7c5 ConstDB: 0 ShapeSum: e344bda3 RouteDB: 0
 
 Phase 1 Build RT Design
-Phase 1 Build RT Design | Checksum: 1d0856640
+Phase 1 Build RT Design | Checksum: c3560360
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:21 . Memory (MB): peak = 2192.980 ; gain = 0.000
-Post Restoration Checksum: NetGraph: fb9ec308 NumContArr: d4e6a338 Constraints: 0 Timing: 0
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:23 . Memory (MB): peak = 2188.250 ; gain = 0.000
+Post Restoration Checksum: NetGraph: 24c909d6 NumContArr: 9e8cf98a Constraints: 0 Timing: 0
 
 Phase 2 Router Initialization
 
 Phase 2.1 Create Timer
-Phase 2.1 Create Timer | Checksum: 1d0856640
+Phase 2.1 Create Timer | Checksum: c3560360
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:21 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:23 . Memory (MB): peak = 2188.250 ; gain = 0.000
 
 Phase 2.2 Fix Topology Constraints
-Phase 2.2 Fix Topology Constraints | Checksum: 1d0856640
+Phase 2.2 Fix Topology Constraints | Checksum: c3560360
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:22 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:24 . Memory (MB): peak = 2188.250 ; gain = 0.000
 
 Phase 2.3 Pre Route Cleanup
-Phase 2.3 Pre Route Cleanup | Checksum: 1d0856640
+Phase 2.3 Pre Route Cleanup | Checksum: c3560360
 
-Time (s): cpu = 00:00:04 ; elapsed = 00:00:22 . Memory (MB): peak = 2192.980 ; gain = 0.000
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:24 . Memory (MB): peak = 2188.250 ; gain = 0.000
  Number of Nodes with overlaps = 0
 
 Phase 2.4 Update Timing
-Phase 2.4 Update Timing | Checksum: 1a7bc9ea0
+Phase 2.4 Update Timing | Checksum: 1eabfbf47
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:30 . Memory (MB): peak = 2216.211 ; gain = 23.230
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=-6.559 | TNS=-1335.997| WHS=-0.353 | THS=-605.544|
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:31 . Memory (MB): peak = 2208.742 ; gain = 20.492
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-6.922 | TNS=-3424.102| WHS=-1.418 | THS=-627.197|
 
-Phase 2 Router Initialization | Checksum: 14cc8ebb9
+Phase 2 Router Initialization | Checksum: 1bd9f3488
 
-Time (s): cpu = 00:00:09 ; elapsed = 00:00:33 . Memory (MB): peak = 2235.262 ; gain = 42.281
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:34 . Memory (MB): peak = 2236.574 ; gain = 48.324
 
 Router Utilization Summary
-  Global Vertical Routing Utilization    = 0.130941 %
-  Global Horizontal Routing Utilization  = 0.105899 %
+  Global Vertical Routing Utilization    = 0.142177 %
+  Global Horizontal Routing Utilization  = 0.177738 %
   Routable Net Status*
   *Does not include unroutable nets such as driverless and loadless.
   Run report_route_status for detailed report.
-  Number of Failed Nets               = 24770
+  Number of Failed Nets               = 24791
     (Failed Nets is the sum of unrouted and partially routed nets)
-  Number of Unrouted Nets             = 24617
+  Number of Unrouted Nets             = 24638
   Number of Partially Routed Nets     = 153
-  Number of Node Overlaps             = 112
+  Number of Node Overlaps             = 127
 
 
 Phase 3 Initial Routing
-Phase 3 Initial Routing | Checksum: 562dddff
+Phase 3 Initial Routing | Checksum: 2044a423a
 
-Time (s): cpu = 00:00:09 ; elapsed = 00:00:37 . Memory (MB): peak = 2242.691 ; gain = 49.711
-INFO: [Route 35-580] Design has 64 pins with tight setup and hold constraints.
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:38 . Memory (MB): peak = 2243.004 ; gain = 54.754
+INFO: [Route 35-580] Design has 150 pins with tight setup and hold constraints.
 
 The top 5 pins with tight setup and hold constraints:
 
 +--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
 |       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
 +--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
-|       clk_out1_clk_wiz_0 |       clk_out1_clk_wiz_0 |TOP_block_i/TOP_block_i/ps7_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_aw/gen_no_arbiter.m_valid_i_reg/D|
-|       clk_out1_clk_wiz_0 |       clk_out1_clk_wiz_0 |TOP_block_i/TOP_block_i/ps7_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/addr_arbiter_ar/gen_no_arbiter.m_valid_i_reg/D|
-|       clk_out1_clk_wiz_0 |       clk_out1_clk_wiz_0 |TOP_block_i/TOP_block_i/axi_dma_0/U0/I_PRMRY_DATAMOVER/GEN_S2MM_FULL.I_S2MM_FULL_WRAPPER/GEN_INCLUDE_REALIGNER.I_S2MM_REALIGNER/GEN_INCLUDE_SCATTER.I_S2MM_SCATTER/sig_btt_eq_0_reg/D|
-|       clk_out1_clk_wiz_0 |       clk_out1_clk_wiz_0 |TOP_block_i/TOP_block_i/ps7_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_write.wdata_router_w/wrouter_aw_fifo/m_valid_i_reg/D|
-|       clk_out1_clk_wiz_0 |       clk_out1_clk_wiz_0 |TOP_block_i/TOP_block_i/ps7_0_axi_periph/xbar/inst/gen_samd.crossbar_samd/gen_slave_slots[0].gen_si_read.si_transactor_ar/gen_multi_thread.active_cnt_reg[58]/D|
+|                 Quartz25 |       clk_out1_clk_wiz_0 |                        MULTYCHANNEL/channel[12].single_channel_inst/FSM_sequential_present_state_reg[2]/D|
+|                 Quartz25 |       clk_out1_clk_wiz_0 |                         MULTYCHANNEL/channel[5].single_channel_inst/FSM_sequential_present_state_reg[2]/D|
+|                 Quartz25 |       clk_out1_clk_wiz_0 |                         MULTYCHANNEL/channel[8].single_channel_inst/FSM_sequential_present_state_reg[2]/D|
+|                 Quartz25 |       clk_out1_clk_wiz_0 |                         MULTYCHANNEL/channel[8].single_channel_inst/FSM_sequential_present_state_reg[1]/D|
+|                 Quartz25 |       clk_out1_clk_wiz_0 |                         MULTYCHANNEL/channel[1].single_channel_inst/FSM_sequential_present_state_reg[2]/D|
 +--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
 
 File with complete list of pins: tight_setup_hold_pins.txt
@@ -912,80 +847,72 @@ File with complete list of pins: tight_setup_hold_pins.txt
 Phase 4 Rip-up And Reroute
 
 Phase 4.1 Global Iteration 0
- Number of Nodes with overlaps = 2638
- Number of Nodes with overlaps = 360
- Number of Nodes with overlaps = 126
- Number of Nodes with overlaps = 70
- Number of Nodes with overlaps = 38
- Number of Nodes with overlaps = 11
- Number of Nodes with overlaps = 6
- Number of Nodes with overlaps = 2
- Number of Nodes with overlaps = 1
- Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 2336
+ Number of Nodes with overlaps = 179
+ Number of Nodes with overlaps = 7
  Number of Nodes with overlaps = 0
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=-6.752 | TNS=-1639.367| WHS=N/A    | THS=N/A    |
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-7.134 | TNS=-12205.274| WHS=N/A    | THS=N/A    |
 
-Phase 4.1 Global Iteration 0 | Checksum: 249945682
+Phase 4.1 Global Iteration 0 | Checksum: 17249ad57
 
-Time (s): cpu = 00:00:13 ; elapsed = 00:00:53 . Memory (MB): peak = 2242.691 ; gain = 49.711
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:50 . Memory (MB): peak = 2260.703 ; gain = 72.453
 
 Phase 4.2 Global Iteration 1
- Number of Nodes with overlaps = 2
  Number of Nodes with overlaps = 0
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=-6.752 | TNS=-1636.631| WHS=N/A    | THS=N/A    |
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-7.134 | TNS=-12205.316| WHS=N/A    | THS=N/A    |
 
-Phase 4.2 Global Iteration 1 | Checksum: 18e56d093
+Phase 4.2 Global Iteration 1 | Checksum: 1b41bb03c
 
-Time (s): cpu = 00:00:13 ; elapsed = 00:00:54 . Memory (MB): peak = 2242.691 ; gain = 49.711
-Phase 4 Rip-up And Reroute | Checksum: 18e56d093
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:51 . Memory (MB): peak = 2260.703 ; gain = 72.453
+Phase 4 Rip-up And Reroute | Checksum: 1b41bb03c
 
-Time (s): cpu = 00:00:13 ; elapsed = 00:00:54 . Memory (MB): peak = 2242.691 ; gain = 49.711
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:51 . Memory (MB): peak = 2260.703 ; gain = 72.453
 
 Phase 5 Delay and Skew Optimization
 
 Phase 5.1 Delay CleanUp
 
 Phase 5.1.1 Update Timing
-Phase 5.1.1 Update Timing | Checksum: 10a5c2706
+Phase 5.1.1 Update Timing | Checksum: ea9ea42c
 
-Time (s): cpu = 00:00:13 ; elapsed = 00:00:55 . Memory (MB): peak = 2242.691 ; gain = 49.711
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=-6.752 | TNS=-1566.701| WHS=N/A    | THS=N/A    |
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:52 . Memory (MB): peak = 2260.703 ; gain = 72.453
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-7.134 | TNS=-11911.966| WHS=N/A    | THS=N/A    |
 
  Number of Nodes with overlaps = 0
-Phase 5.1 Delay CleanUp | Checksum: 2b2797539
+Phase 5.1 Delay CleanUp | Checksum: 145d6fd71
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:59 . Memory (MB): peak = 2270.672 ; gain = 77.691
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:53 . Memory (MB): peak = 2265.676 ; gain = 77.426
 
 Phase 5.2 Clock Skew Optimization
-Phase 5.2 Clock Skew Optimization | Checksum: 2b2797539
+Phase 5.2 Clock Skew Optimization | Checksum: 145d6fd71
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:59 . Memory (MB): peak = 2270.672 ; gain = 77.691
-Phase 5 Delay and Skew Optimization | Checksum: 2b2797539
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:53 . Memory (MB): peak = 2265.676 ; gain = 77.426
+Phase 5 Delay and Skew Optimization | Checksum: 145d6fd71
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:59 . Memory (MB): peak = 2270.672 ; gain = 77.691
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:53 . Memory (MB): peak = 2265.676 ; gain = 77.426
 
 Phase 6 Post Hold Fix
 
 Phase 6.1 Hold Fix Iter
 
 Phase 6.1.1 Update Timing
-Phase 6.1.1 Update Timing | Checksum: 2a09ede40
+Phase 6.1.1 Update Timing | Checksum: 10f4063c9
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:01:01 . Memory (MB): peak = 2270.672 ; gain = 77.691
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=-6.740 | TNS=-1548.184| WHS=0.020  | THS=0.000  |
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:54 . Memory (MB): peak = 2265.676 ; gain = 77.426
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-7.146 | TNS=-10593.945| WHS=-0.254 | THS=-2.617 |
 
-Phase 6.1 Hold Fix Iter | Checksum: 1d4e158e7
+Phase 6.1 Hold Fix Iter | Checksum: 1605c4862
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:01:01 . Memory (MB): peak = 2270.672 ; gain = 77.691
-Phase 6 Post Hold Fix | Checksum: 1d4e158e7
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:55 . Memory (MB): peak = 2265.676 ; gain = 77.426
+Phase 6 Post Hold Fix | Checksum: 1794fa558
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:01:01 . Memory (MB): peak = 2270.672 ; gain = 77.691
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:55 . Memory (MB): peak = 2265.676 ; gain = 77.426
 
 Phase 7 Route finalize
 
 Router Utilization Summary
-  Global Vertical Routing Utilization    = 5.1488 %
-  Global Horizontal Routing Utilization  = 6.61418 %
+  Global Vertical Routing Utilization    = 5.70001 %
+  Global Horizontal Routing Utilization  = 6.47853 %
   Routable Net Status*
   *Does not include unroutable nets such as driverless and loadless.
   Run report_route_status for detailed report.
@@ -996,11 +923,10 @@ Router Utilization Summary
   Number of Node Overlaps             = 0
 
 Congestion Report
-North Dir 1x1 Area, Max Cong = 70.2703%, No Congested Regions.
-South Dir 1x1 Area, Max Cong = 60.3604%, No Congested Regions.
-East Dir 1x1 Area, Max Cong = 91.1765%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
-   INT_L_X18Y92 -> INT_L_X18Y92
-West Dir 1x1 Area, Max Cong = 64.7059%, No Congested Regions.
+North Dir 1x1 Area, Max Cong = 68.4685%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 57.6577%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 63.2353%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 60.2941%, No Congested Regions.
 
 ------------------------------
 Reporting congestion hotspots
@@ -1016,54 +942,59 @@ Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
 Direction: East
 ----------------
 Congested clusters found at Level 0
-Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 1
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
 Direction: West
 ----------------
 Congested clusters found at Level 0
 Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
 
-Phase 7 Route finalize | Checksum: 1d869ccab
+Phase 7 Route finalize | Checksum: 147517dbf
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:01:01 . Memory (MB): peak = 2270.672 ; gain = 77.691
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:55 . Memory (MB): peak = 2265.676 ; gain = 77.426
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
-Phase 8 Verifying routed nets | Checksum: 1d869ccab
+Phase 8 Verifying routed nets | Checksum: 147517dbf
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:01:01 . Memory (MB): peak = 2270.672 ; gain = 77.691
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:55 . Memory (MB): peak = 2265.676 ; gain = 77.426
 
 Phase 9 Depositing Routes
-Phase 9 Depositing Routes | Checksum: 10631a5dd
+Phase 9 Depositing Routes | Checksum: 1c11536a1
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:01:03 . Memory (MB): peak = 2270.672 ; gain = 77.691
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:57 . Memory (MB): peak = 2265.676 ; gain = 77.426
 
 Phase 10 Post Router Timing
-INFO: [Route 35-57] Estimated Timing Summary | WNS=-6.740 | TNS=-1548.184| WHS=0.020  | THS=0.000  |
+
+Phase 10.1 Update Timing
+Phase 10.1 Update Timing | Checksum: 234f4ff41
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:58 . Memory (MB): peak = 2265.676 ; gain = 77.426
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-7.146 | TNS=-10593.945| WHS=0.051  | THS=0.000  |
 
 WARNING: [Route 35-328] Router estimated timing not met.
 Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
-Phase 10 Post Router Timing | Checksum: 10631a5dd
+Phase 10 Post Router Timing | Checksum: 234f4ff41
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:01:03 . Memory (MB): peak = 2270.672 ; gain = 77.691
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:58 . Memory (MB): peak = 2265.676 ; gain = 77.426
 INFO: [Route 35-16] Router Completed Successfully
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:01:03 . Memory (MB): peak = 2270.672 ; gain = 77.691
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:58 . Memory (MB): peak = 2265.676 ; gain = 77.426
 
 Routing Is Done.
 INFO: [Common 17-83] Releasing license: Implementation
-134 Infos, 166 Warnings, 70 Critical Warnings and 0 Errors encountered.
+123 Infos, 150 Warnings, 46 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:00:17 ; elapsed = 00:01:06 . Memory (MB): peak = 2270.672 ; gain = 77.691
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 2270.672 ; gain = 0.000
+route_design: Time (s): cpu = 00:00:29 ; elapsed = 00:01:01 . Memory (MB): peak = 2265.676 ; gain = 77.426
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 2265.676 ; gain = 0.000
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2270.672 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:05 ; elapsed = 00:00:03 . Memory (MB): peak = 2265.676 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/impl_1/TOP_routed.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 2270.672 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2265.676 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_drc -file TOP_drc_routed.rpt -pb TOP_drc_routed.pb -rpx TOP_drc_routed.rpx
 Command: report_drc -file TOP_drc_routed.rpt -pb TOP_drc_routed.pb -rpx TOP_drc_routed.rpx
 INFO: [IP_Flow 19-1839] IP Catalog is up to date.
@@ -1072,16 +1003,16 @@ INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/alexa/OneDrive/Des
 report_drc completed successfully
 INFO: [runtcl-4] Executing : report_methodology -file TOP_methodology_drc_routed.rpt -pb TOP_methodology_drc_routed.pb -rpx TOP_methodology_drc_routed.rpx
 Command: report_methodology -file TOP_methodology_drc_routed.rpt -pb TOP_methodology_drc_routed.pb -rpx TOP_methodology_drc_routed.rpx
-WARNING: [Constraints 18-633] Creating clock RING_OSC with 19 sources. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:811]
+WARNING: [Constraints 18-633] Creating clock RING_OSC with 19 sources. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:803]
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 INFO: [DRC 23-133] Running Methodology with 2 threads
 INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/impl_1/TOP_methodology_drc_routed.rpt.
 report_methodology completed successfully
-report_methodology: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 2370.750 ; gain = 100.078
+report_methodology: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 2366.809 ; gain = 101.133
 INFO: [runtcl-4] Executing : report_power -file TOP_power_routed.rpt -pb TOP_power_summary_routed.pb -rpx TOP_power_routed.rpx
 Command: report_power -file TOP_power_routed.rpt -pb TOP_power_summary_routed.pb -rpx TOP_power_routed.rpx
 INFO: [Power 33-23] Power model is not available for STARTUPE2_inst
-WARNING: [Constraints 18-633] Creating clock RING_OSC with 19 sources. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:811]
+WARNING: [Constraints 18-633] Creating clock RING_OSC with 19 sources. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:803]
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 Running Vector-less Activity Propagation...
 
@@ -1089,14 +1020,14 @@ Finished Running Vector-less Activity Propagation
 WARNING: [Power 33-410] CLK_SAFE_MODULE/BUFGMUX_inst : User defined Switching Activity setting is ignored on global clock buffers. Use set_case_analysis instead to constrain Clock Enable pin. Please ignore this message if desired set_case_analysis is already set.
 WARNING: [Power 33-410] CLK_SAFE_MODULE/BUFGMUX_inst_refCLK : User defined Switching Activity setting is ignored on global clock buffers. Use set_case_analysis instead to constrain Clock Enable pin. Please ignore this message if desired set_case_analysis is already set.
 WARNING: [Power 33-410] CLK_SAFE_MODULE/BUFGMUX_inst : User defined Switching Activity setting is ignored on global clock buffers. Use set_case_analysis instead to constrain Clock Enable pin. Please ignore this message if desired set_case_analysis is already set.
-WARNING: [Power 33-410] CLK_SAFE_MODULE/BUFGMUX_inst_refCLK : User defined Switching Activity setting is ignored on global clock buffers. Use set_case_analysis instead to constrain Clock Enable pin. Please ignore this message if desired set_case_analysis is already set.
 WARNING: [Power 33-410] CLK_SAFE_MODULE/BUFGMUX_inst : User defined Switching Activity setting is ignored on global clock buffers. Use set_case_analysis instead to constrain Clock Enable pin. Please ignore this message if desired set_case_analysis is already set.
 WARNING: [Power 33-410] CLK_SAFE_MODULE/BUFGMUX_inst_refCLK : User defined Switching Activity setting is ignored on global clock buffers. Use set_case_analysis instead to constrain Clock Enable pin. Please ignore this message if desired set_case_analysis is already set.
 WARNING: [Power 33-410] CLK_SAFE_MODULE/BUFGMUX_inst : User defined Switching Activity setting is ignored on global clock buffers. Use set_case_analysis instead to constrain Clock Enable pin. Please ignore this message if desired set_case_analysis is already set.
+WARNING: [Power 33-410] CLK_SAFE_MODULE/BUFGMUX_inst_refCLK : User defined Switching Activity setting is ignored on global clock buffers. Use set_case_analysis instead to constrain Clock Enable pin. Please ignore this message if desired set_case_analysis is already set.
 WARNING: [Power 33-323] Power for clock manager block multiphase_clock/inst/mmcm_adv_inst is calculated assuming it is enabled. Please use 'set_switching_activity -static_probability 1 -signal_rate 0 [get_nets PPS_recovery/RESET_IN]' command to consider it disabled.
-147 Infos, 176 Warnings, 70 Critical Warnings and 0 Errors encountered.
+136 Infos, 160 Warnings, 46 Critical Warnings and 0 Errors encountered.
 report_power completed successfully
-report_power: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 2372.910 ; gain = 2.160
+report_power: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 2369.031 ; gain = 2.223
 INFO: [runtcl-4] Executing : report_route_status -file TOP_route_status.rpt -pb TOP_route_status.pb
 INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file TOP_timing_summary_routed.rpt -pb TOP_timing_summary_routed.pb -rpx TOP_timing_summary_routed.rpx -warn_on_violation 
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
@@ -1108,4 +1039,4 @@ INFO: [runtcl-4] Executing : report_clock_utilization -file TOP_clock_utilizatio
 INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file TOP_bus_skew_routed.rpt -pb TOP_bus_skew_routed.pb -rpx TOP_bus_skew_routed.rpx
 INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
 INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
-INFO: [Common 17-206] Exiting Vivado at Fri Jun 14 18:06:46 2024...
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 17 11:06:07 2024...

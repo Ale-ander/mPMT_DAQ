@@ -23,62 +23,62 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7z014s'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z014s'
 INFO: [Device 21-403] Loading part xc7z014sclg484-2
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 20860 
+INFO: Helper process launched with PID 18092 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1055.492 ; gain = 233.895
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1053.516 ; gain = 234.848
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'TOP' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/new/TOP.vhd:109]
 INFO: [Synth 8-3491] module 'TOP_block_wrapper' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/hdl/TOP_block_wrapper.vhd:14' bound to instance 'TOP_block_i' of component 'TOP_block_wrapper' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/new/TOP.vhd:554]
 INFO: [Synth 8-638] synthesizing module 'TOP_block_wrapper' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/hdl/TOP_block_wrapper.vhd:77]
 INFO: [Synth 8-3491] module 'TOP_block' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:3272' bound to instance 'TOP_block_i' of component 'TOP_block' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/hdl/TOP_block_wrapper.vhd:141]
 INFO: [Synth 8-638] synthesizing module 'TOP_block' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:3339]
-INFO: [Synth 8-3491] module 'TOP_block_axi_bram_ctrl_0_0' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_axi_bram_ctrl_0_0_stub.vhdl:5' bound to instance 'axi_bram_ctrl_0' of component 'TOP_block_axi_bram_ctrl_0_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:4060]
-INFO: [Synth 8-638] synthesizing module 'TOP_block_axi_bram_ctrl_0_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_axi_bram_ctrl_0_0_stub.vhdl:55]
-INFO: [Synth 8-3491] module 'TOP_block_axi_bram_ctrl_1_6' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_axi_bram_ctrl_1_6_stub.vhdl:5' bound to instance 'axi_bram_ctrl_1' of component 'TOP_block_axi_bram_ctrl_1_6' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:4107]
-INFO: [Synth 8-638] synthesizing module 'TOP_block_axi_bram_ctrl_1_6' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_axi_bram_ctrl_1_6_stub.vhdl:51]
+INFO: [Synth 8-3491] module 'TOP_block_axi_bram_ctrl_0_0' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_axi_bram_ctrl_0_0_stub.vhdl:5' bound to instance 'axi_bram_ctrl_0' of component 'TOP_block_axi_bram_ctrl_0_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:4060]
+INFO: [Synth 8-638] synthesizing module 'TOP_block_axi_bram_ctrl_0_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_axi_bram_ctrl_0_0_stub.vhdl:55]
+INFO: [Synth 8-3491] module 'TOP_block_axi_bram_ctrl_1_6' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_axi_bram_ctrl_1_6_stub.vhdl:5' bound to instance 'axi_bram_ctrl_1' of component 'TOP_block_axi_bram_ctrl_1_6' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:4107]
+INFO: [Synth 8-638] synthesizing module 'TOP_block_axi_bram_ctrl_1_6' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_axi_bram_ctrl_1_6_stub.vhdl:51]
 WARNING: [Synth 8-5640] Port 'axi_dma_tstvec' is missing in component declaration [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:3432]
-INFO: [Synth 8-3491] module 'TOP_block_axi_dma_0_0' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_axi_dma_0_0_stub.vhdl:5' bound to instance 'axi_dma_0' of component 'TOP_block_axi_dma_0_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:4150]
-INFO: [Synth 8-638] synthesizing module 'TOP_block_axi_dma_0_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_axi_dma_0_0_stub.vhdl:84]
+INFO: [Synth 8-3491] module 'TOP_block_axi_dma_0_0' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_axi_dma_0_0_stub.vhdl:5' bound to instance 'axi_dma_0' of component 'TOP_block_axi_dma_0_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:4150]
+INFO: [Synth 8-638] synthesizing module 'TOP_block_axi_dma_0_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_axi_dma_0_0_stub.vhdl:84]
 INFO: [Synth 8-638] synthesizing module 'TOP_block_axi_interconnect_0_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:1923]
 INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_NPI2FS' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:1613]
-INFO: [Synth 8-3491] module 'TOP_block_auto_pc_0' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_auto_pc_0_stub.vhdl:5' bound to instance 'auto_pc' of component 'TOP_block_auto_pc_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:1790]
-INFO: [Synth 8-638] synthesizing module 'TOP_block_auto_pc_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_auto_pc_0_stub.vhdl:50]
-INFO: [Synth 8-3491] module 'TOP_block_auto_us_0' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_auto_us_0_stub.vhdl:5' bound to instance 'auto_us' of component 'TOP_block_auto_us_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:1832]
-INFO: [Synth 8-638] synthesizing module 'TOP_block_auto_us_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_auto_us_0_stub.vhdl:49]
+INFO: [Synth 8-3491] module 'TOP_block_auto_pc_0' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_auto_pc_0_stub.vhdl:5' bound to instance 'auto_pc' of component 'TOP_block_auto_pc_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:1790]
+INFO: [Synth 8-638] synthesizing module 'TOP_block_auto_pc_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_auto_pc_0_stub.vhdl:50]
+INFO: [Synth 8-3491] module 'TOP_block_auto_us_0' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_auto_us_0_stub.vhdl:5' bound to instance 'auto_us' of component 'TOP_block_auto_us_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:1832]
+INFO: [Synth 8-638] synthesizing module 'TOP_block_auto_us_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_auto_us_0_stub.vhdl:49]
 INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_NPI2FS' (1#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:1613]
 INFO: [Synth 8-256] done synthesizing module 'TOP_block_axi_interconnect_0_0' (2#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:1923]
-INFO: [Synth 8-3491] module 'TOP_block_axi_uartlite_1_0' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_axi_uartlite_1_0_stub.vhdl:5' bound to instance 'axi_uartlite_1' of component 'TOP_block_axi_uartlite_1_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:4268]
-INFO: [Synth 8-638] synthesizing module 'TOP_block_axi_uartlite_1_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_axi_uartlite_1_0_stub.vhdl:33]
-INFO: [Synth 8-3491] module 'TOP_block_axis_data_fifo_0_1' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_axis_data_fifo_0_1_stub.vhdl:5' bound to instance 'axis_data_fifo_0' of component 'TOP_block_axis_data_fifo_0_1' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:4293]
-INFO: [Synth 8-638] synthesizing module 'TOP_block_axis_data_fifo_0_1' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_axis_data_fifo_0_1_stub.vhdl:21]
-INFO: [Synth 8-3491] module 'TOP_block_blk_mem_gen_0_0' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_blk_mem_gen_0_0_stub.vhdl:5' bound to instance 'blk_mem_gen_0' of component 'TOP_block_blk_mem_gen_0_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:4306]
-INFO: [Synth 8-638] synthesizing module 'TOP_block_blk_mem_gen_0_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_blk_mem_gen_0_0_stub.vhdl:25]
-INFO: [Synth 8-3491] module 'TOP_block_processing_system7_0_0' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_processing_system7_0_0_stub.vhdl:5' bound to instance 'processing_system7_0' of component 'TOP_block_processing_system7_0_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:4325]
-INFO: [Synth 8-638] synthesizing module 'TOP_block_processing_system7_0_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_processing_system7_0_0_stub.vhdl:123]
+INFO: [Synth 8-3491] module 'TOP_block_axi_uartlite_1_0' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_axi_uartlite_1_0_stub.vhdl:5' bound to instance 'axi_uartlite_1' of component 'TOP_block_axi_uartlite_1_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:4268]
+INFO: [Synth 8-638] synthesizing module 'TOP_block_axi_uartlite_1_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_axi_uartlite_1_0_stub.vhdl:33]
+INFO: [Synth 8-3491] module 'TOP_block_axis_data_fifo_0_1' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_axis_data_fifo_0_1_stub.vhdl:5' bound to instance 'axis_data_fifo_0' of component 'TOP_block_axis_data_fifo_0_1' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:4293]
+INFO: [Synth 8-638] synthesizing module 'TOP_block_axis_data_fifo_0_1' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_axis_data_fifo_0_1_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'TOP_block_blk_mem_gen_0_0' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_blk_mem_gen_0_0_stub.vhdl:5' bound to instance 'blk_mem_gen_0' of component 'TOP_block_blk_mem_gen_0_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:4306]
+INFO: [Synth 8-638] synthesizing module 'TOP_block_blk_mem_gen_0_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_blk_mem_gen_0_0_stub.vhdl:25]
+INFO: [Synth 8-3491] module 'TOP_block_processing_system7_0_0' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_processing_system7_0_0_stub.vhdl:5' bound to instance 'processing_system7_0' of component 'TOP_block_processing_system7_0_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:4325]
+INFO: [Synth 8-638] synthesizing module 'TOP_block_processing_system7_0_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_processing_system7_0_0_stub.vhdl:123]
 INFO: [Synth 8-638] synthesizing module 'TOP_block_ps7_0_axi_periph_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:2189]
 INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_1JZ0SEI' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:81]
-INFO: [Synth 8-3491] module 'TOP_block_auto_pc_1' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_auto_pc_1_stub.vhdl:5' bound to instance 'auto_pc' of component 'TOP_block_auto_pc_1' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:267]
-INFO: [Synth 8-638] synthesizing module 'TOP_block_auto_pc_1' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_auto_pc_1_stub.vhdl:71]
+INFO: [Synth 8-3491] module 'TOP_block_auto_pc_1' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_auto_pc_1_stub.vhdl:5' bound to instance 'auto_pc' of component 'TOP_block_auto_pc_1' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:267]
+INFO: [Synth 8-638] synthesizing module 'TOP_block_auto_pc_1' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_auto_pc_1_stub.vhdl:71]
 INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_1JZ0SEI' (3#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:81]
 INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_8F3UZ6' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:400]
-INFO: [Synth 8-3491] module 'TOP_block_auto_pc_2' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_auto_pc_2_stub.vhdl:5' bound to instance 'auto_pc' of component 'TOP_block_auto_pc_2' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:584]
-INFO: [Synth 8-638] synthesizing module 'TOP_block_auto_pc_2' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_auto_pc_2_stub.vhdl:71]
+INFO: [Synth 8-3491] module 'TOP_block_auto_pc_2' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_auto_pc_2_stub.vhdl:5' bound to instance 'auto_pc' of component 'TOP_block_auto_pc_2' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:584]
+INFO: [Synth 8-638] synthesizing module 'TOP_block_auto_pc_2' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_auto_pc_2_stub.vhdl:71]
 INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_8F3UZ6' (4#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:400]
 INFO: [Synth 8-638] synthesizing module 'm02_couplers_imp_1GGG0U3' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:716]
-INFO: [Synth 8-3491] module 'TOP_block_auto_pc_3' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_auto_pc_3_stub.vhdl:5' bound to instance 'auto_pc' of component 'TOP_block_auto_pc_3' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:899]
-INFO: [Synth 8-638] synthesizing module 'TOP_block_auto_pc_3' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_auto_pc_3_stub.vhdl:71]
+INFO: [Synth 8-3491] module 'TOP_block_auto_pc_3' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_auto_pc_3_stub.vhdl:5' bound to instance 'auto_pc' of component 'TOP_block_auto_pc_3' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:899]
+INFO: [Synth 8-638] synthesizing module 'TOP_block_auto_pc_3' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_auto_pc_3_stub.vhdl:71]
 INFO: [Synth 8-256] done synthesizing module 'm02_couplers_imp_1GGG0U3' (5#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:716]
 INFO: [Synth 8-638] synthesizing module 'm03_couplers_imp_TO0UW3' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:1046]
 INFO: [Synth 8-256] done synthesizing module 'm03_couplers_imp_TO0UW3' (6#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:1046]
 INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_MMRXJQ' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:1242]
-INFO: [Synth 8-3491] module 'TOP_block_auto_pc_4' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_auto_pc_4_stub.vhdl:5' bound to instance 'auto_pc' of component 'TOP_block_auto_pc_4' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:1483]
-INFO: [Synth 8-638] synthesizing module 'TOP_block_auto_pc_4' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_auto_pc_4_stub.vhdl:90]
+INFO: [Synth 8-3491] module 'TOP_block_auto_pc_4' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_auto_pc_4_stub.vhdl:5' bound to instance 'auto_pc' of component 'TOP_block_auto_pc_4' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:1483]
+INFO: [Synth 8-638] synthesizing module 'TOP_block_auto_pc_4' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_auto_pc_4_stub.vhdl:90]
 INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_MMRXJQ' (7#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:1242]
-INFO: [Synth 8-3491] module 'TOP_block_xbar_0' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_xbar_0_stub.vhdl:5' bound to instance 'xbar' of component 'TOP_block_xbar_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:3069]
-INFO: [Synth 8-638] synthesizing module 'TOP_block_xbar_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_xbar_0_stub.vhdl:89]
+INFO: [Synth 8-3491] module 'TOP_block_xbar_0' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_xbar_0_stub.vhdl:5' bound to instance 'xbar' of component 'TOP_block_xbar_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:3069]
+INFO: [Synth 8-638] synthesizing module 'TOP_block_xbar_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_xbar_0_stub.vhdl:89]
 INFO: [Synth 8-256] done synthesizing module 'TOP_block_ps7_0_axi_periph_0' (8#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:2189]
-INFO: [Synth 8-3491] module 'TOP_block_rst_ps7_0_200M_0' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_rst_ps7_0_200M_0_stub.vhdl:5' bound to instance 'rst_ps7_0_200M' of component 'TOP_block_rst_ps7_0_200M_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:4580]
-INFO: [Synth 8-638] synthesizing module 'TOP_block_rst_ps7_0_200M_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/TOP_block_rst_ps7_0_200M_0_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'TOP_block_rst_ps7_0_200M_0' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_rst_ps7_0_200M_0_stub.vhdl:5' bound to instance 'rst_ps7_0_200M' of component 'TOP_block_rst_ps7_0_200M_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:4580]
+INFO: [Synth 8-638] synthesizing module 'TOP_block_rst_ps7_0_200M_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/TOP_block_rst_ps7_0_200M_0_stub.vhdl:21]
 INFO: [Synth 8-256] done synthesizing module 'TOP_block' (9#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/bd/TOP_block/synth/TOP_block.vhd:3339]
 INFO: [Synth 8-256] done synthesizing module 'TOP_block_wrapper' (10#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/hdl/TOP_block_wrapper.vhd:77]
 	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
@@ -163,8 +163,8 @@ INFO: [Synth 8-113] binding component instance 'BUFGMUX_inst_refCLK' to cell 'BU
 INFO: [Synth 8-113] binding component instance 'BUFGMUX_inst' to cell 'BUFGMUX' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/Main_V0_Fir_V_2_2/CLK_SAFE.vhd:223]
 WARNING: [Synth 8-3848] Net CLK_int_ext in module/entity CLK_SAFE does not have driver. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/Main_V0_Fir_V_2_2/CLK_SAFE.vhd:76]
 INFO: [Synth 8-256] done synthesizing module 'CLK_SAFE' (13#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/Main_V0_Fir_V_2_2/CLK_SAFE.vhd:50]
-INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/clk_wiz_0_stub.vhdl:5' bound to instance 'multiphase_clock' of component 'clk_wiz_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/new/TOP.vhd:809]
-INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/clk_wiz_0_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/clk_wiz_0_stub.vhdl:5' bound to instance 'multiphase_clock' of component 'clk_wiz_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/new/TOP.vhd:809]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/clk_wiz_0_stub.vhdl:21]
 	Parameter n_channel bound to: 19 - type: integer 
 INFO: [Synth 8-3491] module 'Multychannel_V2' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:8' bound to instance 'MULTYCHANNEL' of component 'Multychannel_V2' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/new/TOP.vhd:829]
 INFO: [Synth 8-638] synthesizing module 'Multychannel_V2' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:42]
@@ -247,8 +247,8 @@ INFO: [Synth 8-638] synthesizing module 'counter_subhit' [C:/Users/alexa/OneDriv
 INFO: [Synth 8-256] done synthesizing module 'counter_subhit' (21#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/counter_subhit.vhd:12]
 INFO: [Synth 8-256] done synthesizing module 'blocco_time' (22#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/canale_tempo.vhd:38]
 INFO: [Synth 8-256] done synthesizing module 'single_channel' (23#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
-INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
-INFO: [Synth 8-638] synthesizing module 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:21]
 INFO: [Synth 8-3491] module 'data_shifter_SM' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/data_shifter_SM.vhd:9' bound to instance 'channel_data_shifter' of component 'data_shifter_SM' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:191]
 INFO: [Synth 8-638] synthesizing module 'data_shifter_SM' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/data_shifter_SM.vhd:28]
 INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "sequential" *) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/data_shifter_SM.vhd:48]
@@ -279,7 +279,7 @@ INFO: [Synth 8-113] binding component instance 'BUFG_inst' to cell 'BUFG' [C:/Us
 INFO: [Synth 8-256] done synthesizing module 'OSCILLATORE__parameterized1' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/Main_V0_Fir_V_2_2/remote_sources/_/OSC_240MHZ.vhd:37]
 INFO: [Synth 8-256] done synthesizing module 'SPI_handler__parameterized1' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/SPI_handler.vhd:25]
 INFO: [Synth 8-256] done synthesizing module 'single_channel__parameterized0' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
-INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
+INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
 INFO: [Synth 8-3491] module 'data_shifter_SM' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/data_shifter_SM.vhd:9' bound to instance 'channel_data_shifter' of component 'data_shifter_SM' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:191]
 INFO: [Synth 8-638] synthesizing module 'single_channel__parameterized1' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
 	Parameter add bound to: 5'b00010 
@@ -307,7 +307,7 @@ INFO: [Synth 8-113] binding component instance 'BUFG_inst' to cell 'BUFG' [C:/Us
 INFO: [Synth 8-256] done synthesizing module 'OSCILLATORE__parameterized3' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/Main_V0_Fir_V_2_2/remote_sources/_/OSC_240MHZ.vhd:37]
 INFO: [Synth 8-256] done synthesizing module 'SPI_handler__parameterized3' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/SPI_handler.vhd:25]
 INFO: [Synth 8-256] done synthesizing module 'single_channel__parameterized1' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
-INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
+INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
 INFO: [Synth 8-3491] module 'data_shifter_SM' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/data_shifter_SM.vhd:9' bound to instance 'channel_data_shifter' of component 'data_shifter_SM' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:191]
 INFO: [Synth 8-638] synthesizing module 'single_channel__parameterized2' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
 	Parameter add bound to: 5'b00011 
@@ -335,7 +335,7 @@ INFO: [Synth 8-113] binding component instance 'BUFG_inst' to cell 'BUFG' [C:/Us
 INFO: [Synth 8-256] done synthesizing module 'OSCILLATORE__parameterized5' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/Main_V0_Fir_V_2_2/remote_sources/_/OSC_240MHZ.vhd:37]
 INFO: [Synth 8-256] done synthesizing module 'SPI_handler__parameterized5' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/SPI_handler.vhd:25]
 INFO: [Synth 8-256] done synthesizing module 'single_channel__parameterized2' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
-INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
+INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
 INFO: [Synth 8-3491] module 'data_shifter_SM' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/data_shifter_SM.vhd:9' bound to instance 'channel_data_shifter' of component 'data_shifter_SM' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:191]
 INFO: [Synth 8-638] synthesizing module 'single_channel__parameterized3' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
 	Parameter add bound to: 5'b00100 
@@ -363,7 +363,7 @@ INFO: [Synth 8-113] binding component instance 'BUFG_inst' to cell 'BUFG' [C:/Us
 INFO: [Synth 8-256] done synthesizing module 'OSCILLATORE__parameterized7' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/Main_V0_Fir_V_2_2/remote_sources/_/OSC_240MHZ.vhd:37]
 INFO: [Synth 8-256] done synthesizing module 'SPI_handler__parameterized7' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/SPI_handler.vhd:25]
 INFO: [Synth 8-256] done synthesizing module 'single_channel__parameterized3' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
-INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
+INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
 INFO: [Synth 8-3491] module 'data_shifter_SM' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/data_shifter_SM.vhd:9' bound to instance 'channel_data_shifter' of component 'data_shifter_SM' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:191]
 INFO: [Synth 8-638] synthesizing module 'single_channel__parameterized4' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
 	Parameter add bound to: 5'b00101 
@@ -391,7 +391,7 @@ INFO: [Synth 8-113] binding component instance 'BUFG_inst' to cell 'BUFG' [C:/Us
 INFO: [Synth 8-256] done synthesizing module 'OSCILLATORE__parameterized9' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/Main_V0_Fir_V_2_2/remote_sources/_/OSC_240MHZ.vhd:37]
 INFO: [Synth 8-256] done synthesizing module 'SPI_handler__parameterized9' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/SPI_handler.vhd:25]
 INFO: [Synth 8-256] done synthesizing module 'single_channel__parameterized4' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
-INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
+INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
 INFO: [Synth 8-3491] module 'data_shifter_SM' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/data_shifter_SM.vhd:9' bound to instance 'channel_data_shifter' of component 'data_shifter_SM' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:191]
 INFO: [Synth 8-638] synthesizing module 'single_channel__parameterized5' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
 	Parameter add bound to: 5'b00110 
@@ -419,7 +419,7 @@ INFO: [Synth 8-113] binding component instance 'BUFG_inst' to cell 'BUFG' [C:/Us
 INFO: [Synth 8-256] done synthesizing module 'OSCILLATORE__parameterized11' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/Main_V0_Fir_V_2_2/remote_sources/_/OSC_240MHZ.vhd:37]
 INFO: [Synth 8-256] done synthesizing module 'SPI_handler__parameterized11' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/SPI_handler.vhd:25]
 INFO: [Synth 8-256] done synthesizing module 'single_channel__parameterized5' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
-INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
+INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
 INFO: [Synth 8-3491] module 'data_shifter_SM' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/data_shifter_SM.vhd:9' bound to instance 'channel_data_shifter' of component 'data_shifter_SM' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:191]
 INFO: [Synth 8-638] synthesizing module 'single_channel__parameterized6' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
 	Parameter add bound to: 5'b00111 
@@ -447,7 +447,7 @@ INFO: [Synth 8-113] binding component instance 'BUFG_inst' to cell 'BUFG' [C:/Us
 INFO: [Synth 8-256] done synthesizing module 'OSCILLATORE__parameterized13' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/Main_V0_Fir_V_2_2/remote_sources/_/OSC_240MHZ.vhd:37]
 INFO: [Synth 8-256] done synthesizing module 'SPI_handler__parameterized13' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/SPI_handler.vhd:25]
 INFO: [Synth 8-256] done synthesizing module 'single_channel__parameterized6' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
-INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
+INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
 INFO: [Synth 8-3491] module 'data_shifter_SM' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/data_shifter_SM.vhd:9' bound to instance 'channel_data_shifter' of component 'data_shifter_SM' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:191]
 INFO: [Synth 8-638] synthesizing module 'single_channel__parameterized7' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
 	Parameter add bound to: 5'b01000 
@@ -475,7 +475,7 @@ INFO: [Synth 8-113] binding component instance 'BUFG_inst' to cell 'BUFG' [C:/Us
 INFO: [Synth 8-256] done synthesizing module 'OSCILLATORE__parameterized15' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/Main_V0_Fir_V_2_2/remote_sources/_/OSC_240MHZ.vhd:37]
 INFO: [Synth 8-256] done synthesizing module 'SPI_handler__parameterized15' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/SPI_handler.vhd:25]
 INFO: [Synth 8-256] done synthesizing module 'single_channel__parameterized7' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
-INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
+INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
 INFO: [Synth 8-3491] module 'data_shifter_SM' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/data_shifter_SM.vhd:9' bound to instance 'channel_data_shifter' of component 'data_shifter_SM' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:191]
 INFO: [Synth 8-638] synthesizing module 'single_channel__parameterized8' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
 	Parameter add bound to: 5'b01001 
@@ -503,7 +503,7 @@ INFO: [Synth 8-113] binding component instance 'BUFG_inst' to cell 'BUFG' [C:/Us
 INFO: [Synth 8-256] done synthesizing module 'OSCILLATORE__parameterized17' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/Main_V0_Fir_V_2_2/remote_sources/_/OSC_240MHZ.vhd:37]
 INFO: [Synth 8-256] done synthesizing module 'SPI_handler__parameterized17' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/SPI_handler.vhd:25]
 INFO: [Synth 8-256] done synthesizing module 'single_channel__parameterized8' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
-INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
+INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
 INFO: [Synth 8-3491] module 'data_shifter_SM' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/data_shifter_SM.vhd:9' bound to instance 'channel_data_shifter' of component 'data_shifter_SM' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:191]
 INFO: [Synth 8-638] synthesizing module 'single_channel__parameterized9' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
 	Parameter add bound to: 5'b01010 
@@ -531,7 +531,7 @@ INFO: [Synth 8-113] binding component instance 'BUFG_inst' to cell 'BUFG' [C:/Us
 INFO: [Synth 8-256] done synthesizing module 'OSCILLATORE__parameterized19' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/Main_V0_Fir_V_2_2/remote_sources/_/OSC_240MHZ.vhd:37]
 INFO: [Synth 8-256] done synthesizing module 'SPI_handler__parameterized19' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/SPI_handler.vhd:25]
 INFO: [Synth 8-256] done synthesizing module 'single_channel__parameterized9' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
-INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
+INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
 INFO: [Synth 8-3491] module 'data_shifter_SM' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/data_shifter_SM.vhd:9' bound to instance 'channel_data_shifter' of component 'data_shifter_SM' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:191]
 INFO: [Synth 8-638] synthesizing module 'single_channel__parameterized10' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
 	Parameter add bound to: 5'b01011 
@@ -559,7 +559,7 @@ INFO: [Synth 8-113] binding component instance 'BUFG_inst' to cell 'BUFG' [C:/Us
 INFO: [Synth 8-256] done synthesizing module 'OSCILLATORE__parameterized21' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/Main_V0_Fir_V_2_2/remote_sources/_/OSC_240MHZ.vhd:37]
 INFO: [Synth 8-256] done synthesizing module 'SPI_handler__parameterized21' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/SPI_handler.vhd:25]
 INFO: [Synth 8-256] done synthesizing module 'single_channel__parameterized10' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
-INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
+INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
 INFO: [Synth 8-3491] module 'data_shifter_SM' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/data_shifter_SM.vhd:9' bound to instance 'channel_data_shifter' of component 'data_shifter_SM' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:191]
 INFO: [Synth 8-638] synthesizing module 'single_channel__parameterized11' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
 	Parameter add bound to: 5'b01100 
@@ -589,7 +589,7 @@ INFO: [Synth 8-113] binding component instance 'BUFR_inst' to cell 'BUFR' [C:/Us
 INFO: [Synth 8-256] done synthesizing module 'OSCILLATORE__parameterized23' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/Main_V0_Fir_V_2_2/remote_sources/_/OSC_240MHZ.vhd:37]
 INFO: [Synth 8-256] done synthesizing module 'SPI_handler__parameterized23' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/SPI_handler.vhd:25]
 INFO: [Synth 8-256] done synthesizing module 'single_channel__parameterized11' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
-INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
+INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
 INFO: [Synth 8-3491] module 'data_shifter_SM' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/data_shifter_SM.vhd:9' bound to instance 'channel_data_shifter' of component 'data_shifter_SM' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:191]
 INFO: [Synth 8-638] synthesizing module 'single_channel__parameterized12' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
 	Parameter add bound to: 5'b01101 
@@ -619,7 +619,7 @@ INFO: [Synth 8-113] binding component instance 'BUFR_inst' to cell 'BUFR' [C:/Us
 INFO: [Synth 8-256] done synthesizing module 'OSCILLATORE__parameterized25' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/Main_V0_Fir_V_2_2/remote_sources/_/OSC_240MHZ.vhd:37]
 INFO: [Synth 8-256] done synthesizing module 'SPI_handler__parameterized25' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/SPI_handler.vhd:25]
 INFO: [Synth 8-256] done synthesizing module 'single_channel__parameterized12' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
-INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
+INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
 INFO: [Synth 8-3491] module 'data_shifter_SM' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/data_shifter_SM.vhd:9' bound to instance 'channel_data_shifter' of component 'data_shifter_SM' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:191]
 INFO: [Synth 8-638] synthesizing module 'single_channel__parameterized13' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
 	Parameter add bound to: 5'b01110 
@@ -649,7 +649,7 @@ INFO: [Synth 8-113] binding component instance 'BUFR_inst' to cell 'BUFR' [C:/Us
 INFO: [Synth 8-256] done synthesizing module 'OSCILLATORE__parameterized27' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/Main_V0_Fir_V_2_2/remote_sources/_/OSC_240MHZ.vhd:37]
 INFO: [Synth 8-256] done synthesizing module 'SPI_handler__parameterized27' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/SPI_handler.vhd:25]
 INFO: [Synth 8-256] done synthesizing module 'single_channel__parameterized13' (24#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
-INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
+INFO: [Synth 8-3491] module 'FIFO_single_channel' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/FIFO_single_channel_stub.vhdl:5' bound to instance 'FIFO' of component 'FIFO_single_channel' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:177]
 INFO: [Synth 8-3491] module 'data_shifter_SM' declared at 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/data_shifter_SM.vhd:9' bound to instance 'channel_data_shifter' of component 'data_shifter_SM' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:191]
 INFO: [Synth 8-638] synthesizing module 'single_channel__parameterized14' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/single_channel.vhd:40]
 	Parameter add bound to: 5'b01111 
@@ -758,7 +758,7 @@ INFO: [Synth 8-638] synthesizing module 'Canale_secondi' [C:/Users/alexa/OneDriv
 INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "sequential" *) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Canale_secondi.vhd:82]
 INFO: [Synth 8-256] done synthesizing module 'Canale_secondi' (25#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Canale_secondi.vhd:38]
 INFO: [Synth 8-256] done synthesizing module 'Multychannel_V2' (26#1) [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/nuovi_ales/Multychannel_V2.vhd:42]
-INFO: [Synth 8-638] synthesizing module 'fifo_generator_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-19440-PC_Alessandro/realtime/fifo_generator_0_stub.vhdl:22]
+INFO: [Synth 8-638] synthesizing module 'fifo_generator_0' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/.Xil/Vivado-15664-PC_Alessandro/realtime/fifo_generator_0_stub.vhdl:22]
 	Parameter C_MAX bound to: 199999999 - type: integer 
 INFO: [Synth 8-638] synthesizing module 'pps_module2' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/Main_V0_Fir_V_2_2/pps_module2.vhd:38]
 	Parameter C_MAX bound to: 199999999 - type: integer 
@@ -842,7 +842,7 @@ WARNING: [Synth 8-3331] design s00_couplers_imp_NPI2FS has unconnected port M_AR
 WARNING: [Synth 8-3331] design TOP_block_axi_interconnect_0_0 has unconnected port ACLK
 WARNING: [Synth 8-3331] design TOP_block_axi_interconnect_0_0 has unconnected port ARESETN
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 1187.711 ; gain = 366.113
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1185.656 ; gain = 366.988
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -855,12 +855,12 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1209.590 ; gain = 387.992
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1185.656 ; gain = 366.988
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 1209.590 ; gain = 387.992
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1185.656 ; gain = 366.988
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.510 . Memory (MB): peak = 1209.590 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.320 . Memory (MB): peak = 1185.656 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 413 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -1065,140 +1065,56 @@ CRITICAL WARNING: [Common 17-69] Command failed: Cannot set load on pre-synthesi
 CRITICAL WARNING: [Common 17-69] Command failed: Cannot set load on pre-synthesized design.  Please open a synthesized design (or synthesize the current design) and rerun this command. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:672]
 CRITICAL WARNING: [Common 17-69] Command failed: Cannot set load on pre-synthesized design.  Please open a synthesized design (or synthesize the current design) and rerun this command. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:673]
 INFO: [Common 17-14] Message 'Common 17-69' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:673]
-WARNING: [Vivado 12-508] No pins matched 'multiphase_clock/inst/mmcm_adv_inst/CLKOUT0'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:774]
-WARNING: [Vivado 12-627] No clocks matched 'clk_fpga_2'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:775]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:775]
-WARNING: [Vivado 12-508] No pins matched 'multiphase_clock/inst/mmcm_adv_inst/CLKOUT0'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:775]
-WARNING: [Designutils 20-1567] Use of 'set_false_path' with '-reset_path' is not supported by synthesis. The constraint will not be passed to synthesis. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:776]
+WARNING: [Vivado 12-508] No pins matched 'multiphase_clock/inst/mmcm_adv_inst/CLKOUT0'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:767]
+WARNING: [Vivado 12-627] No clocks matched 'clk_fpga_2'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:768]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:768]
+WARNING: [Vivado 12-508] No pins matched 'multiphase_clock/inst/mmcm_adv_inst/CLKOUT0'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:768]
+WARNING: [Designutils 20-1567] Use of 'set_false_path' with '-reset_path' is not supported by synthesis. The constraint will not be passed to synthesis. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:769]
+WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:771]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[17].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:771]
+WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:772]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[4].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:772]
+WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:773]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[0].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:773]
+WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:774]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[16].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:774]
+WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:775]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[3].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:775]
+WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:776]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[1].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:776]
+WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:777]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[10].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:777]
+WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:778]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[14].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:778]
 WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:779]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[17].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:779]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[6].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:779]
 WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:780]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[4].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:780]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[2].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:780]
 WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:781]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[0].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:781]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[13].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:781]
 WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:782]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[16].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:782]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[15].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:782]
 WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:783]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[3].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:783]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[18].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:783]
 WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:784]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[1].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:784]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[11].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:784]
 WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:785]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[10].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:785]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[8].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:785]
 WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:786]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[14].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:786]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[12].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:786]
 WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:787]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[6].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:787]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[9].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:787]
 WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:788]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[2].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:788]
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[5].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:788]
 WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:789]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[13].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:789]
-WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:790]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[15].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:790]
-WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:791]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[18].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:791]
-WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:792]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[11].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:792]
-WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:793]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[8].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:793]
-WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:794]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[12].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:794]
-WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:795]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[9].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:795]
-WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:796]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[5].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:796]
-WARNING: [Vivado 12-508] No pins matched 'Inst_Pulser/PULSER_OUT_reg/C'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:797]
-WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[7].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:797]
-WARNING: [Vivado 12-180] No cells matched 'Inst_Pulser/PULSER_OUT_reg'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:803]
-WARNING: [Vivado 12-627] No clocks matched 'CLK_25MHZ'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:807]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:807]
-WARNING: [Vivado 12-508] No pins matched 'multiphase_clock/inst/mmcm_adv_inst/CLKOUT0'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:807]
-WARNING: [Constraints 18-633] Creating clock RING_OSC with 19 sources. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:811]
-WARNING: [Vivado 12-508] No pins matched 'multiphase_clock/inst/mmcm_adv_inst/CLKOUT0'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:814]
-WARNING: [Designutils 20-1567] Use of 'set_multicycle_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:815]
-WARNING: [Vivado 12-508] No pins matched 'Inst_CLK_SAFE/BUFGMUX_inst/O'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:818]
-WARNING: [Vivado 12-508] No pins matched 'Inst_CLK_SAFE/BUFGMUX_inst/O'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:819]
-WARNING: [Vivado 12-508] No pins matched 'Inst_CLK_SAFE/BUFGMUX_inst/O'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:820]
-WARNING: [Vivado 12-627] No clocks matched 'REF_CLK2_P_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:821]
-WARNING: [Vivado 12-627] No clocks matched 'REF_CLK_P_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:821]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:821]
-WARNING: [Vivado 12-627] No clocks matched 'CLK_25MHZ_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:821]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:821]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks -include_generated_clocks {REF_CLK2_P_Gen REF_CLK_P_Gen}]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:821]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks -include_generated_clocks CLK_25MHZ_Gen]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:821]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-627] No clocks matched 'clk_out1_clk_wiz_0'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:824]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:824]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks clk_out1_clk_wiz_0]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:824]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-627] No clocks matched 'clk_out1_clk_wiz_0'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:825]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:825]
-WARNING: [Vivado 12-627] No clocks matched 'CLK_25MHZ_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:825]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:825]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks clk_out1_clk_wiz_0]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:825]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks CLK_25MHZ_Gen]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:825]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-627] No clocks matched 'REF_CLK_P_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:827]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:827]
-WARNING: [Vivado 12-627] No clocks matched 'REF_CLK2_P_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:827]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:827]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks REF_CLK_P_Gen]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:827]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks REF_CLK2_P_Gen]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:827]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-627] No clocks matched 'clk_out1_clk_wiz_0'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:828]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:828]
-WARNING: [Vivado 12-627] No clocks matched 'REF_CLK2_P_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:828]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:828]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks clk_out1_clk_wiz_0]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:828]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks REF_CLK2_P_Gen]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:828]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-627] No clocks matched 'REF_CLK2_P_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:830]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:830]
-WARNING: [Vivado 12-627] No clocks matched 'REF_CLK_P_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:830]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:830]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks REF_CLK2_P_Gen]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:830]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks REF_CLK_P_Gen]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:830]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-627] No clocks matched 'clk_out1_clk_wiz_0'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:831]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:831]
-WARNING: [Vivado 12-627] No clocks matched 'REF_CLK_P_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:831]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:831]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks clk_out1_clk_wiz_0]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:831]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks REF_CLK_P_Gen]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:831]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-627] No clocks matched 'clk_out1_clk_wiz_0'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:832]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:832]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks clk_out1_clk_wiz_0]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:832]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-627] No clocks matched 'CLK_25MHZ_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:833]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:833]
-WARNING: [Vivado 12-627] No clocks matched 'clk_out7_clk_wiz_0'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:833]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:833]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks CLK_25MHZ_Gen]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:833]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks clk_out7_clk_wiz_0]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:833]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-627] No clocks matched 'REF_CLK2_P_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:834]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:834]
-WARNING: [Vivado 12-627] No clocks matched 'clk_out7_clk_wiz_0'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:834]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:834]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks REF_CLK2_P_Gen]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:834]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks clk_out7_clk_wiz_0]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:834]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-WARNING: [Vivado 12-627] No clocks matched 'REF_CLK_P_Gen'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:835]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:835]
-WARNING: [Vivado 12-627] No clocks matched 'clk_out7_clk_wiz_0'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:835]
-INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:835]
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks REF_CLK_P_Gen]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:835]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
-CRITICAL WARNING: [Vivado 12-4739] set_clock_groups:No valid object(s) found for '-group [get_clocks clk_out7_clk_wiz_0]'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:835]
-Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-508] No pins matched 'inst_MULTYCHANNEL/pp1[7].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:789]
+WARNING: [Vivado 12-180] No cells matched 'Inst_Pulser/PULSER_OUT_reg'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:795]
+WARNING: [Vivado 12-627] No clocks matched 'CLK_25MHZ'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:799]
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:799]
+WARNING: [Vivado 12-508] No pins matched 'multiphase_clock/inst/mmcm_adv_inst/CLKOUT0'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:799]
+WARNING: [Constraints 18-633] Creating clock RING_OSC with 19 sources. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:803]
+WARNING: [Vivado 12-508] No pins matched 'multiphase_clock/inst/mmcm_adv_inst/CLKOUT0'. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:806]
+WARNING: [Designutils 20-1567] Use of 'set_multicycle_path' with '-hold' is not supported by synthesis. The constraint will not be passed to synthesis. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc:807]
 Finished Parsing XDC File [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc]
 WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/TOP_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/constrs_1/new/TOP.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TOP_propImpl.xdc].
@@ -1207,14 +1123,14 @@ Parsing XDC File [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_
 Finished Parsing XDC File [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1345.312 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1346.262 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 6 instances were transformed.
   BUFGMUX => BUFGCTRL (inverted pins: CE0): 2 instances
   IBUFGDS => IBUFDS: 2 instances
   OBUFDS => OBUFDS: 2 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.111 . Memory (MB): peak = 1345.312 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.108 . Memory (MB): peak = 1346.262 ; gain = 0.000
 WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'FIFO_DATA_32bit' at clock pin 'clk' is different from the actual clock period '5.000', this can lead to different synthesis results.
 WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'MULTYCHANNEL/FIFO_PPS' at clock pin 'clk' is different from the actual clock period '5.000', this can lead to different synthesis results.
 WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'MULTYCHANNEL/channel[0].FIFO' at clock pin 'clk' is different from the actual clock period '5.000', this can lead to different synthesis results.
@@ -1238,14 +1154,14 @@ WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context s
 WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'MULTYCHANNEL/channel[9].FIFO' at clock pin 'clk' is different from the actual clock period '5.000', this can lead to different synthesis results.
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'TOP_block_i/TOP_block_i/blk_mem_gen_0' at clock pin 'clka' is different from the actual clock period '5.000', this can lead to different synthesis results.
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:24 . Memory (MB): peak = 1346.953 ; gain = 525.355
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:22 . Memory (MB): peak = 1347.254 ; gain = 528.586
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z014sclg484-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:24 . Memory (MB): peak = 1346.953 ; gain = 525.355
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:23 . Memory (MB): peak = 1347.254 ; gain = 528.586
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -1551,7 +1467,7 @@ Applied set_property DONT_TOUCH = true for MULTYCHANNEL/\channel[7].FIFO . (cons
 Applied set_property DONT_TOUCH = true for MULTYCHANNEL/\channel[8].FIFO . (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for MULTYCHANNEL/\channel[9].FIFO . (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:05 ; elapsed = 00:00:24 . Memory (MB): peak = 1346.953 ; gain = 525.355
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:24 . Memory (MB): peak = 1347.254 ; gain = 528.586
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-4471] merging register 'Res_Unixtime_flag_reg' into 'Res_TagFlg_reg' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/new/RunControl_AXI.vhd:593]
 INFO: [Synth 8-5546] ROM "slv_reg0" won't be mapped to RAM because it is too sparse
@@ -2115,7 +2031,7 @@ WARNING: [Synth 8-327] inferring latch for variable 'HF_FIFO_reg_reg' [C:/Users/
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'present_state_reg' using encoding 'sequential' in module 'Canale_secondi'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:29 . Memory (MB): peak = 1346.953 ; gain = 525.355
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:30 . Memory (MB): peak = 1347.254 ; gain = 528.586
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -5718,7 +5634,7 @@ CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin '
 CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/new/RunControl_AXI.vhd:594]
 CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/new/RunControl_AXI.vhd:594]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:01:15 . Memory (MB): peak = 1346.953 ; gain = 525.355
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:01:13 . Memory (MB): peak = 1347.254 ; gain = 528.586
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -5751,7 +5667,7 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:01:26 . Memory (MB): peak = 1346.953 ; gain = 525.355
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:01:20 . Memory (MB): peak = 1347.254 ; gain = 528.586
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
@@ -5795,7 +5711,7 @@ Start Timing Optimization
       : MULTYCHANNEL/\channel[18].single_channel_insti_19 /\ADC/Oscillator /DAA_inferred/DI[2]
       : MULTYCHANNEL/\channel[18].single_channel_insti_19 /\ADC/Oscillator /DAA_inferred/p_0_in
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:01:30 . Memory (MB): peak = 1368.738 ; gain = 547.141
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:01:22 . Memory (MB): peak = 1368.473 ; gain = 549.805
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -6901,7 +6817,7 @@ Found timing loop:
 CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/Main_V0_Fir_V_2_2/remote_sources/_/OSC_240MHZ.vhd:31]
 Inferred a: "set_disable_timing -from DI[3] -to CO[3] MULTYCHANNEL/\channel[18].single_channel_inst/ADC/Oscillator /CARRY4_inst0"
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:01:44 . Memory (MB): peak = 1373.934 ; gain = 552.336
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:01:32 . Memory (MB): peak = 1373.535 ; gain = 554.867
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -6928,13 +6844,13 @@ WARNING: [Synth 8-5410] Found another clock driver \CLK_SAFE_MODULE/BUFGMUX_inst
 WARNING: [Synth 8-5410] Found another clock driver \CLK_SAFE_MODULE/BUFGMUX_inst_refCLK :O [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/Main_V0_Fir_V_2_2/CLK_SAFE.vhd:213]
 WARNING: [Synth 8-5410] Found another clock driver \CLK_SAFE_MODULE/BUFGMUX_inst_refCLK :O [C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.srcs/sources_1/imports/Main_V0_Fir_V_2_2/CLK_SAFE.vhd:213]
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:01:50 . Memory (MB): peak = 1375.977 ; gain = 554.379
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:01:38 . Memory (MB): peak = 1376.523 ; gain = 557.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:01:50 . Memory (MB): peak = 1375.977 ; gain = 554.379
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:01:38 . Memory (MB): peak = 1376.523 ; gain = 557.855
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -6953,25 +6869,25 @@ Report Check Netlist:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:01:51 . Memory (MB): peak = 1375.977 ; gain = 554.379
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:01:39 . Memory (MB): peak = 1376.523 ; gain = 557.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:01:52 . Memory (MB): peak = 1375.977 ; gain = 554.379
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:01:39 . Memory (MB): peak = 1376.523 ; gain = 557.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:01:52 . Memory (MB): peak = 1375.977 ; gain = 554.379
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:01:39 . Memory (MB): peak = 1376.523 ; gain = 557.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:01:52 . Memory (MB): peak = 1375.977 ; gain = 554.379
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:01:39 . Memory (MB): peak = 1376.523 ; gain = 557.855
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -7584,18 +7500,18 @@ Report Instance Areas:
 |511   |        s00_couplers                   |s00_couplers_imp_MMRXJQ         |   254|
 +------+---------------------------------------+--------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:01:52 . Memory (MB): peak = 1375.977 ; gain = 554.379
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:01:40 . Memory (MB): peak = 1376.523 ; gain = 557.855
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 79 critical warnings and 72 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:01:44 . Memory (MB): peak = 1375.977 ; gain = 417.016
-Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:01:52 . Memory (MB): peak = 1375.977 ; gain = 554.379
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:01:32 . Memory (MB): peak = 1376.523 ; gain = 396.258
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:01:40 . Memory (MB): peak = 1376.523 ; gain = 557.855
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.345 . Memory (MB): peak = 1383.996 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.298 . Memory (MB): peak = 1377.270 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 2055 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 38 inverter(s) to 893 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1385.043 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1381.547 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 939 instances were transformed.
   BUFGMUX => BUFGCTRL (inverted pins: CE0): 2 instances
@@ -7606,12 +7522,12 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS(x2)): 2 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-674 Infos, 314 Warnings, 199 Critical Warnings and 0 Errors encountered.
+654 Infos, 290 Warnings, 179 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:02:04 . Memory (MB): peak = 1385.043 ; gain = 879.328
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1385.043 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:01:48 . Memory (MB): peak = 1381.547 ; gain = 879.508
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1381.547 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'C:/Users/alexa/OneDrive/Desktop/Vivado_projects/mPMT_DAQ/mPMT_DAQ.runs/synth_1/TOP.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file TOP_utilization_synth.rpt -pb TOP_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Jun 14 18:01:45 2024...
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 17 11:01:37 2024...

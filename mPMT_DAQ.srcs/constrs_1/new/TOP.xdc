@@ -500,7 +500,7 @@ set_property IOSTANDARD LVCMOS33 [get_ports SAMA_RX]
 set_property PACKAGE_PIN U5 [get_ports SAMA_TX]
 set_property IOSTANDARD LVCMOS33 [get_ports SAMA_TX]
 
-
+## CAMBIARE NOME BENE
 
 set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets {inst_MULTYCHANNEL/pp1[0].Inst_single_channel/IBUFDS_IBUFDISABLE_inst/o}]
 set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets {inst_MULTYCHANNEL/pp1[1].Inst_single_channel/IBUFDS_IBUFDISABLE_inst/o}]
@@ -764,17 +764,9 @@ set_property LOAD 100 [get_ports SAMA_TX]
 set_property LOAD 100 [get_ports TX_OUT]
 
 
-
-
-
-
-
-
-
 set_clock_groups -name CLK_ASYNC -asynchronous -group [get_clocks [list clk_fpga_0 CLK_25MHZ REF_CLK2_P REF_CLK_P [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT0]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT1]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT2]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT3]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT4]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT5]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT6]]]] -group [get_clocks [list clk_fpga_0 CLK_25MHZ REF_CLK2_P REF_CLK_P [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT0]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT1]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT2]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT3]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT4]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT5]] [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT6]]]]
 set_false_path -from [get_clocks clk_fpga_2] -to [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT0]]
 set_false_path -reset_path -from [get_clocks clk_fpga_2] -to [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT0]]
-
 
 set_false_path -setup -from [get_pins Inst_Pulser/PULSER_OUT_reg/C] -to [get_pins {inst_MULTYCHANNEL/pp1[17].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D}]
 set_false_path -setup -from [get_pins Inst_Pulser/PULSER_OUT_reg/C] -to [get_pins {inst_MULTYCHANNEL/pp1[4].Inst_single_channel/Inst_blocco_time/Inst_flip_flop_time/p1[0].Inst_ff_interno_fe/o_digital_reg/D}]
@@ -815,21 +807,21 @@ set_multicycle_path -setup -from [get_clocks -of_objects [get_pins multiphase_cl
 set_multicycle_path -hold -from [get_clocks -of_objects [get_pins multiphase_clock/inst/mmcm_adv_inst/CLKOUT0]] -to [get_clocks RING_OSC] 1
 
 
-create_generated_clock -name REF_CLK_P_Gen -source [get_ports REF_CLK_P] -divide_by 1 [get_pins Inst_CLK_SAFE/BUFGMUX_inst/O]
-create_generated_clock -name REF_CLK2_P_Gen -source [get_ports REF_CLK2_P] -divide_by 1 [get_pins Inst_CLK_SAFE/BUFGMUX_inst/O]
-create_generated_clock -name CLK_25MHZ_Gen -source [get_ports Quartz25] -divide_by 1 [get_pins Inst_CLK_SAFE/BUFGMUX_inst/O]
-set_clock_groups -logically_exclusive -group [get_clocks -include_generated_clocks {REF_CLK2_P_Gen REF_CLK_P_Gen}] -group [get_clocks -include_generated_clocks CLK_25MHZ_Gen]
-set_clock_groups -asynchronous -group [get_clocks REF_CLK2_P] -group [get_clocks Quartz25]
-set_clock_groups -asynchronous -group [get_clocks REF_CLK_P] -group [get_clocks Quartz25]
-set_clock_groups -asynchronous -group [get_clocks clk_out1_clk_wiz_0] -group [get_clocks Quartz25]
-set_clock_groups -asynchronous -group [get_clocks clk_out1_clk_wiz_0] -group [get_clocks CLK_25MHZ_Gen]
-set_clock_groups -asynchronous -group [get_clocks Quartz25] -group [get_clocks REF_CLK2_P]
-set_clock_groups -asynchronous -group [get_clocks REF_CLK_P_Gen] -group [get_clocks REF_CLK2_P_Gen]
-set_clock_groups -asynchronous -group [get_clocks clk_out1_clk_wiz_0] -group [get_clocks REF_CLK2_P_Gen]
-set_clock_groups -asynchronous -group [get_clocks Quartz25] -group [get_clocks REF_CLK_P]
-set_clock_groups -asynchronous -group [get_clocks REF_CLK2_P_Gen] -group [get_clocks REF_CLK_P_Gen]
-set_clock_groups -asynchronous -group [get_clocks clk_out1_clk_wiz_0] -group [get_clocks REF_CLK_P_Gen]
-set_clock_groups -asynchronous -group [get_clocks Quartz25] -group [get_clocks clk_out1_clk_wiz_0]
-set_clock_groups -asynchronous -group [get_clocks CLK_25MHZ_Gen] -group [get_clocks clk_out7_clk_wiz_0]
-set_clock_groups -asynchronous -group [get_clocks REF_CLK2_P_Gen] -group [get_clocks clk_out7_clk_wiz_0]
-set_clock_groups -asynchronous -group [get_clocks REF_CLK_P_Gen] -group [get_clocks clk_out7_clk_wiz_0]
+#create_generated_clock -name REF_CLK_P_Gen -source [get_ports REF_CLK_P] -divide_by 1 [get_pins Inst_CLK_SAFE/BUFGMUX_inst/O]
+#create_generated_clock -name REF_CLK2_P_Gen -source [get_ports REF_CLK2_P] -divide_by 1 [get_pins Inst_CLK_SAFE/BUFGMUX_inst/O]
+#create_generated_clock -name CLK_25MHZ_Gen -source [get_ports Quartz25] -divide_by 1 [get_pins Inst_CLK_SAFE/BUFGMUX_inst/O]
+#set_clock_groups -logically_exclusive -group [get_clocks -include_generated_clocks {REF_CLK2_P_Gen REF_CLK_P_Gen}] -group [get_clocks -include_generated_clocks CLK_25MHZ_Gen]
+#set_clock_groups -asynchronous -group [get_clocks REF_CLK2_P] -group [get_clocks Quartz25]
+#set_clock_groups -asynchronous -group [get_clocks REF_CLK_P] -group [get_clocks Quartz25]
+#set_clock_groups -asynchronous -group [get_clocks clk_out1_clk_wiz_0] -group [get_clocks Quartz25]
+#set_clock_groups -asynchronous -group [get_clocks clk_out1_clk_wiz_0] -group [get_clocks CLK_25MHZ_Gen]
+#set_clock_groups -asynchronous -group [get_clocks Quartz25] -group [get_clocks REF_CLK2_P]
+#set_clock_groups -asynchronous -group [get_clocks REF_CLK_P_Gen] -group [get_clocks REF_CLK2_P_Gen]
+#set_clock_groups -asynchronous -group [get_clocks clk_out1_clk_wiz_0] -group [get_clocks REF_CLK2_P_Gen]
+#set_clock_groups -asynchronous -group [get_clocks Quartz25] -group [get_clocks REF_CLK_P]
+#set_clock_groups -asynchronous -group [get_clocks REF_CLK2_P_Gen] -group [get_clocks REF_CLK_P_Gen]
+#set_clock_groups -asynchronous -group [get_clocks clk_out1_clk_wiz_0] -group [get_clocks REF_CLK_P_Gen]
+#set_clock_groups -asynchronous -group [get_clocks Quartz25] -group [get_clocks clk_out1_clk_wiz_0]
+#set_clock_groups -asynchronous -group [get_clocks CLK_25MHZ_Gen] -group [get_clocks clk_out7_clk_wiz_0]
+#set_clock_groups -asynchronous -group [get_clocks REF_CLK2_P_Gen] -group [get_clocks clk_out7_clk_wiz_0]
+#set_clock_groups -asynchronous -group [get_clocks REF_CLK_P_Gen] -group [get_clocks clk_out7_clk_wiz_0]
